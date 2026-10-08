@@ -7,6 +7,10 @@ Site simples de apoio aos estudos do ensino médio. A página inicial apresenta 
 - Ciências
 - História
 - Geografia
+- Filosofia
+- Sociologia
+- Astrologia (como tradição cultural, não como ciência comprovada)
+- Programação em Python
 
 ## Como abrir no celular com HTTPS
 
