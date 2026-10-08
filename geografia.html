@@ -23,11 +23,13 @@
           <a href="portugues.html">Português</a>
           <a href="ciencias.html">Ciências</a>
           <a href="historia.html">História</a>
+          <a href="historia-do-brasil.html">História do Brasil</a>
           <a href="geografia.html">Geografia</a>
           <a href="filosofia.html">Filosofia</a>
           <a href="sociologia.html">Sociologia</a>
           <a href="astronomia.html">Astronomia</a>
           <a href="programacao-python.html">Programação Python</a>
+          <a href="politica.html">Política</a>
         </nav>
       </div>
     </header>
@@ -39,43 +41,39 @@
       </div>
 
       <section class="subject-intro">
-        <h3>O que você vai ver</h3>
-        <p>Vamos falar sobre paisagens e sobre os elementos naturais e construídos que vemos nos lugares.</p>
-        <p>Observe o que a pergunta descreve e escolha a opção que combina melhor.</p>
+        <h3 class="topic-title"></h3>
+        <p class="topic-overview"></p>
+        <p class="topic-directions"></p>
       </section>
 
       <section class="lesson-card" aria-labelledby="lesson-title">
         <div class="lesson-heading">
           <span class="youtube-mark" aria-hidden="true">▶</span>
-          <h3 id="lesson-title">Antes da atividade: paisagem geográfica</h3>
+          <h3 class="lesson-title" id="lesson-title"></h3>
         </div>
-        <p>Entenda o que é paisagem e como elementos naturais e humanos fazem parte dela.</p>
+        <p class="lesson-description"></p>
         <a
           class="lesson-link"
           href="https://www.youtube.com/results?search_query=paisagem+geogr%C3%A1fica+conceito+aula+ensino+m%C3%A9dio"
           target="_blank"
           rel="noopener noreferrer"
-        >Buscar aula de geografia no YouTube ↗</a>
+        ></a>
         <p class="lesson-note">A busca abre em uma nova aba; escolha o vídeo que preferir e depois volte para fazer a atividade.</p>
       </section>
 
-      <details class="challenge-panel wide-panel activity-details" data-correct-message="Isso aí! Paisagem é tudo aquilo que podemos perceber em um lugar, incluindo elementos naturais e construídos pelas pessoas.">
+      <details class="challenge-panel wide-panel activity-details" data-subject="geografia">
         <summary class="activity-summary">
-          <span>Quando estiver pronto, abra a atividade</span>
+          <span class="activity-summary-label">Depois da aula, pratique o que aprendeu</span>
           <span class="summary-action">Começar</span>
         </summary>
         <div class="activity-content">
-          <h3>O que forma a paisagem?</h3>
-          <p class="challenge-text">
-            Como se chama o conjunto de elementos naturais e construídos que podemos observar em um lugar?
-          </p>
-          <div class="answer-grid single-grid">
-            <button class="answer-btn" type="button" data-correct="false">Mapa</button>
-            <button class="answer-btn" type="button" data-correct="true">Paisagem</button>
-            <button class="answer-btn" type="button" data-correct="false">Altitude</button>
-            <button class="answer-btn" type="button" data-correct="false">Latitude</button>
-          </div>
+          <p class="activity-instructions"></p>
+          <p class="activity-status" aria-live="polite"></p>
+          <div class="progress-track" aria-hidden="true"><span class="progress-fill"></span></div>
+          <h3 class="question-prompt"></h3>
+          <div class="answer-grid single-grid question-options"></div>
           <p class="challenge-result" aria-live="polite"></p>
+          <button class="primary-btn quiz-continue" type="button" hidden></button>
         </div>
       </details>
       <a class="back-link" href="index.html#materias">← Voltar para as matérias</a>

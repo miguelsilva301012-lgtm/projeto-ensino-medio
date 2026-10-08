@@ -23,11 +23,13 @@
           <a href="portugues.html">Português</a>
           <a href="ciencias.html">Ciências</a>
           <a href="historia.html">História</a>
+          <a href="historia-do-brasil.html">História do Brasil</a>
           <a href="geografia.html">Geografia</a>
           <a href="filosofia.html">Filosofia</a>
           <a href="sociologia.html">Sociologia</a>
           <a href="astronomia.html">Astronomia</a>
           <a href="programacao-python.html">Programação Python</a>
+          <a href="politica.html">Política</a>
         </nav>
       </div>
     </header>
@@ -39,41 +41,39 @@
       </div>
 
       <section class="subject-intro">
-        <h3>O que você vai ver</h3>
-        <p>A Astronomia é a ciência que estuda os astros, como planetas, estrelas, luas e galáxias.</p>
-        <p>Vamos conhecer o Sistema Solar e entender a diferença entre planeta e estrela.</p>
+        <h3 class="topic-title"></h3>
+        <p class="topic-overview"></p>
+        <p class="topic-directions"></p>
       </section>
 
       <section class="lesson-card" aria-labelledby="lesson-title">
         <div class="lesson-heading">
           <span class="youtube-mark" aria-hidden="true">▶</span>
-          <h3 id="lesson-title">Antes da atividade: Sistema Solar</h3>
+          <h3 class="lesson-title" id="lesson-title"></h3>
         </div>
-        <p>Veja uma introdução ao Sistema Solar, aos planetas e aos outros corpos celestes.</p>
+        <p class="lesson-description"></p>
         <a
           class="lesson-link"
           href="https://www.youtube.com/results?search_query=astronomia+Sistema+Solar+planetas+aula+ensino+m%C3%A9dio"
           target="_blank"
           rel="noopener noreferrer"
-        >Buscar aula de Astronomia no YouTube ↗</a>
+        ></a>
         <p class="lesson-note">A busca abre em uma nova aba. Escolha o vídeo que preferir e depois volte para fazer a atividade.</p>
       </section>
 
-      <details class="challenge-panel wide-panel activity-details" data-correct-message="Isso aí! A Terra é um planeta que orbita o Sol, uma estrela.">
+      <details class="challenge-panel wide-panel activity-details" data-subject="astronomia" data-correct-message="Isso aí! A Terra é um planeta que orbita o Sol, uma estrela.">
         <summary class="activity-summary">
-          <span>Quando estiver pronto, abra a atividade</span>
+          <span class="activity-summary-label">Depois da aula, pratique o que aprendeu</span>
           <span class="summary-action">Começar</span>
         </summary>
         <div class="activity-content">
-          <h3>Planetas e estrelas</h3>
-          <p class="challenge-text">Qual alternativa descreve corretamente a Terra e o Sol?</p>
-          <div class="answer-grid single-grid">
-            <button class="answer-btn" type="button" data-correct="false">A Terra é uma estrela e o Sol é um planeta.</button>
-            <button class="answer-btn" type="button" data-correct="true">A Terra é um planeta que orbita o Sol, uma estrela.</button>
-            <button class="answer-btn" type="button" data-correct="false">A Terra e o Sol são satélites naturais.</button>
-            <button class="answer-btn" type="button" data-correct="false">O Sol orbita a Terra uma vez por dia.</button>
-          </div>
+          <p class="activity-instructions"></p>
+          <p class="activity-status" aria-live="polite"></p>
+          <div class="progress-track" aria-hidden="true"><span class="progress-fill"></span></div>
+          <h3 class="question-prompt"></h3>
+          <div class="answer-grid single-grid question-options"></div>
           <p class="challenge-result" aria-live="polite"></p>
+          <button class="primary-btn quiz-continue" type="button" hidden></button>
         </div>
       </details>
       <a class="back-link" href="index.html#materias">← Voltar para as matérias</a>

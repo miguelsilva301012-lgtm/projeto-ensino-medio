@@ -23,11 +23,13 @@
           <a href="portugues.html">Português</a>
           <a href="ciencias.html">Ciências</a>
           <a href="historia.html">História</a>
+          <a href="historia-do-brasil.html">História do Brasil</a>
           <a href="geografia.html">Geografia</a>
           <a href="filosofia.html">Filosofia</a>
           <a href="sociologia.html">Sociologia</a>
           <a href="astronomia.html">Astronomia</a>
           <a href="programacao-python.html">Programação Python</a>
+          <a href="politica.html">Política</a>
         </nav>
       </div>
     </header>
@@ -39,43 +41,39 @@
       </div>
 
       <section class="subject-intro">
-        <h3>O que você vai ver</h3>
-        <p>Uma atividade curtinha para praticar média. Some as notas e divida pela quantidade de provas.</p>
-        <p>Leia com calma e escolha a resposta que achar certa. Você vê o resultado na hora.</p>
+        <h3 class="topic-title"></h3>
+        <p class="topic-overview"></p>
+        <p class="topic-directions"></p>
       </section>
 
       <section class="lesson-card" aria-labelledby="lesson-title">
         <div class="lesson-heading">
           <span class="youtube-mark" aria-hidden="true">▶</span>
-          <h3 id="lesson-title">Antes da atividade: média aritmética</h3>
+          <h3 class="lesson-title" id="lesson-title"></h3>
         </div>
-        <p>Relembre como calcular a média de um conjunto de números com uma aula no YouTube.</p>
+        <p class="lesson-description"></p>
         <a
           class="lesson-link"
           href="https://www.youtube.com/results?search_query=m%C3%A9dia+aritm%C3%A9tica+aula+ensino+m%C3%A9dio+Brasil"
           target="_blank"
           rel="noopener noreferrer"
-        >Buscar aula de média no YouTube ↗</a>
-        <p class="lesson-note">A busca abre em uma nova aba; escolha o vídeo que preferir e depois volte para fazer a atividade.</p>
+        ></a>
+        <p class="lesson-note">A busca abre em uma nova aba. Escolha o vídeo que preferir e depois volte para fazer a atividade.</p>
       </section>
 
-      <details class="challenge-panel wide-panel activity-details" data-correct-message="Isso aí! A média é 80.">
+      <details class="challenge-panel wide-panel activity-details" data-subject="matematica">
         <summary class="activity-summary">
-          <span>Quando estiver pronto, abra a atividade</span>
+          <span class="activity-summary-label">Depois da aula, pratique o que aprendeu</span>
           <span class="summary-action">Começar</span>
         </summary>
         <div class="activity-content">
-          <h3>Qual foi a média?</h3>
-          <p class="challenge-text">
-            Uma aluna tirou 80, 90 e 70 em três provas. Qual foi a média das notas?
-          </p>
-          <div class="answer-grid single-grid">
-            <button class="answer-btn" type="button" data-correct="false">75</button>
-            <button class="answer-btn" type="button" data-correct="true">80</button>
-            <button class="answer-btn" type="button" data-correct="false">85</button>
-            <button class="answer-btn" type="button" data-correct="false">90</button>
-          </div>
+          <p class="activity-instructions"></p>
+          <p class="activity-status" aria-live="polite"></p>
+          <div class="progress-track" aria-hidden="true"><span class="progress-fill"></span></div>
+          <h3 class="question-prompt"></h3>
+          <div class="answer-grid single-grid question-options"></div>
           <p class="challenge-result" aria-live="polite"></p>
+          <button class="primary-btn quiz-continue" type="button" hidden></button>
         </div>
       </details>
       <a class="back-link" href="index.html#materias">← Voltar para as matérias</a>

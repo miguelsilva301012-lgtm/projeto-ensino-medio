@@ -6,11 +6,23 @@ Site simples de apoio aos estudos do ensino médio. A página inicial apresenta 
 - Português
 - Ciências
 - História
+- História do Brasil
 - Geografia
 - Filosofia
 - Sociologia
 - Astronomia
 - Programação em Python
+- Política
+
+## Aulas e atividades
+
+Cada tema começa com uma explicação e uma busca de aula relacionada no YouTube. Depois, são seis
+questões: dois acertos seguidos levam ao próximo nível; uma resposta errada mostra uma explicação
+e permite tentar novamente. Ao concluir o tema, a página indica a próxima aula da sequência.
+
+Política aborda cidadania, democracia e instituições brasileiras sem promover partidos ou
+candidaturas. História do Brasil dá espaço à diversidade de povos e experiências que formaram o
+país, incluindo povos indígenas, africanos e afro-brasileiros.
 
 ## Como abrir no celular com HTTPS
 
