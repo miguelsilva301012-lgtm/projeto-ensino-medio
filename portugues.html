@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 2 | Português</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">EM</span>
+          <span>Estuda em Casa</span>
+        </div>
+        <nav class="nav-links" aria-label="Menu principal">
+          <a href="index.html">Início</a>
+          <a href="matematica.html">Matemática</a>
+          <a href="portugues.html">Português</a>
+          <a href="ciencias.html">Ciências</a>
+          <a href="historia.html">História</a>
+          <a href="geografia.html">Geografia</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">Matéria 2</p>
+        <h2>Português</h2>
+      </div>
+
+      <section class="subject-intro">
+        <h3>O que você vai ver</h3>
+        <p>Uma prática rápida de leitura e interpretação. Preste atenção no que a frase quer dizer como um todo.</p>
+        <p>Leia primeiro o texto com calma; depois, abra a atividade quando estiver pronto.</p>
+      </section>
+
+      <details class="challenge-panel wide-panel activity-details" data-correct-message="Isso aí! A frase destaca como estudar com constância ajuda a desenvolver confiança e autonomia.">
+        <summary class="activity-summary">
+          <span>Quando estiver pronto, abra a atividade</span>
+          <span class="summary-action">Começar</span>
+        </summary>
+        <div class="activity-content">
+          <h3>Qual é a ideia principal?</h3>
+          <p class="challenge-text">
+            “O estudo precisa ser constante para que os alunos desenvolvam confiança e autonomia.”
+            Qual é a ideia principal da frase?
+          </p>
+          <div class="answer-grid single-grid">
+            <button class="answer-btn" type="button" data-correct="false">O estudo é inútil.</button>
+            <button class="answer-btn" type="button" data-correct="true">A constância no estudo fortalece confiança e autonomia.</button>
+            <button class="answer-btn" type="button" data-correct="false">Só os professores precisam estudar.</button>
+            <button class="answer-btn" type="button" data-correct="false">O estudo não ajuda na vida.</button>
+          </div>
+          <p class="challenge-result" aria-live="polite"></p>
+        </div>
+      </details>
+      <a class="back-link" href="index.html#materias">← Voltar para as matérias</a>
+    </main>
+
+    <script src="atividade.js" defer></script>
+  </body>
+</html>

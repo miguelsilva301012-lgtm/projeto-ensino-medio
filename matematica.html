@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 1 | Matemática</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">EM</span>
+          <span>Estuda em Casa</span>
+        </div>
+        <nav class="nav-links" aria-label="Menu principal">
+          <a href="index.html">Início</a>
+          <a href="matematica.html">Matemática</a>
+          <a href="portugues.html">Português</a>
+          <a href="ciencias.html">Ciências</a>
+          <a href="historia.html">História</a>
+          <a href="geografia.html">Geografia</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">Matéria 1</p>
+        <h2>Matemática</h2>
+      </div>
+
+      <section class="subject-intro">
+        <h3>O que você vai ver</h3>
+        <p>Uma atividade curtinha para praticar média. Some as notas e divida pela quantidade de provas.</p>
+        <p>Leia com calma e escolha a resposta que achar certa. Você vê o resultado na hora.</p>
+      </section>
+
+      <details class="challenge-panel wide-panel activity-details" data-correct-message="Isso aí! A média é 80.">
+        <summary class="activity-summary">
+          <span>Quando estiver pronto, abra a atividade</span>
+          <span class="summary-action">Começar</span>
+        </summary>
+        <div class="activity-content">
+          <h3>Qual foi a média?</h3>
+          <p class="challenge-text">
+            Uma aluna tirou 80, 90 e 70 em três provas. Qual foi a média das notas?
+          </p>
+          <div class="answer-grid single-grid">
+            <button class="answer-btn" type="button" data-correct="false">75</button>
+            <button class="answer-btn" type="button" data-correct="true">80</button>
+            <button class="answer-btn" type="button" data-correct="false">85</button>
+            <button class="answer-btn" type="button" data-correct="false">90</button>
+          </div>
+          <p class="challenge-result" aria-live="polite"></p>
+        </div>
+      </details>
+      <a class="back-link" href="index.html#materias">← Voltar para as matérias</a>
+    </main>
+
+    <script src="atividade.js" defer></script>
+  </body>
+</html>

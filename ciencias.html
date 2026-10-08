@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 3 | Ciências</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">EM</span>
+          <span>Estuda em Casa</span>
+        </div>
+        <nav class="nav-links" aria-label="Menu principal">
+          <a href="index.html">Início</a>
+          <a href="matematica.html">Matemática</a>
+          <a href="portugues.html">Português</a>
+          <a href="ciencias.html">Ciências</a>
+          <a href="historia.html">História</a>
+          <a href="geografia.html">Geografia</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">Matéria 3</p>
+        <h2>Ciências</h2>
+      </div>
+
+      <section class="subject-intro">
+        <h3>O que você vai ver</h3>
+        <p>Vamos relembrar os estados físicos da água e uma mudança que acontece quando ela esquenta.</p>
+        <p>Leia a situação e escolha a resposta que faz mais sentido. O resultado aparece na hora.</p>
+      </section>
+
+      <details class="challenge-panel wide-panel activity-details" data-correct-message="Isso aí! Na evaporação, a água muda do estado líquido para o gasoso.">
+        <summary class="activity-summary">
+          <span>Quando estiver pronto, abra a atividade</span>
+          <span class="summary-action">Começar</span>
+        </summary>
+        <div class="activity-content">
+          <h3>Uma mudança de estado</h3>
+          <p class="challenge-text">
+            Quando a água evapora e vira vapor, isso é um exemplo de mudança de:
+          </p>
+          <div class="answer-grid single-grid">
+            <button class="answer-btn" type="button" data-correct="false">Massa</button>
+            <button class="answer-btn" type="button" data-correct="true">Estado físico</button>
+            <button class="answer-btn" type="button" data-correct="false">Cor</button>
+            <button class="answer-btn" type="button" data-correct="false">Peso</button>
+          </div>
+          <p class="challenge-result" aria-live="polite"></p>
+        </div>
+      </details>
+      <a class="back-link" href="index.html#materias">← Voltar para as matérias</a>
+    </main>
+
+    <script src="atividade.js" defer></script>
+  </body>
+</html>
