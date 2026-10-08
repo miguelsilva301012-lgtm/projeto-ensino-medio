@@ -238,15 +238,19 @@ a.subject-card:hover {
 }
 
 .subject-grid-home {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.subject-grid-home > * {
+  grid-column: span 2;
 }
 
 .subject-grid-home > :nth-child(4) {
-  grid-column: 2;
+  grid-column: 2 / span 2;
 }
 
 .subject-grid-home > :nth-child(5) {
-  grid-column: 3;
+  grid-column: 4 / span 2;
 }
 
 .subject-tag {
@@ -309,6 +313,66 @@ a.subject-card:hover {
 
 .subject-intro p + p {
   margin-top: 0.5rem;
+}
+
+.lesson-card {
+  max-width: 920px;
+  margin: 0 auto 1rem;
+  padding: 1.4rem;
+  background: #fff;
+  border: 1px solid rgba(183, 139, 84, 0.2);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.04);
+}
+
+.lesson-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.55rem;
+}
+
+.youtube-mark {
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+  width: 2.3rem;
+  height: 1.65rem;
+  border-radius: 0.5rem;
+  background: #e62117;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.lesson-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.lesson-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.lesson-link {
+  display: inline-flex;
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  color: white;
+  background: #c9221a;
+  font-weight: 700;
+}
+
+.lesson-link:hover {
+  background: #a91c16;
+}
+
+.lesson-note {
+  margin-top: 0.7rem !important;
+  font-size: 0.88rem;
 }
 
 .activity-details {
@@ -588,8 +652,7 @@ a.subject-card:hover {
     grid-template-columns: 1fr;
   }
 
-  .subject-grid-home > :nth-child(4),
-  .subject-grid-home > :nth-child(5) {
+  .subject-grid-home > * {
     grid-column: auto;
   }
 

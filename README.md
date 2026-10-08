@@ -31,3 +31,5 @@ O certificado de CA local é usado apenas para o servidor deste projeto e fica n
 ## Privacidade e segurança
 
 O site não tem cadastro, não pede senhas e não envia respostas para um servidor. A política de segurança de conteúdo (CSP) limita scripts, estilos e conexões aos arquivos locais. A versão HTTPS usa criptografia na rede Wi-Fi; instalar o certificado local no Android é o que permite ao navegador confiar nessa conexão e remover o aviso.
+
+Cada matéria também oferece uma busca por aula relacionada no YouTube antes da atividade. A busca abre em uma nova aba para você escolher o vídeo; o site não carrega o player nem se conecta ao YouTube automaticamente.
