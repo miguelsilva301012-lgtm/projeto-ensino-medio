@@ -1,0 +1,213 @@
+body.philosophy-page {
+  min-height: 100vh;
+  color: #43372d;
+  background-color: #bda783;
+  background-image:
+    linear-gradient(rgba(239, 226, 199, 0.18), rgba(239, 226, 199, 0.18)),
+    url("assets/fundo-filosofia.svg");
+  background-repeat: repeat;
+  background-size: auto, 820px 680px;
+  background-attachment: fixed;
+}
+
+.philosophy-page .topbar {
+  background: rgba(241, 231, 208, 0.96);
+  border-bottom: 1px solid rgba(79, 60, 43, 0.3);
+  box-shadow: 0 5px 16px rgba(53, 41, 31, 0.18);
+}
+
+.philosophy-page .brand,
+.philosophy-page .nav-links a {
+  color: #49392c;
+}
+
+.philosophy-page .brand-mark {
+  background: linear-gradient(135deg, #78634c, #b38b57);
+}
+
+.philosophy-page .nav-links a:hover,
+.philosophy-page .nav-links a:focus-visible {
+  color: #8c4e46;
+}
+
+.philosophy-page .section-heading,
+.philosophy-page .subject-intro,
+.philosophy-page .lesson-card,
+.philosophy-page .challenge-panel {
+  position: relative;
+  isolation: isolate;
+  color: #44372b;
+  background: rgba(244, 235, 215, 0.96);
+  border: 1px solid rgba(91, 70, 48, 0.4);
+  border-radius: 4px 9px 5px 8px;
+  box-shadow: 0 12px 28px rgba(48, 37, 28, 0.24);
+}
+
+.philosophy-page .section-heading::before,
+.philosophy-page .subject-intro::before,
+.philosophy-page .lesson-card::before,
+.philosophy-page .challenge-panel::before {
+  position: absolute;
+  z-index: -1;
+  inset: -5px 6px 5px -5px;
+  content: "";
+  background: rgba(216, 199, 165, 0.97);
+  clip-path: polygon(1% 5%, 12% 3%, 22% 5%, 33% 2%, 46% 4%, 59% 2%, 73% 5%, 86% 2%, 99% 5%, 97% 18%, 100% 32%, 97% 48%, 99% 62%, 96% 78%, 99% 96%, 85% 98%, 71% 96%, 57% 99%, 43% 96%, 29% 99%, 15% 96%, 3% 99%, 4% 81%, 2% 65%, 5% 49%, 2% 33%, 5% 17%);
+  filter: drop-shadow(0 3px 2px rgba(48, 37, 28, 0.22));
+}
+
+.philosophy-page .section-heading {
+  border-top: 4px solid #8d7150;
+}
+
+.philosophy-page .section-heading h2 {
+  color: #28231e;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(2.4rem, 6vw, 4.3rem);
+  font-weight: 900;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  -webkit-text-stroke: 1px #8d8678;
+  text-shadow: 1px 2px 0 rgba(255, 250, 237, 0.82), 2px 3px 0 rgba(69, 54, 40, 0.18);
+}
+
+.philosophy-page .subject-intro h3,
+.philosophy-page .lesson-card h3,
+.philosophy-page .challenge-panel h3,
+.philosophy-page .activity-summary-label {
+  color: #46372a;
+}
+
+.philosophy-page .eyebrow {
+  color: #8c5848;
+}
+
+.philosophy-page .subject-intro p,
+.philosophy-page .lesson-card p,
+.philosophy-page .activity-instructions,
+.philosophy-page .activity-status {
+  color: #574736;
+}
+
+.philosophy-page .lesson-link {
+  color: #fff8ec;
+  background: linear-gradient(135deg, #806247, #a27d51);
+  border: 1px solid rgba(76, 55, 36, 0.28);
+}
+
+.philosophy-page .lesson-link:hover,
+.philosophy-page .lesson-link:focus-visible {
+  color: #fffdf7;
+  background: #674a35;
+}
+
+.philosophy-page .back-link {
+  color: #655846;
+}
+
+.philosophy-page .back-link:hover,
+.philosophy-page .back-link:focus-visible {
+  color: #914d42;
+}
+
+.philosophy-page .activity-summary {
+  color: #49392c;
+}
+
+.philosophy-page .activity-summary:hover {
+  background: rgba(125, 92, 57, 0.08);
+}
+
+.philosophy-page .summary-action {
+  color: #fff9ed;
+  background: #786047;
+}
+
+.philosophy-page .answer-btn {
+  color: #49392c;
+  background: rgba(255, 251, 239, 0.88);
+  border-color: rgba(105, 79, 51, 0.42);
+}
+
+.philosophy-page .answer-btn:not(:disabled):hover,
+.philosophy-page .answer-btn:focus-visible {
+  background: #e9dcc0;
+  border-color: #947248;
+}
+
+.philosophy-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+.philosophy-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+.philosophy-page .primary-btn {
+  color: #fff9ed;
+  background: #786047;
+  border-color: #786047;
+}
+
+.philosophy-page .primary-btn:hover {
+  background: #624a37;
+}
+
+:root[data-theme="dark"] body.philosophy-page {
+  color: #43372d;
+  background-color: #bda783;
+  background-image:
+    linear-gradient(rgba(239, 226, 199, 0.18), rgba(239, 226, 199, 0.18)),
+    url("assets/fundo-filosofia.svg");
+}
+
+:root[data-theme="dark"] body.philosophy-page .topbar {
+  background: rgba(241, 231, 208, 0.96);
+}
+
+:root[data-theme="dark"] body.philosophy-page .nav-links,
+:root[data-theme="dark"] body.philosophy-page .section-heading,
+:root[data-theme="dark"] body.philosophy-page .subject-intro,
+:root[data-theme="dark"] body.philosophy-page .lesson-card,
+:root[data-theme="dark"] body.philosophy-page .challenge-panel,
+:root[data-theme="dark"] body.philosophy-page .answer-btn {
+  color: #44372b;
+  background-color: rgba(244, 235, 215, 0.96);
+  border-color: rgba(91, 70, 48, 0.4);
+}
+
+:root[data-theme="dark"] body.philosophy-page .section-heading h2,
+:root[data-theme="dark"] body.philosophy-page .subject-intro h3,
+:root[data-theme="dark"] body.philosophy-page .lesson-card h3,
+:root[data-theme="dark"] body.philosophy-page .challenge-panel h3,
+:root[data-theme="dark"] body.philosophy-page .activity-summary-label,
+:root[data-theme="dark"] body.philosophy-page .subject-intro p,
+:root[data-theme="dark"] body.philosophy-page .lesson-card p,
+:root[data-theme="dark"] body.philosophy-page .activity-instructions,
+:root[data-theme="dark"] body.philosophy-page .activity-status {
+  color: #49392c;
+}
+
+:root[data-theme="dark"] body.philosophy-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+:root[data-theme="dark"] body.philosophy-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+:root[data-theme="dark"] body.philosophy-page .lesson-link {
+  color: #fff8ec;
+  background: linear-gradient(135deg, #806247, #a27d51);
+}
+
+@media (max-width: 700px) {
+  body.philosophy-page {
+    background-attachment: scroll;
+    background-size: auto, 615px 510px;
+  }
+}

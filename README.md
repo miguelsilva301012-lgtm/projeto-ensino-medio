@@ -90,3 +90,7 @@ conteúdo e o padrão se adapta a telas menores.
 A página `portugues.html` tem uma identidade de scrapbook em papel envelhecido, com livros,
 caligrafia, ilustrações botânicas e recortes. A página inicial usa uma paleta clara, colorida e
 quente; essas personalizações ficam limitadas às páginas correspondentes.
+
+A página `filosofia.html` usa uma colagem vintage em tons de sépia, com recortes de jornal,
+símbolos de questionamento, escultura clássica, lua, monumentos, livros e frases sobre ideias e
+existência. O conteúdo permanece em painéis claros e legíveis.
