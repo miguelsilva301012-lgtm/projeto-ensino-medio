@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="690" viewBox="0 0 900 690">
+  <defs>
+    <pattern id="chalk-dust" width="35" height="31" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="7" r=".8" fill="#fff" opacity=".16"/>
+      <circle cx="26" cy="22" r=".65" fill="#fff" opacity=".12"/>
+      <path d="M14 4l5-.7M3 26l4-.5M28 11l4 .6" stroke="#fff" stroke-width=".7" opacity=".12"/>
+    </pattern>
+    <g id="axes" fill="none" stroke="#f5f5f2" stroke-width="2.2" stroke-linecap="round">
+      <path d="M0 58V-42m-9-9L0-61l9 10M-54 0H50m-9-9 10 9-10 9"/>
+      <path d="M-45 40Q-35 22-25 8T-4-7 19-28 41-42" stroke-width="2.7"/>
+      <path d="M-43 32q13 0 22-17t20-19q13-1 25 3" stroke-dasharray="3 5" opacity=".7"/>
+      <path d="M-35 0v4m18-4v4M0-35h4M0-18h4m17 18v4" stroke-width="1.4"/>
+    </g>
+    <g id="triangle" fill="none" stroke="#f4f4f0" stroke-width="2.1" stroke-linejoin="round">
+      <path d="M0-45L43 31h-86z"/>
+      <path d="M0-45v76h43M0 18h-14v13M-28 18h6m44 0h6M-10-26h20"/>
+      <path d="M-14 31a14 14 0 0 1 7-12" stroke-width="1.5"/>
+      <text x="-5" y="9" fill="#f4f4f0" stroke="none" font-family="serif" font-size="13">h</text>
+      <text x="16" y="13" fill="#f4f4f0" stroke="none" font-family="serif" font-size="12">a</text>
+    </g>
+    <g id="cube" fill="none" stroke="#f4f4f0" stroke-width="2.1" stroke-linejoin="round">
+      <path d="M-30-20L0-38 31-20 0-2zM-30-20v39L0 37l31-18v-39M0-2v39"/>
+      <path d="M-19-14L1-26 21-14M-18 14L0 25l18-11"/>
+    </g>
+    <g id="cylinder" fill="none" stroke="#f4f4f0" stroke-width="2.1">
+      <ellipse cy="-23" rx="25" ry="10"/>
+      <path d="M-25-23v47m50-47v47"/>
+      <path d="M-25 24c0 13 50 13 50 0" stroke-dasharray="4 3"/>
+      <path d="M-25 24c0 13 50 13 50 0"/>
+      <path d="M-34-36q34-11 67 0" stroke-width="1"/>
+    </g>
+    <g id="ruler" stroke="#f4f4f0" stroke-width="1.6" fill="none">
+      <path d="M-63-12h126v24H-63z"/>
+      <path d="M-51-12v12m12-12v7m12-7v12m12-12v7m12-7v12m12-12v7m12-7v12m12-12v7m12-7v12m12-12v7"/>
+      <path d="M-62-18l8-6h108l9 6" opacity=".7"/>
+    </g>
+    <g id="protractor" fill="none" stroke="#f4f4f0" stroke-width="2">
+      <path d="M-45 20a45 45 0 0 1 90 0z"/>
+      <path d="M-34 20a34 34 0 0 1 68 0"/>
+      <path d="M0 19V-24m-23 42-15-26m61 26L38-8M-34 5l-8-3m77 3 8-3"/>
+      <path d="M-46 25h92"/>
+    </g>
+    <g id="calculator" stroke="#f4f4f0" stroke-width="2" stroke-linejoin="round">
+      <rect x="-33" y="-43" width="66" height="87" rx="5" fill="#292c2e"/>
+      <rect x="-24" y="-33" width="48" height="19" rx="2" fill="#e9e8e2"/>
+      <path d="M-17-26h27" stroke="#292c2e" stroke-width="2"/>
+      <g fill="#d9d9d4" stroke="#f4f4f0" stroke-width="1">
+        <circle cx="-18" cy="0" r="6"/><circle cx="0" cy="0" r="6"/><circle cx="18" cy="0" r="6"/>
+        <circle cx="-18" cy="18" r="6"/><circle cx="0" cy="18" r="6"/><circle cx="18" cy="18" r="6"/>
+        <circle cx="-18" cy="36" r="5"/><circle cx="0" cy="36" r="5"/><circle cx="18" cy="36" r="5"/>
+      </g>
+      <circle cx="18" cy="36" r="5" fill="#aaa9a3"/>
+    </g>
+    <g id="pyramid" fill="none" stroke="#f4f4f0" stroke-width="2">
+      <path d="M-38 28h62l28-18-61-12zM-38 28l28-62 31 52M-10-34l62 44M-10-34L-38 28"/>
+      <path d="M-10-34v62m0-31 27-17" stroke-dasharray="4 4" opacity=".7"/>
+      <path d="M-29 28v-7h8" stroke-width="1.3"/>
+    </g>
+    <g id="head" stroke="#f4f4f0" stroke-width="2" stroke-linejoin="round" fill="none">
+      <path d="M-7-39q28-7 39 16 7 13 1 27l16 11-17 6-4 15H4L0 56h-34V32q-17-10-18-37-1-29 25-34z"/>
+      <path d="M17-2q-13 1-18 10m8-24h2m-7 1q3 10 12 11m-25 5q10-8 18 2" />
+      <path d="M-34-7q20-16 49-9m-43 28q14-5 24 4m-17 7q16-7 28 3"/>
+      <text x="-27" y="-19" fill="#f4f4f0" stroke="none" font-family="serif" font-size="8">E=mc²</text>
+      <text x="-26" y="2" fill="#f4f4f0" stroke="none" font-family="serif" font-size="8">H₂O</text>
+      <text x="-26" y="19" fill="#f4f4f0" stroke="none" font-family="serif" font-size="8">(a+b)²</text>
+    </g>
+    <g id="thinker" stroke="#e8e7e1" stroke-width="2.2" stroke-linejoin="round">
+      <path d="M-29 55l8-31q-7-10-4-23 4-20 25-20 21 0 26 19 3 13-4 25l18 16 3 22-16 1-7-18-9-9-3 32z" fill="#aaa9a3"/>
+      <path d="M-22-7q7-19 26-12 14 5 17 19l-8 9-7-4-3 8-10 1-6-11-13 2z" fill="#c2c1ba"/>
+      <path d="M8 1Q5 12 11 17l10 7m-13-5q-9-5-16 2m27 2 15 14M-16 29l11-10m11 13v24" fill="none"/>
+      <circle cx="8" cy="0" r="1.8" fill="#383838" stroke="none"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="690" fill="#17191b"/>
+  <rect width="900" height="690" fill="url(#chalk-dust)"/>
+
+  <g fill="none" stroke="#f2f2ee" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" opacity=".91">
+    <path d="M18 82h120m-120 7h90m-83 8h108m-98 8h70m-61 8h98"/>
+    <path d="M268 51q20-15 42 0t42 0m-76 13 7-12 8 12m20 0 7-12 8 12"/>
+    <path d="M492 76q14-14 29 0t29 0m-58 10h66m-50 8 8-10 9 10"/>
+    <path d="M745 79h95m-90 7h74m-68 7h84m-82 7h62"/>
+    <path d="M26 234l33-22 34 20-1 39-34 21-32-20zM32 236l26-16m26 15v32m-52 2 26 16"/>
+    <path d="M247 252q23-33 46 0t46 0m-89 10h94m-76 10 9-13 10 13"/>
+    <path d="M512 215h66v52h-66zM520 224h49m-49 9h49m-49 9h31m-31 9h41"/>
+    <path d="M757 229q18-19 35 0t36 0m-82 12h89m-76 10 8-12 8 12"/>
+    <path d="M18 395h91m-87 8h76m-71 8h94m-90 8h59"/>
+    <path d="M333 376q18-20 36 0t38 0m-73 11h76m-55 10 10-14 11 14"/>
+    <path d="M622 406h104m-98 8h92m-89 8h108m-102 8h73"/>
+    <path d="M42 571q25-19 50 0t47 0m-92 9h101m-80 10 9-15 10 15"/>
+    <path d="M283 565l42-24 43 25-1 49-43 24-42-26zM293 568l32-19m33 21v39m-65 0 32 18"/>
+    <path d="M514 575q23-32 46 0t46 0m-89 11h93m-69 11 10-15 10 15"/>
+    <path d="M765 572h95m-88 8h75m-69 8h86m-84 8h62"/>
+  </g>
+
+  <g fill="#f3f3ef" font-family="Georgia,serif" font-style="italic" opacity=".92">
+    <text x="15" y="35" font-size="16">a² + b² = c²</text>
+    <text x="170" y="37" font-size="14">x = (-b ± √(b² - 4ac)) / 2a</text>
+    <text x="438" y="31" font-size="17">D = b² - 4ac</text>
+    <text x="660" y="35" font-size="15">π = 3,14159...</text>
+    <text x="24" y="151" font-size="16">(a + b)² = a² + 2ab + b²</text>
+    <text x="266" y="141" font-size="17">√(x²) = |x|</text>
+    <text x="471" y="151" font-size="16">sen² θ + cos² θ = 1</text>
+    <text x="700" y="151" font-size="16">e = 2,71828...</text>
+    <text x="19" y="349" font-size="15">aₙ = a₁ + (n − 1) · d</text>
+    <text x="279" y="333" font-size="15">lim (sin x / x) = 1</text>
+    <text x="522" y="350" font-size="16">∫ x² dx = x³/3 + C</text>
+    <text x="723" y="345" font-size="15">logₐ(xy) = logₐx + logₐy</text>
+    <text x="32" y="484" font-size="16">tan θ = sen θ / cos θ</text>
+    <text x="313" y="479" font-size="16">Σ (i = 1 → n) i = n(n+1)/2</text>
+    <text x="638" y="489" font-size="15">A = πr² · V = πr²h</text>
+    <text x="28" y="664" font-size="14">1 + r + r² + ... + rⁿ = (rⁿ⁺¹ − 1)/(r − 1)</text>
+    <text x="429" y="657" font-size="15">f′(x) = limₕ→₀ [f(x+h) − f(x)]/h</text>
+    <text x="736" y="656" font-size="15">∠ = 90°</text>
+  </g>
+
+  <g opacity=".96">
+    <use href="#axes" x="193" y="203"/>
+    <use href="#axes" x="441" y="265" transform="scale(.78) translate(124 77)"/>
+    <use href="#axes" x="810" y="421" transform="scale(.82) translate(178 92)"/>
+    <use href="#triangle" x="118" y="300"/>
+    <use href="#triangle" x="703" y="215" transform="scale(.73) translate(262 80)"/>
+    <use href="#cube" x="379" y="123"/>
+    <use href="#cube" x="801" y="306" transform="scale(.82) translate(176 68)"/>
+    <use href="#cylinder" x="591" y="236"/>
+    <use href="#cylinder" x="233" y="449" transform="scale(.82) translate(49 98)"/>
+    <use href="#ruler" x="448" y="430" transform="rotate(-9 448 430)"/>
+    <use href="#protractor" x="750" y="502"/>
+    <use href="#calculator" x="98" y="523"/>
+    <use href="#pyramid" x="533" y="536"/>
+    <use href="#head" x="370" y="278"/>
+    <use href="#thinker" x="76" y="626" transform="scale(.8) translate(19 157)"/>
+  </g>
+
+  <g fill="none" stroke="#f4f4f0" stroke-width="2" stroke-linecap="round" opacity=".86">
+    <path d="M336 199a15 15 0 0 1 15-15h34m-11-8 11 8-11 8"/>
+    <path d="M618 298q18 14 36 0t36 0m-60 12h40m-31 7 7-9 8 9"/>
+    <path d="M149 415h42m-21-20v40m-30-9 11-6m51-28 11-8"/>
+    <path d="M757 119l8-13 8 13-8 14zm-9 18h34m-17-40v45"/>
+    <path d="M410 594q20-18 40 0t39 0m-70 10h73"/>
+    <path d="M15 541l26-18 27 18-27 18zM41 523v36m-26-18h53"/>
+    <path d="M665 590l24-14 25 14-25 15zM689 576v29"/>
+  </g>
+
+  <g fill="#f3f3ef" font-family="Georgia,serif" font-size="13" opacity=".88">
+    <text x="153" y="224">x</text><text x="205" y="141">y</text>
+    <text x="459" y="220">y = cos x</text>
+    <text x="613" y="205">r</text><text x="441" y="401">cm</text>
+    <text x="747" y="565">180°</text>
+    <text x="523" y="472">V = a³</text>
+    <text x="57" y="593" transform="rotate(-9 57 593)">memória de cálculo</text>
+  </g>
+</svg>

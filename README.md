@@ -94,3 +94,6 @@ quente; essas personalizações ficam limitadas às páginas correspondentes.
 A página `filosofia.html` usa uma colagem vintage em tons de sépia, com recortes de jornal,
 símbolos de questionamento, escultura clássica, lua, monumentos, livros e frases sobre ideias e
 existência. O conteúdo permanece em painéis claros e legíveis.
+
+A página `matematica.html` combina uma lousa preta preenchida com fórmulas e desenhos geométricos
+em giz branco com painéis escuros quadriculados para destacar aulas e exercícios.
