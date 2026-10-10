@@ -97,3 +97,7 @@ existência. O conteúdo permanece em painéis claros e legíveis.
 
 A página `matematica.html` combina uma lousa preta preenchida com fórmulas e desenhos geométricos
 em giz branco com painéis escuros quadriculados para destacar aulas e exercícios.
+
+A página `programacao-python.html` usa um fundo digital azul-marinho com código e rede de dados,
+além de uma capa com símbolo Python vetorial em destaque. Os painéis escuros preservam a leitura
+das aulas e atividades.

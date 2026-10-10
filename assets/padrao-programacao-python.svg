@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680">
+  <defs>
+    <pattern id="digital-grain" width="36" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="7" r=".8" fill="#8ae7df" opacity=".15"/>
+      <circle cx="28" cy="23" r=".7" fill="#75ecb4" opacity=".13"/>
+      <path d="M13 5h5m12 12h4M2 26h4" stroke="#7bd5ec" stroke-width=".7" opacity=".12"/>
+    </pattern>
+    <g id="network" fill="none" stroke="#39bfd2" stroke-width="1.3">
+      <path d="M0 0l37-27 42 17 35-34 47 26 38-11 46 31 44-15 45 32"/>
+      <path d="M37-27l-7 49 49-32-2 59 37-93 10 70 47-44 1 70 38-81 6 42 44-27"/>
+      <g fill="#75edbd" stroke="none">
+        <circle cx="0" cy="0" r="3"/><circle cx="37" cy="-27" r="3"/><circle cx="79" cy="-10" r="3"/>
+        <circle cx="114" cy="-44" r="3"/><circle cx="161" cy="-18" r="3"/><circle cx="199" cy="-29" r="3"/>
+        <circle cx="245" cy="2" r="3"/><circle cx="289" cy="-13" r="3"/><circle cx="334" cy="19" r="3"/>
+      </g>
+    </g>
+    <g id="hex" fill="none" stroke="#48c7dc" stroke-width="2">
+      <path d="M0-25l22-13 22 13v26L22 14 0 1z"/>
+      <path d="M-5-5l10 10m0-10L-5 5" stroke="#76e9b3"/>
+    </g>
+  </defs>
+  <rect width="900" height="680" fill="#081521"/>
+  <rect width="900" height="680" fill="url(#digital-grain)"/>
+  <g fill="none" stroke="#1e5d76" stroke-width="1">
+    <path d="M0 76h177l25 23h95m603-21H734l-29 24h-92M0 463h143l28-23h96m633 46H741l-28-21h-81"/>
+    <path d="M88 0v66l18 17v61m650-144v71l-24 20v59M230 680v-66l-27-28v-45m519 139v-69l24-29v-63"/>
+    <path d="M0 221h73l19 18h49m759 28h-69l-20 19h-57M338 0v38l22 22v39m231 581v-58l25-23v-44"/>
+  </g>
+  <use href="#network" x="17" y="159" opacity=".63"/>
+  <use href="#network" x="561" y="523" transform="rotate(180 561 523)" opacity=".58"/>
+  <use href="#network" x="625" y="83" transform="scale(.68) translate(296 39)" opacity=".5"/>
+  <use href="#network" x="74" y="580" transform="scale(.64) translate(42 330)" opacity=".52"/>
+  <g fill="none" stroke="#38c2d4" stroke-width="2" opacity=".56">
+    <path d="M70 282l33-19 33 19v38l-33 19-33-19zM103 263v38m-33-19h66"/>
+    <path d="M802 341l26-15 26 15v30l-26 15-26-15zM802 341l52 30m0-30-52 30"/>
+    <path d="M186 565l24-42 24 42zM210 523v42M186 565h48"/>
+    <path d="M732 188l34-20 34 20v40l-34 20-34-20zM732 188l68 40m0-40-68 40"/>
+    <circle cx="177" cy="110" r="24"/><circle cx="177" cy="110" r="12"/>
+    <circle cx="721" cy="547" r="26"/><circle cx="721" cy="547" r="13"/>
+  </g>
+  <g fill="#74edbd" opacity=".8">
+    <circle cx="70" cy="282" r="3"/><circle cx="136" cy="282" r="3"/><circle cx="103" cy="263" r="3"/>
+    <circle cx="802" cy="341" r="3"/><circle cx="854" cy="341" r="3"/><circle cx="210" cy="523" r="3"/>
+    <circle cx="732" cy="188" r="3"/><circle cx="800" cy="228" r="3"/><circle cx="721" cy="547" r="3"/>
+  </g>
+  <g fill="#64dce6" font-family="Consolas, 'Courier New', monospace" opacity=".55">
+    <text x="44" y="64" font-size="20">async</text><text x="269" y="68" font-size="15">import math</text>
+    <text x="648" y="64" font-size="18">class</text><text x="761" y="116" font-size="16">Fira Code</text>
+    <text x="45" y="392" font-size="20">{ }</text><text x="786" y="439" font-size="18">[ ]</text>
+    <text x="273" y="582" font-size="17">&lt;algorithm&gt;</text><text x="661" y="599" font-size="18">lambda x:</text>
+    <text x="134" y="193" font-size="14">def solve():</text><text x="710" y="276" font-size="14">return True</text>
+  </g>
+  <g fill="#6ee6a9" font-family="Consolas, 'Courier New', monospace" opacity=".56">
+    <text x="699" y="146" font-size="17">print()</text><text x="54" y="478" font-size="16">for item in data:</text>
+    <text x="401" y="77" font-size="14">if __name__ == "__main__":</text>
+    <text x="751" y="510" font-size="15"># create</text><text x="83" y="602" font-size="15">list(map(...))</text>
+    <text x="526" y="632" font-size="16">await task</text>
+  </g>
+  <g fill="#8ba8b9" font-family="Consolas, 'Courier New', monospace" opacity=".46">
+    <text x="524" y="48" font-size="12">chyct 0x01</text><text x="36" y="545" font-size="13">ithur = []</text>
+    <text x="767" y="214" font-size="13">node.connect()</text><text x="300" y="626" font-size="13">0101 1010 001</text>
+  </g>
+  <g opacity=".72">
+    <use href="#hex" x="191" y="320"/>
+    <use href="#hex" x="700" y="368" transform="scale(.8) translate(175 92)"/>
+    <use href="#hex" x="320" y="184" transform="scale(.58) translate(231 112)"/>
+    <use href="#hex" x="596" y="527" transform="scale(.67) translate(294 261)"/>
+  </g>
+</svg>
