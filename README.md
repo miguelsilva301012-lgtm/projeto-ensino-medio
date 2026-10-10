@@ -70,6 +70,7 @@ A página `meus-estudos.html` reúne uma busca por matéria, tema, nível, forma
 de progresso, meta diária, planner, anotações, revisão de erros, flashcards com revisão espaçada,
 simulado e timer Pomodoro. O tema escuro é opcional. O catálogo mostra até 24 materiais por vez;
 use **Mostrar mais** para carregar outros resultados.
+Os cartões são criados automaticamente com base nos temas de `atividade.js`; os formatos disponíveis são definidos uma vez em `estudos.js`.
 
 O progresso, as notas, os favoritos e os planos ficam apenas no armazenamento local do navegador
 em uso. Não há conta, sincronização ou envio dessas informações para um servidor. Os vídeos são

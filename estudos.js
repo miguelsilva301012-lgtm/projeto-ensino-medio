@@ -18,6 +18,14 @@
   let accumulatedActiveMillis = 0;
   let lastRecordedMinute = 0;
   let catalogVisibleCount = 24;
+  const resourceFormats = {
+    texto: 'Texto curto',
+    video: 'Aula em vídeo',
+    audio: 'Áudio',
+    pdf: 'PDF para salvar',
+    infografico: 'Infográfico',
+    flashcard: 'Flashcards',
+  };
 
   function loadState() {
     try {
@@ -237,10 +245,10 @@
     const selectedFormat = formatFilter;
     const resources = filtered.flatMap((item) => (selectedFormat
       ? [selectedFormat]
-      : ['texto', 'video', 'audio', 'pdf', 'infografico', 'flashcard'])
+      : Object.keys(resourceFormats))
       .map((type) => ({ item, type })));
     const cards = resources.slice(0, catalogVisibleCount)
-      .map(({ item, type }) => createResourceCards(item, type)[0]);
+      .map(({ item, type }) => createResourceCard(item, type));
     document.querySelector('.catalog-result-count').textContent = `${resources.length} ${resources.length === 1 ? 'material encontrado' : 'materiais encontrados'}. Nível do tema: ${itemLevelLabel(levelFilter)}.`;
     results.replaceChildren(...cards);
     if (resources.length > cards.length) {
@@ -266,48 +274,40 @@
     return level ? ['Básico', 'Intermediário', 'Avançado'][Number(level) - 1] : 'todos';
   }
 
-  function createResourceCards(item, format) {
-    const types = format ? [format] : ['texto', 'video', 'audio', 'pdf', 'infografico', 'flashcard'];
-    return types.map((type) => {
-      const card = document.createElement('article');
-      card.className = 'resource-card';
-      card.dataset.subject = item.subject;
-      card.dataset.level = String(item.level);
-      const heading = document.createElement('div');
-      heading.className = 'resource-heading';
-      const title = document.createElement('h3');
-      title.textContent = item.title;
-      const tag = document.createElement('span');
-      tag.className = 'resource-format-tag';
-      tag.textContent = formatLabels[type];
-      heading.append(title, tag);
-      const subject = document.createElement('p');
-      subject.className = 'resource-subject';
-      subject.textContent = `${item.subjectLabel} · ${itemLevelLabel(String(item.level))}`;
-      const content = createFormatContent(item, type);
-      card.append(heading, subject, content);
-      const actions = document.createElement('div');
-      actions.className = 'resource-actions';
-      const openLink = document.createElement('a');
-      openLink.href = encodeTopicUrl(item);
-      openLink.className = 'resource-open';
-      openLink.textContent = 'Abrir tema';
-      const favorite = document.createElement('button');
-      favorite.type = 'button';
-      favorite.className = 'favorite-toggle ghost-btn';
-      favorite.setAttribute('aria-pressed', String(state.favorites.includes(item.key)));
-      favorite.textContent = state.favorites.includes(item.key) ? '★ Salvo' : '☆ Salvar';
-      favorite.addEventListener('click', () => toggleFavorite(item.key));
-      actions.append(openLink, favorite);
-      card.append(actions);
-      return card;
-    });
+  function createElement(tagName, className, text) {
+    const element = document.createElement(tagName);
+    if (className) element.className = className;
+    if (text) element.textContent = text;
+    return element;
   }
 
-  const formatLabels = {
-    texto: 'Texto curto', video: 'Vídeo', audio: 'Áudio', pdf: 'PDF',
-    infografico: 'Infográfico', flashcard: 'Flashcards',
-  };
+  function createResourceCard(item, type) {
+    const card = createElement('article', 'resource-card');
+    card.dataset.subject = item.subject;
+    card.dataset.level = String(item.level);
+
+    const heading = createElement('div', 'resource-heading');
+    heading.append(
+      createElement('h3', '', item.title),
+      createElement('span', 'resource-format-tag', resourceFormats[type]),
+    );
+
+    const subject = createElement('p', 'resource-subject', `${item.subjectLabel} · ${itemLevelLabel(String(item.level))}`);
+    const actions = createElement('div', 'resource-actions');
+    const openLink = createElement('a', 'resource-open', 'Abrir tema');
+    openLink.href = encodeTopicUrl(item);
+    const favorite = createElement(
+      'button',
+      'favorite-toggle ghost-btn',
+      state.favorites.includes(item.key) ? '★ Salvo' : '☆ Salvar',
+    );
+    favorite.type = 'button';
+    favorite.setAttribute('aria-pressed', String(state.favorites.includes(item.key)));
+    favorite.addEventListener('click', () => toggleFavorite(item.key));
+    actions.append(openLink, favorite);
+    card.append(heading, subject, createFormatContent(item, type), actions);
+    return card;
+  }
 
   function createFormatContent(item, type) {
     if (type === 'video') {
@@ -454,6 +454,7 @@
   function setupCatalog() {
     const subjectSelect = document.querySelector('.catalog-subject');
     const plannerSubject = document.querySelector('#planner-subject');
+    const formatSelect = document.querySelector('.catalog-format');
     const options = Object.entries(subjectLabels).map(([value, label]) => {
       const option = document.createElement('option');
       option.value = value;
@@ -463,6 +464,11 @@
     options.forEach((option) => {
       subjectSelect.append(option.cloneNode(true));
       plannerSubject.append(option.cloneNode(true));
+    });
+    Object.entries(resourceFormats).forEach(([value, label]) => {
+      const option = createElement('option', '', label);
+      option.value = value;
+      formatSelect.append(option);
     });
     document.querySelectorAll('.catalog-filters input, .catalog-filters select').forEach((control) => {
       const refreshCatalog = () => {
