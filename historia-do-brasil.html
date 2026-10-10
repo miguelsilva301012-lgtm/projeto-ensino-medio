@@ -2,7 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>História do Brasil | Estuda em Casa</title>
     <meta
       http-equiv="Content-Security-Policy"
@@ -18,7 +18,10 @@
           <span class="brand-mark">EM</span>
           <span>Estuda em Casa</span>
         </div>
-        <nav class="nav-links" aria-label="Menu principal">
+        <button class="nav-menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="primary-navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Menu principal">
           <a href="index.html">Início</a>
           <a href="meus-estudos.html">Meus estudos</a>
           <a href="matematica.html">Matemática</a>
@@ -90,5 +93,6 @@
 
     <script src="atividade.js" defer></script>
     <script src="estudos.js" defer></script>
+    <script src="mobile-nav.js" defer></script>
   </body>
 </html>

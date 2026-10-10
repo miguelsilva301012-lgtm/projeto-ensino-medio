@@ -84,6 +84,8 @@ conteúdo e o padrão se adapta a telas menores.
 
 ## Aparência das páginas
 
+As páginas se adaptam a celulares, tablets e desktops; no celular, a navegação abre por um botão acessível e os fundos rolam junto com o conteúdo para evitar travamentos em navegadores móveis.
+
 A página `portugues.html` tem uma identidade de scrapbook em papel envelhecido, com livros,
 caligrafia, ilustrações botânicas e recortes. A página inicial usa uma paleta clara, colorida e
 quente; essas personalizações ficam limitadas às páginas correspondentes.

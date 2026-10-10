@@ -1,5 +1,6 @@
 body.math-page {
   min-height: 100vh;
+  min-height: 100dvh;
   color: #f2f0e9;
   background-color: #141618;
   background-image:
@@ -7,7 +8,7 @@ body.math-page {
     url("assets/fundo-matematica.svg");
   background-repeat: repeat;
   background-size: auto, 900px 690px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .math-page .topbar {
