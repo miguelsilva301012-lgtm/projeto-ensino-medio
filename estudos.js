@@ -58,7 +58,7 @@
       description: topic.lessonDescription,
       videoSearch: topic.videoSearch,
       questions: topic.questions,
-      level: index + 1,
+      level: topic.level || index + 1,
       key: `${subject}:${topic.title}`,
     })));
     return catalog.concat(essayTopics.map((topic, index) => ({
@@ -797,6 +797,12 @@
       feedback.textContent = 'A lista de temas não carregou. Atualize a página para tentar novamente.';
       return;
     }
-    setup();
+    window.additionalCatalogData.loadAndApply(window.studyTopicBanks)
+      .then(setup)
+      .catch((error) => {
+        console.error('Os temas extras do catálogo não puderam ser carregados.', error);
+        feedback.textContent = `Os temas extras não foram carregados: ${error.message} Os temas existentes continuam disponíveis.`;
+        setup();
+      });
   }
 })();

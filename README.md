@@ -70,7 +70,60 @@ A página `meus-estudos.html` reúne uma busca por matéria, tema, nível, forma
 de progresso, meta diária, planner, anotações, revisão de erros, flashcards com revisão espaçada,
 simulado e timer Pomodoro. O tema escuro é opcional. O catálogo mostra até 24 materiais por vez;
 use **Mostrar mais** para carregar outros resultados.
-Os cartões são criados automaticamente com base nos temas de `atividade.js`; os formatos disponíveis são definidos uma vez em `estudos.js`.
+Os cartões são criados automaticamente com base nos temas de `atividade.js` e nos temas extras de `catalogo-adicional.json`; os formatos disponíveis são definidos uma vez em `estudos.js`.
+
+Para adicionar temas extras, edite `catalogo-adicional.json` no formato abaixo. Use um código de matéria existente (`matematica`, `portugues`, `ciencias`, `historia`, `geografia`, `filosofia`, `sociologia`, `astronomia`, `python`, `politica` ou `historia-brasil`), um nível de 1 a 3 e exatamente seis questões. Os cartões e filtros são gerados automaticamente. Para testar o arquivo JSON localmente, abra o site pelo servidor HTTPS descrito acima, não diretamente como `file://`.
+
+```json
+[
+  {
+    "subject": "matematica",
+    "level": 1,
+    "title": "Tema novo",
+    "overview": "Resumo breve do tema.",
+    "lessonDescription": "O que será estudado na aula.",
+    "videoSearch": "tema novo matemática ensino médio",
+    "questions": [
+      {
+        "prompt": "Pergunta de exemplo?",
+        "options": ["Alternativa correta", "Outra alternativa"],
+        "correct": 0,
+        "explanation": "Explicação da resposta correta."
+      },
+      {
+        "prompt": "Pergunta 2?",
+        "options": ["Alternativa correta", "Outra alternativa"],
+        "correct": 0,
+        "explanation": "Explicação da resposta correta."
+      },
+      {
+        "prompt": "Pergunta 3?",
+        "options": ["Alternativa correta", "Outra alternativa"],
+        "correct": 0,
+        "explanation": "Explicação da resposta correta."
+      },
+      {
+        "prompt": "Pergunta 4?",
+        "options": ["Alternativa correta", "Outra alternativa"],
+        "correct": 0,
+        "explanation": "Explicação da resposta correta."
+      },
+      {
+        "prompt": "Pergunta 5?",
+        "options": ["Alternativa correta", "Outra alternativa"],
+        "correct": 0,
+        "explanation": "Explicação da resposta correta."
+      },
+      {
+        "prompt": "Pergunta 6?",
+        "options": ["Alternativa correta", "Outra alternativa"],
+        "correct": 0,
+        "explanation": "Explicação da resposta correta."
+      }
+    ]
+  }
+]
+```
 
 O progresso, as notas, os favoritos e os planos ficam apenas no armazenamento local do navegador
 em uso. Não há conta, sincronização ou envio dessas informações para um servidor. Os vídeos são

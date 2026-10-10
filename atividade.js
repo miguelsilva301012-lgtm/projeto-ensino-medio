@@ -979,5 +979,28 @@ function setupActivity(activity) {
   renderQuestion();
 }
 
-document.querySelectorAll('.activity-details').forEach(setupActivity);
 window.studyTopicBanks = topicBanks;
+
+async function initializeActivities() {
+  const activities = [...document.querySelectorAll('.activity-details')];
+  const requestedTopic = new URLSearchParams(window.location.search).get('tema');
+  const requestedSubject = activities[0]?.dataset.subject;
+  const knownTopics = topicBanks[requestedSubject] || [];
+
+  try {
+    if (requestedTopic && !knownTopics.some((topic) => topic.title === requestedTopic)) {
+      await window.additionalCatalogData.loadAndApply(topicBanks);
+      if (!knownTopics.some((topic) => topic.title === requestedTopic)) {
+        throw new Error(`O tema "${requestedTopic}" não foi encontrado no catálogo de dados.`);
+      }
+    }
+    activities.forEach(setupActivity);
+  } catch (error) {
+    console.error('Não foi possível inicializar os temas de estudo.', error);
+    activities.forEach((activity) => {
+      activity.querySelector('.activity-status').textContent = error.message;
+    });
+  }
+}
+
+void initializeActivities();
