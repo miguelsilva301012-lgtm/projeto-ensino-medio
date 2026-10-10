@@ -11,7 +11,7 @@ body.politics-page {
   background-image: linear-gradient(rgba(58, 37, 29, 0.13), rgba(58, 37, 29, 0.13)), url("assets/padrao-politica.svg");
   background-repeat: repeat;
   background-size: auto, 760px 580px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 body.sociology-page {
@@ -27,7 +27,7 @@ body.sociology-page {
   background-image: linear-gradient(rgba(46, 37, 29, 0.1), rgba(46, 37, 29, 0.1)), url("assets/padrao-sociologia.svg");
   background-repeat: repeat;
   background-size: auto, 780px 600px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 body.geography-page {
@@ -43,7 +43,7 @@ body.geography-page {
   background-image: linear-gradient(rgba(48, 47, 35, 0.11), rgba(48, 47, 35, 0.11)), url("assets/padrao-geografia.svg");
   background-repeat: repeat;
   background-size: auto, 820px 620px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .politics-page .topbar,
@@ -331,7 +331,7 @@ body.geography-page {
 :root[data-theme="dark"] body.politics-page,
 :root[data-theme="dark"] body.sociology-page,
 :root[data-theme="dark"] body.geography-page {
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 :root[data-theme="dark"] body.politics-page .topbar,

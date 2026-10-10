@@ -1,5 +1,6 @@
 .redacao-page {
   min-height: 100vh;
+  min-height: 100dvh;
   background-color: #246c48;
   background-image: url("assets/fundo-redacao.svg");
   background-repeat: repeat;
