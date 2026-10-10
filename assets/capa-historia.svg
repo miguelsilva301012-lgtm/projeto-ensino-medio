@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+  <defs>
+    <linearGradient id="aged-paper" x2="0" y2="1">
+      <stop stop-color="#e7d5b1"/>
+      <stop offset=".54" stop-color="#aa9878"/>
+      <stop offset="1" stop-color="#77664f"/>
+    </linearGradient>
+    <linearGradient id="sea" x2="0" y2="1">
+      <stop stop-color="#78909a"/>
+      <stop offset="1" stop-color="#435966"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="7" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .14"/></feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <g id="temple" fill="#ddc69a" stroke="#4c4030" stroke-width="3" stroke-linejoin="round">
+      <path d="M-152-82L0-152 152-82z"/>
+      <path d="M-161-77h322v17h-322zM-174 94h348v18h-348zM-188 112h376v14h-376z"/>
+      <path d="M-137-57h37V90h-37zm77 0h37V90h-37zm77 0h37V90h-37zm77 0h37V90h-37z"/>
+      <path d="M-165-81h330" fill="none" stroke="#f2e2bf" stroke-width="5"/>
+    </g>
+    <g id="pyramid" stroke="#594630" stroke-width="3" stroke-linejoin="round">
+      <path d="M-130 115L0-130 137 115z" fill="#c6a462"/>
+      <path d="M0-130l24 245h113z" fill="#9b7c49"/>
+      <path d="M-68 115L0-16l70 131M-99 56h197M-116 91h231" fill="none" stroke="#e1c17b" stroke-width="2"/>
+    </g>
+    <g id="ship" stroke="#382f26" stroke-width="3" stroke-linejoin="round">
+      <path d="M-130 56h246l-42 44H-91z" fill="#67462f"/>
+      <path d="M-51-119v173m93-194V53" fill="none" stroke-width="7"/>
+      <path d="M-48-106l-68 119h68zm8 20L28 15h-68zm77-48 59 114H37z" fill="#e6d8bd" stroke="#66553e"/>
+      <path d="M-127 57q123 25 240 0M-102 76h151" fill="none" stroke="#c4a16a" stroke-width="4"/>
+    </g>
+    <g id="column" fill="#e2d0ac" stroke="#514332" stroke-width="3">
+      <path d="M-31-51h62v13h-62zm-8 13h78v12h-78zm-26 12h130v10h-130zM-25-16h50v124h-50zm-36 124h122v15H-61zm-12 15h146v14H-73z"/>
+      <path d="M-10-16v123m20-123v123" fill="none" stroke="#b89d72" stroke-width="2"/>
+    </g>
+  </defs>
+  <rect width="1200" height="460" fill="url(#aged-paper)"/>
+  <g opacity=".42" stroke="#574a37" stroke-width="2" fill="none">
+    <path d="M0 59h180m-174 9h164m-155 9h171m-160 9h144m-132 9h160"/>
+    <path d="M1000 73h160m-152 8h145m-138 8h156m-149 8h135m-130 8h153"/>
+    <path d="M0 351h220m-209 8h192m-181 8h205m-195 8h172"/>
+  </g>
+  <path d="M0 360q135-35 260 1t250-1v100H0zm690-3q120-26 245 1t265-4v106H690z" fill="url(#sea)" opacity=".82"/>
+  <circle cx="1026" cy="282" r="56" fill="#dcaf62" opacity=".76"/>
+  <path d="M0 300q125-29 251 0t248-3v66H0zm692-12q119-31 249 1t259-2v68H692z" fill="#887757" opacity=".72"/>
+  <use href="#temple" x="185" y="190" transform="scale(.72) translate(72 74)" opacity=".92"/>
+  <use href="#column" x="43" y="230" transform="scale(.78) translate(12 64)" opacity=".85"/>
+  <use href="#column" x="348" y="224" transform="scale(.75) translate(116 75)" opacity=".8"/>
+  <use href="#pyramid" x="916" y="185" transform="scale(.65) translate(493 99)" opacity=".92"/>
+  <use href="#pyramid" x="1044" y="211" transform="scale(.45) translate(1276 263)" opacity=".82"/>
+  <use href="#ship" x="1044" y="354" transform="scale(.55) translate(853 290)" opacity=".94"/>
+  <g fill="#e2d2b1" stroke="#4b4032" stroke-width="2" opacity=".88">
+    <path d="M484 211q0-26 24-26t24 26v71h-48zm67-13q0-25 23-25t23 25v84h-46zm62 16q0-24 23-24t23 24v68h-46z"/>
+    <path d="M473 282h52v88h-52zm67 0h59v93h-59zm70 0h54v85h-54z"/>
+  </g>
+  <g stroke="#554532" stroke-width="2" fill="none" opacity=".8">
+    <path d="M500 245v48m63-52v54m64-37v38m-136 15h165m-155 10h149"/>
+    <path d="M783 89h117m-111 7h103m-99 7h115m-109 7h94m-89 7h106"/>
+    <path d="M72 124h91m-86 7h103m-98 7h82m-76 7h97m-93 7h75"/>
+  </g>
+  <g fill="#f2e5cd" font-family="Georgia,serif" opacity=".76">
+    <text x="720" y="72" font-size="13">ANCIENT GREECE · ROME · EGYPT</text>
+    <text x="806" y="130" font-size="10">peoples · routes · memory</text>
+    <text x="42" y="318" font-size="12">CHRONICLES OF THE PAST</text>
+    <text x="956" y="424" font-size="10">cairo · giza · the nile</text>
+  </g>
+  <rect width="1200" height="460" fill="#fff2d9" opacity=".08" filter="url(#grain)"/>
+</svg>

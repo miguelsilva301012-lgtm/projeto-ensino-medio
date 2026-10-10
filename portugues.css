@@ -1,0 +1,199 @@
+body.portuguese-page {
+  min-height: 100vh;
+  color: #493727;
+  background-color: #d1bc91;
+  background-image: url("assets/fundo-portugues.svg");
+  background-repeat: repeat;
+  background-size: 760px 620px;
+  background-attachment: fixed;
+}
+
+.portuguese-page .topbar {
+  background: rgba(244, 234, 210, 0.96);
+  border-bottom: 1px solid rgba(92, 65, 42, 0.3);
+  box-shadow: 0 5px 16px rgba(64, 43, 26, 0.18);
+}
+
+.portuguese-page .brand,
+.portuguese-page .nav-links a {
+  color: #513a2a;
+}
+
+.portuguese-page .brand-mark {
+  background: linear-gradient(135deg, #8b6038, #bc9760);
+}
+
+.portuguese-page .nav-links a:hover,
+.portuguese-page .nav-links a:focus-visible {
+  color: #8e4d4a;
+}
+
+.portuguese-page .section-heading,
+.portuguese-page .subject-intro,
+.portuguese-page .lesson-card,
+.portuguese-page .challenge-panel {
+  position: relative;
+  isolation: isolate;
+  color: #493727;
+  background: rgba(248, 240, 222, 0.96);
+  border: 1px solid rgba(117, 86, 54, 0.34);
+  border-radius: 4px 10px 5px 8px;
+  box-shadow: 0 12px 28px rgba(64, 43, 26, 0.2);
+}
+
+.portuguese-page .section-heading::before,
+.portuguese-page .subject-intro::before,
+.portuguese-page .lesson-card::before,
+.portuguese-page .challenge-panel::before {
+  position: absolute;
+  z-index: -1;
+  inset: -6px 7px 5px -5px;
+  content: "";
+  background: rgba(222, 204, 167, 0.95);
+  clip-path: polygon(1% 5%, 9% 3%, 17% 5%, 25% 2%, 34% 4%, 45% 2%, 57% 5%, 68% 3%, 79% 5%, 91% 2%, 99% 5%, 97% 19%, 100% 30%, 97% 43%, 99% 58%, 96% 73%, 99% 86%, 96% 98%, 82% 96%, 70% 99%, 57% 96%, 44% 99%, 31% 96%, 19% 99%, 5% 96%, 3% 83%, 5% 70%, 2% 58%, 5% 44%, 2% 31%, 5% 17%);
+  filter: drop-shadow(0 3px 2px rgba(62, 43, 27, 0.2));
+}
+
+.portuguese-page .section-heading {
+  border-top: 4px solid #a17b4d;
+}
+
+.portuguese-page .section-heading h2,
+.portuguese-page .subject-intro h3,
+.portuguese-page .lesson-card h3,
+.portuguese-page .challenge-panel h3,
+.portuguese-page .activity-summary-label {
+  color: #523a2a;
+}
+
+.portuguese-page .eyebrow {
+  color: #8b584b;
+}
+
+.portuguese-page .subject-intro p,
+.portuguese-page .lesson-card p,
+.portuguese-page .activity-instructions,
+.portuguese-page .activity-status {
+  color: #574634;
+}
+
+.portuguese-page .lesson-link {
+  color: #fff8eb;
+  background: linear-gradient(135deg, #966245, #b97955);
+  border: 1px solid rgba(97, 62, 42, 0.22);
+}
+
+.portuguese-page .lesson-link:hover,
+.portuguese-page .lesson-link:focus-visible {
+  color: #fffdf6;
+  background: #754b37;
+}
+
+.portuguese-page .back-link {
+  color: #526a5a;
+}
+
+.portuguese-page .back-link:hover,
+.portuguese-page .back-link:focus-visible {
+  color: #914c48;
+}
+
+.portuguese-page .activity-summary {
+  color: #523a2a;
+}
+
+.portuguese-page .activity-summary:hover {
+  background: rgba(138, 101, 61, 0.08);
+}
+
+.portuguese-page .summary-action {
+  color: #fff9ed;
+  background: #806044;
+}
+
+.portuguese-page .answer-btn {
+  color: #4c3829;
+  background: rgba(255, 252, 242, 0.86);
+  border-color: rgba(117, 86, 54, 0.4);
+}
+
+.portuguese-page .answer-btn:not(:disabled):hover,
+.portuguese-page .answer-btn:focus-visible {
+  background: #efe1c3;
+  border-color: #9c7547;
+}
+
+.portuguese-page .answer-btn.correct {
+  color: #284433;
+  background: #dce8d4;
+}
+
+.portuguese-page .answer-btn.wrong {
+  color: #713e38;
+  background: #f0d8ce;
+}
+
+.portuguese-page .primary-btn {
+  color: #fff9ed;
+  background: #806044;
+  border-color: #806044;
+}
+
+.portuguese-page .primary-btn:hover {
+  background: #684a34;
+}
+
+:root[data-theme="dark"] body.portuguese-page {
+  color: #493727;
+  background-color: #d1bc91;
+  background-image: url("assets/fundo-portugues.svg");
+}
+
+:root[data-theme="dark"] body.portuguese-page .topbar {
+  background: rgba(244, 234, 210, 0.96);
+}
+
+:root[data-theme="dark"] body.portuguese-page .nav-links,
+:root[data-theme="dark"] body.portuguese-page .section-heading,
+:root[data-theme="dark"] body.portuguese-page .subject-intro,
+:root[data-theme="dark"] body.portuguese-page .lesson-card,
+:root[data-theme="dark"] body.portuguese-page .challenge-panel,
+:root[data-theme="dark"] body.portuguese-page .answer-btn {
+  color: #493727;
+  background-color: rgba(248, 240, 222, 0.96);
+  border-color: rgba(117, 86, 54, 0.4);
+}
+
+:root[data-theme="dark"] body.portuguese-page .section-heading h2,
+:root[data-theme="dark"] body.portuguese-page .subject-intro h3,
+:root[data-theme="dark"] body.portuguese-page .lesson-card h3,
+:root[data-theme="dark"] body.portuguese-page .challenge-panel h3,
+:root[data-theme="dark"] body.portuguese-page .activity-summary-label,
+:root[data-theme="dark"] body.portuguese-page .subject-intro p,
+:root[data-theme="dark"] body.portuguese-page .lesson-card p,
+:root[data-theme="dark"] body.portuguese-page .activity-instructions,
+:root[data-theme="dark"] body.portuguese-page .activity-status {
+  color: #493727;
+}
+
+:root[data-theme="dark"] body.portuguese-page .answer-btn.correct {
+  color: #284433;
+  background: #dce8d4;
+}
+
+:root[data-theme="dark"] body.portuguese-page .answer-btn.wrong {
+  color: #713e38;
+  background: #f0d8ce;
+}
+
+:root[data-theme="dark"] body.portuguese-page .lesson-link {
+  color: #fff8eb;
+  background: linear-gradient(135deg, #966245, #b97955);
+}
+
+@media (max-width: 700px) {
+  body.portuguese-page {
+    background-attachment: scroll;
+    background-size: 570px 465px;
+  }
+}

@@ -841,6 +841,9 @@ function setupActivity(activity) {
   }
 
   let topicIndex = 0;
+  const requestedTopic = new URLSearchParams(window.location.search).get('tema');
+  const requestedTopicIndex = topics.findIndex((topic) => topic.title === requestedTopic);
+  if (requestedTopicIndex !== -1) topicIndex = requestedTopicIndex;
   let currentTopic = topics[topicIndex];
   let questionIndex = 0;
   let level = 1;
@@ -893,6 +896,14 @@ function setupActivity(activity) {
       correctStreak = 0;
       selectedButton.classList.add('wrong');
       feedback.textContent = `Ainda não. ${question.explanation} Tente mais uma vez; seu nível continua o mesmo.`;
+      window.dispatchEvent(new CustomEvent('study:mistake', {
+        detail: {
+          subject: activity.dataset.subject,
+          topic: currentTopic.title,
+          prompt: question.prompt,
+          explanation: question.explanation,
+        },
+      }));
       continueAction = 'retry';
       continueButton.textContent = 'Tentar de novo';
       continueButton.hidden = false;
@@ -913,6 +924,11 @@ function setupActivity(activity) {
 
     feedback.textContent = `Acertou! ${question.explanation}${levelMessage}`;
     questionIndex += 1;
+    if (questionIndex === totalQuestions) {
+      window.dispatchEvent(new CustomEvent('study:topic-complete', {
+        detail: { subject: activity.dataset.subject, topic: currentTopic.title },
+      }));
+    }
     renderStatus(status, questionIndex, level, correctStreak, score);
     progress.setAttribute('aria-valuenow', String(questionIndex));
     progressFill.style.width = `${(questionIndex / totalQuestions) * 100}%`;
@@ -964,3 +980,4 @@ function setupActivity(activity) {
 }
 
 document.querySelectorAll('.activity-details').forEach(setupActivity);
+window.studyTopicBanks = topicBanks;

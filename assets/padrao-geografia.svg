@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="620" viewBox="0 0 820 620">
+  <defs>
+    <pattern id="map-paper" width="32" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="7" r=".7" fill="#766246" opacity=".2"/>
+      <circle cx="25" cy="22" r=".8" fill="#fff4d8" opacity=".75"/>
+      <path d="M13 3h6M2 24h7" stroke="#77664a" stroke-width=".7" opacity=".18"/>
+    </pattern>
+    <g id="compass" stroke="#65543d" stroke-width="2">
+      <circle r="37" fill="#e3d4b3" opacity=".82"/>
+      <circle r="29" fill="none"/>
+      <path d="M0-31 7 0 0 31-7 0z" fill="#54786d"/>
+      <path d="M-31 0 0-7 31 0 0 7z" fill="#b77c53"/>
+      <circle r="5" fill="#d8b661"/>
+      <path d="M0-42v-7m0 91v7m-49-49h-7m91 0h7" fill="none"/>
+    </g>
+    <g id="continent" fill="#798367" stroke="#64664e" stroke-width="1.2">
+      <path d="M-34-30-8-39 4-28 22-29 35-11 23 2 33 14 14 23 7 40-8 36-16 18-31 13-38-4-24-14z"/>
+    </g>
+  </defs>
+  <rect width="820" height="620" fill="#a8946d"/>
+  <rect width="820" height="620" fill="url(#map-paper)"/>
+  <g opacity=".86">
+    <path d="M28 39h235v162H28z" fill="#e6d8b7" stroke="#726047" stroke-width="3"/>
+    <path d="M38 49h215v142H38z" fill="#8fa18c"/>
+    <path d="M61 89 96 68l39 4 17 19-17 17 6 26-31 18-28-17-21-25z" fill="#bd9b63" stroke="#6d654d" stroke-width="2"/>
+    <path d="m164 116 22-20 26 8 14 23-22 18-30-7z" fill="#b35f49" stroke="#6d654d" stroke-width="2"/>
+    <circle cx="183" cy="163" r="24" fill="none" stroke="#735e41" stroke-width="2"/>
+    <path d="M183 138v50m-25-25h50m-42-18 34 36m0-36-34 36" stroke="#735e41" stroke-width="1"/>
+    <text x="48" y="62" fill="#514736" font-family="Georgia,serif" font-size="9">CARTA ANTIGA · MARE INCÓGNITO</text>
+  </g>
+  <g opacity=".8">
+    <path d="M554 43h232v141H554z" fill="#e8dcc2" stroke="#705d43" stroke-width="3"/>
+    <path d="M568 57h204v113H568z" fill="#4c7779"/>
+    <use href="#continent" x="629" y="112" transform="translate(629 112) scale(.72 .62) translate(-629 -112)"/>
+    <use href="#continent" x="711" y="109" transform="translate(711 109) scale(.49 .48) translate(-711 -109)"/>
+    <path d="M573 157q48-17 90-2t100-1" fill="none" stroke="#e3c78c" stroke-width="2"/>
+    <text x="569" y="72" fill="#f1e7cf" font-family="Georgia,serif" font-size="9">ATLAS · ROTAS E TERRITÓRIOS</text>
+  </g>
+  <g opacity=".78">
+    <path d="M31 385h251v166H31z" fill="#e5d5b0" stroke="#6e5b41" stroke-width="3"/>
+    <path d="M43 398h227v139H43z" fill="#7e917d"/>
+    <use href="#continent" x="102" y="454" transform="translate(102 454) scale(.55 .74) translate(-102 -454)"/>
+    <use href="#continent" x="179" y="459" transform="translate(179 459) scale(.46 .55) translate(-179 -459)"/>
+    <path d="M54 508q67-50 126-29t78-8" fill="none" stroke="#c2a269" stroke-width="3"/>
+    <text x="48" y="527" fill="#f4e6c9" font-family="Georgia,serif" font-size="9">AMÉRICAS · ATLÂNTICO SUL</text>
+  </g>
+  <g opacity=".86">
+    <path d="M584 369h205v181H584z" fill="#e7d8b6" stroke="#6f5c42" stroke-width="3"/>
+    <path d="M596 381h181v142H596z" fill="#d2bd8f"/>
+    <use href="#continent" x="658" y="430" transform="translate(658 430) scale(.7 .65) translate(-658 -430)"/>
+    <path d="M604 483q59-43 115-26t51 9" fill="none" stroke="#4c7778" stroke-width="9"/>
+    <path d="M604 483q59-43 115-26t51 9" fill="none" stroke="#dcc68f" stroke-width="2"/>
+    <text x="605" y="509" fill="#564c39" font-family="Georgia,serif" font-size="9">CARTOGRAFIA · PAISAGEM</text>
+  </g>
+  <g opacity=".68" fill="#63533b">
+    <text x="315" y="51" font-family="Georgia,serif" font-size="11">LATITUDE · LONGITUDE · ESCALA</text>
+    <text x="319" y="576" font-family="Georgia,serif" font-size="10">LUGAR · TERRITÓRIO · MOVIMENTO</text>
+  </g>
+  <use href="#compass" x="412" y="290" opacity=".82"/>
+  <path d="M304 132q56 11 90 63t77 29m-161 97q49-32 97-5t95-29m-171 193q48-43 93-16t95-42" fill="none" stroke="#665940" stroke-width="1.5" stroke-dasharray="4 5" opacity=".43"/>
+</svg>

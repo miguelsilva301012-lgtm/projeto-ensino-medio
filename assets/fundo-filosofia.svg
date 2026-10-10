@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="680" viewBox="0 0 820 680">
+  <defs>
+    <pattern id="newsprint" width="31" height="27" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="7" r=".8" fill="#665340" opacity=".14"/>
+      <path d="M12 4h14M3 20h8m7 2h11" stroke="#786345" stroke-width=".7" opacity=".14"/>
+    </pattern>
+    <filter id="scrap-shadow" x="-20%" y="-20%" width="145%" height="155%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#392e23" flood-opacity=".32"/>
+    </filter>
+    <g id="rose" stroke="#65503b" stroke-width="1.7" stroke-linecap="round">
+      <path d="M0 0q-3 22 3 40m-1-14q-12-9-18-1 6 11 19 8m1-1q11-12 18-6-5 12-17 11" fill="none"/>
+      <path d="M-2 2q-13-5-9-17 7-11 16-4 12-9 19 2 4 12-9 20-10 6-17-1z" fill="#aa7669"/>
+      <path d="M-7-5q6-10 13-1 2 7-5 10-9-2-8-9z" fill="#d0a092"/>
+    </g>
+    <g id="moon" stroke="#7c694c" stroke-width="2">
+      <path d="M22-27A31 31 0 1 0 24 27 25 25 0 0 1 22-27z" fill="#e0c98e"/>
+      <path d="M-14-9l3-2m20-12 2-3m8 36 3-1" fill="none"/>
+      <path d="M-30 0h-7m74 0h7M0-35v-7M0 42v-7" stroke="#c09b5a"/>
+    </g>
+    <g id="butterfly" fill="#6c5945" stroke="#493b2d" stroke-width="1.2">
+      <path d="M0 0q-13-25-23-15-7 12 8 20-14 4-9 16 10 8 24-13 14 21 24 13 5-12-9-16 15-8 8-20Q13-25 0 0z"/>
+      <path d="M0 0v24m0-23q-4-10-10-12m10 12q5-11 11-12" fill="none"/>
+      <circle cx="-17" cy="-12" r="3" fill="#e0d4b9" stroke="none"/>
+      <circle cx="17" cy="-12" r="3" fill="#e0d4b9" stroke="none"/>
+    </g>
+    <g id="eye" stroke="#514233" stroke-width="2">
+      <path d="M-47 0q47-48 94 0-47 48-94 0z" fill="#e8dcc1"/>
+      <ellipse rx="16" ry="20" fill="#9f9a87"/>
+      <circle r="8" fill="#332b24"/>
+      <circle cx="-3" cy="-4" r="2.5" fill="#f5ead2" stroke="none"/>
+      <path d="M-47 0q10-24 28-31m38 0Q39-23 47 0" fill="none"/>
+    </g>
+    <g id="thinker" stroke="#56483a" stroke-width="2.2" stroke-linejoin="round">
+      <path d="M-36 76l9-45q-8-13-4-30 4-27 32-28 27-1 34 24 4 17-5 31l22 21 4 31-20 2-8-24-12-11-4 43z" fill="#b4a58a"/>
+      <path d="M-23-9q9-25 35-15 17 6 20 25l-9 12-9-5-4 10-13 2-8-14-16 2z" fill="#bcb09a"/>
+      <path d="M11 2q-4 12 4 19l12 7m-17-10q-12-7-20 2m34 4 19 17m-59 0 15-14m14 17v28" fill="none"/>
+      <path d="M-28 38q24-12 44 3m-44 8q22-7 45 3" stroke="#8e806d" fill="none"/>
+      <circle cx="11" cy="1" r="2" fill="#44382c" stroke="none"/>
+    </g>
+    <g id="skull" stroke="#645541" stroke-width="2" stroke-linejoin="round">
+      <path d="M-25-12q0-28 25-30 25 2 25 30 0 15-11 23l-2 16h-24l-2-16q-11-8-11-23z" fill="#e0d1b1"/>
+      <circle cx="-10" cy="-7" r="7" fill="#76654e"/>
+      <circle cx="10" cy="-7" r="7" fill="#76654e"/>
+      <path d="M-4 6h8L0 15zM-11 26v7m7-7v7m8-7v7m7-7v7" fill="none"/>
+      <path d="M-24-15q25-12 48 0" fill="none" stroke="#aa8c5f"/>
+    </g>
+    <g id="clock" stroke="#594632" stroke-width="2">
+      <circle r="35" fill="#d9c49c"/>
+      <circle r="29" fill="#f0e5cb"/>
+      <circle r="2.5" fill="#66513a"/>
+      <path d="M0-24v24l17 9M0-31v5m31 26h-5m-26 31v-5m-31-26h5m40-22 4 4m-44 44 4-4m40 0 4 4m-44-44 4 4" fill="none"/>
+      <path d="M-17-15h8m18 0h8m-24 31h14" stroke="#a58656"/>
+    </g>
+    <g id="eiffel" stroke="#69553b" stroke-width="2" fill="none" stroke-linecap="round">
+      <path d="M0-49l-4 14 4 5 4-5zM-4-30L-25 46m25-76 25 76M-18 20h36M-25 46h50M-11-6h22M-8-19h16M-20 33h40M-7-30h14M0-30v76m-13-24L13 4m-26 0L13 22"/>
+      <circle cy="-34" r="2" fill="#8b6848"/>
+    </g>
+    <g id="bigben" stroke="#65513b" stroke-width="2">
+      <path d="M-23 42h46l-5-83H-18z" fill="#ad956e"/>
+      <path d="M-18-41l18-18 18 18z" fill="#8e7655"/>
+      <path d="M-13-12h26v23h-26z" fill="#e3d4b5"/>
+      <circle cy="0" r="9" fill="#efe4cb"/>
+      <path d="M0-6v6l5 3m-17-29h24M-23 16h46" fill="none"/>
+      <path d="M-14 22v20m14-20v20m14-20v20" fill="none"/>
+    </g>
+    <g id="piano" stroke="#44372b" stroke-width="2" stroke-linejoin="round">
+      <path d="M-52-4q15-25 43-24 18 2 25 18l35 5v26h-103z" fill="#40362d"/>
+      <path d="M-48-6h88v17h-88z" fill="#dfd2b8"/>
+      <path d="M-37-6v17m12-17v17m12-17v17m12-17v17m12-17v17m12-17v17m12-17v17" stroke="#705c43"/>
+      <path d="M-42 22v20m72-20v20M-49 42h84" fill="none"/>
+      <circle cx="39" cy="2" r="2" fill="#d9b26a" stroke="none"/>
+    </g>
+    <g id="car" stroke="#594531" stroke-width="2.2" stroke-linejoin="round">
+      <path d="M-48 8l9-17 17-5 12-18h29l18 19 16 6 4 15z" fill="#a66a50"/>
+      <path d="M-19-13l10-19h25l14 19z" fill="#d7c9a9"/>
+      <path d="M-48 7h105v12H-48z" fill="#80573e"/>
+      <circle cx="-27" cy="21" r="9" fill="#40372c"/>
+      <circle cx="34" cy="21" r="9" fill="#40372c"/>
+      <circle cx="-27" cy="21" r="4" fill="#c9ae77"/>
+      <circle cx="34" cy="21" r="4" fill="#c9ae77"/>
+      <path d="M-3-30v17m-13 0h42M-45 3h9" fill="none" stroke="#e1c880"/>
+    </g>
+    <g id="tape" stroke="#514333" stroke-width="2">
+      <rect x="-51" y="-30" width="102" height="60" rx="6" fill="#88785f"/>
+      <rect x="-41" y="-22" width="82" height="25" rx="3" fill="#dfd2b6"/>
+      <circle cx="-18" cy="-9" r="8" fill="#77654d"/>
+      <circle cx="18" cy="-9" r="8" fill="#77654d"/>
+      <circle cx="-18" cy="-9" r="3" fill="#e2d4b7"/>
+      <circle cx="18" cy="-9" r="3" fill="#e2d4b7"/>
+      <path d="M-10 12h20m-34 0h7m27 0h7m-27-7 10 14 10-14" fill="none"/>
+      <text x="-29" y="25" font-family="serif" font-size="7" fill="#f1e6cd" stroke="none">WORDS &amp; IDEAS</text>
+    </g>
+    <g id="hand" fill="#c4b298" stroke="#71604b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-4 28q-18-8-31-23l-20-25q-5-8 2-12 6-3 11 4l21 22-20-35q-5-9 2-13 8-3 13 6l22 34-10-42q-2-10 6-12 8 0 10 11l12 40 1-35q1-11 9-10 8 1 7 12l-3 42 15-23q6-9 13-4 6 5 0 14L41 31q-11 18-31 12z"/>
+      <path d="M-40-16l13 17m-6-32 13 19M2-37l4 29m20-27-2 28" fill="none"/>
+    </g>
+    <g id="compass-star" fill="#b89556" stroke="#705837" stroke-width="1.5">
+      <path d="M0-34 6-8 28-20 12 0 34 8 8 11 19 34 0 17-19 34-8 11-34 8-12 0-28-20-6-8z"/>
+      <circle r="5" fill="#e5d4ae"/>
+    </g>
+  </defs>
+
+  <rect width="820" height="680" fill="#bda783"/>
+  <rect width="820" height="680" fill="url(#newsprint)"/>
+  <path d="M0 0h820v680H0z" fill="#eadcc0" opacity=".22"/>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M17 15l48-4 47 5 42-3 5 33-4 31 4 40-7 41-42-3-38 5-52-5-8-31 5-36-5-37z" fill="#efe4cc" stroke="#9c8764"/>
+    <use href="#eye" x="95" y="69"/>
+    <text x="62" y="27" font-family="Georgia,serif" font-size="10" letter-spacing="2" fill="#544331">OBSESSION · OBSERVE · QUESTION</text>
+    <path d="M36 117h120m-115 6h109m-111 6h121m-116 6h105" stroke="#887456" stroke-width="1.1"/>
+    <text x="47" y="151" font-family="serif" font-size="9" font-style="italic" fill="#65523b">What do we know?</text>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M235 15l52-4 58 5 50-3 6 31-5 35 4 33-6 31-48-3-41 5-57-5-10-29 5-39-6-31z" fill="#ece0c5" stroke="#9c8661"/>
+    <use href="#moon" x="273" y="66"/>
+    <use href="#compass-star" x="351" y="55" transform="scale(.76) translate(111 17)"/>
+    <use href="#butterfly" x="347" y="103" transform="scale(.7) translate(150 44)"/>
+    <path d="M259 121h117m-111 6h103m-99 6h114" stroke="#8b7657" stroke-width="1"/>
+    <text x="257" y="35" font-family="serif" font-size="9" font-style="italic" fill="#63513a">look up, you’ll see the stars</text>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M483 15l51-4 57 5 57-3 4 29-4 38 5 39-7 33-43-3-50 5-62-5-9-31 5-33-7-35z" fill="#eee2c8" stroke="#9c8764"/>
+    <use href="#eiffel" x="522" y="96"/>
+    <use href="#bigben" x="609" y="91" transform="scale(.82) translate(134 20)"/>
+    <path d="M500 125h130m-123 6h117m-113 6h105" stroke="#8c7655" stroke-width="1"/>
+    <text x="500" y="31" font-family="Georgia,serif" font-size="9" fill="#71583c">TRAVEL · TIME · CULTURE</text>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M15 199l41-3 49 5 45-4 5 36-4 38 4 35-7 33-37-3-48 5-50-4-7-31 5-37-6-33z" fill="#e6d5b1" stroke="#927a56"/>
+    <use href="#clock" x="74" y="251"/>
+    <text x="29" y="214" font-family="Georgia,serif" font-size="9" fill="#65513a">TEMPUS FUGIT</text>
+    <text x="34" y="299" font-family="serif" font-size="8" font-style="italic" fill="#735b3d">On time and being...</text>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M660 184l42-4 56 5 45-3 5 35-4 36 4 43-7 34-42-3-47 5-48-6-8-31 6-39-6-34z" fill="#efe2c6" stroke="#9c8560"/>
+    <text x="678" y="204" font-family="Georgia,serif" font-size="9" fill="#654e35">MEMENTO MORI</text>
+    <use href="#skull" x="716" y="256"/>
+    <use href="#rose" x="773" y="272" transform="scale(.68) translate(364 129)"/>
+    <path d="M674 303h111m-108 6h95" stroke="#8c7655" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M184 178l43-4 41 4 38-3 3 27-4 28 4 31-5 28-39-2-38 4-40-4-7-26 5-31-5-27z" fill="#eee3cb" stroke="#a08a67"/>
+    <text x="202" y="199" font-family="Georgia,serif" font-size="9" fill="#604b34">FRAGMENTS · JOURNAL</text>
+    <path d="M199 208h90m-87 5h85m-84 5h92m-91 5h71m-68 5h80m-78 5h72m-71 5h83m-80 5h63" stroke="#766248" stroke-width="1.2" opacity=".8"/>
+    <text x="202" y="258" font-family="serif" font-size="8" font-style="italic" fill="#694f35">Socrates asks: how should we live?</text>
+    <text x="202" y="273" font-family="serif" font-size="8" fill="#694f35">A thought is a journey without end.</text>
+  </g>
+
+  <g opacity=".9">
+    <use href="#rose" x="142" y="362"/>
+    <use href="#rose" x="173" y="393" transform="scale(.72) translate(68 154)"/>
+    <path d="M145 375q-20-31-37-26m42 29q19-35 37-34m-53 10q-14-4-20 4m48 20q9 5 16 0" fill="none" stroke="#6f7657" stroke-width="2"/>
+    <path d="M107 352q-13-10-19 0 7 11 19 8m67 0q12-12 18-4-3 11-15 12" fill="#9ca080" stroke="#68704f" stroke-width="1.5"/>
+    <use href="#butterfly" x="191" y="344" transform="scale(.56) translate(150 273)"/>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M56 416l40-3 42 4 43-3 4 31-5 34 5 39-7 32-41-2-39 5-41-5-8-30 5-35-5-32z" fill="#eadbbd" stroke="#99815c"/>
+    <text x="72" y="439" font-family="Georgia,serif" font-size="9" fill="#675039">GROCER · LINIMENT · CINEMA</text>
+    <path d="M75 447h93m-91 6h79m-82 6h91m-88 6h67m-67 6h91m-90 6h77m-80 6h86m-84 6h63" stroke="#796448" stroke-width="1"/>
+    <text x="76" y="507" font-family="serif" font-size="9" font-style="italic" fill="#70563c">adverts &amp; old curiosities</text>
+  </g>
+
+  <g transform="translate(744 397)" opacity=".92">
+    <path d="M-35 31l45-5 22 7-12 12-37-4z" fill="#b08f5d" stroke="#66513a" stroke-width="2"/>
+    <path d="M-10 29l-12-43q-2-8 4-9 5 0 7 7l14 44M-12-11l18 7 11 26M-20 12l-14-18q-5-7 1-10 5-3 9 4l15 17" fill="#d0bea0" stroke="#71604a" stroke-width="2"/>
+    <path d="M-7-42q27-7 39 4l-18 8-15-1z" fill="#8d7660" stroke="#564635" stroke-width="2"/>
+    <path d="M-20-8q12 12 20 21" fill="none"/>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M264 344l44-3 42 5 51-4 5 32-4 35 5 38-8 30-39-3-50 5-45-5-7-30 6-34-5-33z" fill="#ede1c7" stroke="#9b8460"/>
+    <text x="280" y="365" font-family="Georgia,serif" font-size="9" fill="#65513a">A QUESTION OF LIFE</text>
+    <path d="M281 374h111m-107 6h101m-105 6h108m-104 6h95m-94 6h101" stroke="#877354" stroke-width="1"/>
+    <text x="282" y="414" font-family="serif" font-size="8" font-style="italic" fill="#6a5339">He is half of my soul, as the poets say.</text>
+    <text x="282" y="430" font-family="serif" font-size="8" font-style="italic" fill="#6a5339">I told the Stars about You.</text>
+    <text x="282" y="446" font-family="serif" font-size="8" font-style="italic" fill="#6a5339">You’re not what they say you are.</text>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M419 17l44-4 43 4 5 28-5 31 5 33-7 31-39-3-45 5-8-30 5-34-5-30z" fill="#e7d8b7" stroke="#9a815c"/>
+    <use href="#butterfly" x="463" y="60" transform="scale(.95) translate(24 4)"/>
+    <text x="428" y="118" font-family="serif" font-size="9" fill="#65503a">WONDER · REASON · BEAUTY</text>
+  </g>
+
+  <g transform="translate(340 313)">
+    <use href="#tape"/>
+    <use href="#hand" x="-40" y="-36" transform="rotate(-20 -40 -36) scale(.58) translate(29 25)"/>
+    <use href="#hand" x="40" y="-36" transform="scale(-.58 .58) rotate(-18 40 -36) translate(-29 25)"/>
+  </g>
+  <g filter="url(#scrap-shadow)">
+    <use href="#thinker" x="516" y="454" transform="scale(1.08) translate(-37 -34)"/>
+  </g>
+  <g transform="translate(454 562)" filter="url(#scrap-shadow)">
+    <path d="M-55 23l17-28 17-7-2-17 15-12 22 6 9 18-7 20 18 16-4 37h-83z" fill="#9b8e7a" stroke="#625541" stroke-width="2"/>
+    <path d="M-25-4l9 13 7-13 7 13 10-13M-29 23q25-18 50 0m-42 8h35m-29 8h24" fill="none" stroke="#5d5142" stroke-width="2"/>
+    <path d="M-17-28l14-14 20 10" fill="none" stroke="#d0bd93" stroke-width="2"/>
+  </g>
+
+  <g opacity=".91">
+    <use href="#piano" x="670" y="534" transform="scale(.72) translate(261 208)"/>
+    <use href="#car" x="113" y="590" transform="scale(.78) translate(32 160)"/>
+    <path d="M536 624q-16-46-11-89m8 48q-22-17-30-7m35-9q14-18 23-13" fill="none" stroke="#6d7157" stroke-width="2"/>
+    <use href="#rose" x="527" y="542" transform="scale(.72) translate(205 212)"/>
+  </g>
+
+  <g filter="url(#scrap-shadow)">
+    <path d="M596 550l34-3 34 4 4 24-5 30-71 1-5-26z" fill="#e9ddc1" stroke="#97815d"/>
+    <use href="#compass-star" x="640" y="580" transform="scale(.62) translate(396 357)"/>
+    <text x="603" y="562" font-family="Georgia,serif" font-size="8" fill="#65503a">NORTH · SOUTH</text>
+    <text x="601" y="615" font-family="serif" font-size="8" font-style="italic" fill="#70583e">seek your own way</text>
+  </g>
+
+  <g fill="#514333" font-family="Georgia,serif" font-style="italic" opacity=".75">
+    <text x="30" y="185" font-size="10" transform="rotate(-5 30 185)">Know thyself</text>
+    <text x="379" y="176" font-size="10" transform="rotate(3 379 176)">the examined life</text>
+    <text x="682" y="362" font-size="9" transform="rotate(-4 682 362)">MEMENTO</text>
+    <text x="530" y="505" font-size="10" transform="rotate(5 530 505)">look up, you’ll see the stars</text>
+    <text x="25" y="658" font-size="9" transform="rotate(-3 25 658)">IDEAS · EXISTENCE · CURIOSITY</text>
+  </g>
+</svg>

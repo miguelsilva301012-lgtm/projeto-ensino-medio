@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <pattern id="archive-grain" width="35" height="31" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="8" r=".8" fill="#604a31" opacity=".13"/>
+      <circle cx="26" cy="23" r=".7" fill="#fff7df" opacity=".75"/>
+      <path d="M12 4l6-.7M3 26l5-.6M28 11l4 .6" stroke="#8f7551" stroke-width=".7" opacity=".14"/>
+    </pattern>
+    <filter id="paper-shadow" x="-20%" y="-20%" width="145%" height="155%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#392e23" flood-opacity=".3"/>
+    </filter>
+    <g id="temple" stroke="#68553d" stroke-width="2" stroke-linejoin="round">
+      <path d="M-68-30L0-64 68-30z" fill="#b79a67"/>
+      <path d="M-72-28h144v9H-72zM-79 44h158v10H-79zM-87 55h174v8H-87z" fill="#d4bd91"/>
+      <path d="M-61-17h17v59h-17zm36 0h17v59h-17zm36 0h17v59H11zm36 0h17v59H47z" fill="#e5d5b5"/>
+      <path d="M-66-19h132M-65-11h130" fill="none" stroke="#8e7654"/>
+      <path d="M-74-32h148" stroke="#efe1c2" stroke-width="2"/>
+    </g>
+    <g id="pyramid" stroke="#755c3b" stroke-width="2" stroke-linejoin="round">
+      <path d="M-55 45L0-55 57 45z" fill="#c5a15d"/>
+      <path d="M0-55L9 45h48z" fill="#ad874d"/>
+      <path d="M-28 45L0-5l29 50M-41 20h83M-50 37h100" fill="none" stroke="#e0bd78" opacity=".72"/>
+      <path d="M-68 47h139" fill="none" stroke="#6e583a" stroke-width="3"/>
+    </g>
+    <g id="ship" stroke="#473f36" stroke-width="2" stroke-linejoin="round">
+      <path d="M-83 37h157L48 62-57 65z" fill="#805a3d"/>
+      <path d="M-22-47v83m54-96v91" fill="none" stroke="#4c4336" stroke-width="4"/>
+      <path d="M-19-41l-42 60h42zm5 8 38 47h-38zM35-48l34 58H35z" fill="#e5d8bb" stroke="#786345"/>
+      <path d="M-28 17l14 4m42 0 21 5m-76 8 91 0" fill="none" stroke="#c6a46c"/>
+      <path d="M-15-49q16-11 32-2" fill="none"/>
+    </g>
+    <g id="column" stroke="#69543a" stroke-width="2">
+      <path d="M-22-27h44v7h-44zM-27-20h54v7h-54zM-19-13h38v66h-38zM-27 53h54v8h-54zM-33 61h66v8h-66z" fill="#e1d0ac"/>
+      <path d="M-12-13v65m12-65v65m12-65v65" fill="none" stroke="#b79a6c" stroke-width="1.5"/>
+      <path d="M-28-27q8-15 17-4 11-18 22 0 11-11 17 4" fill="none" stroke="#92764d" stroke-width="3"/>
+    </g>
+    <g id="soldier" stroke="#4e4538" stroke-width="2" stroke-linejoin="round">
+      <path d="M-11-19q10-19 23-4l-2 13h-22z" fill="#b49b70"/>
+      <path d="M-9-21q12-12 23 0l-5 6h-20z" fill="#8a724f"/>
+      <path d="M-13-8h25l9 39H-17z" fill="#81745c"/>
+      <path d="M-8 29l-5 27m19-27 7 27m-29-30-12 19m45-18 12 13" fill="none" stroke-width="4"/>
+      <path d="M21-13v37m0-36 28 7-28 8" fill="#a45a47" stroke="#66503a"/>
+      <path d="M-2 1h6" stroke="#d7c48f"/>
+    </g>
+    <g id="mosaic" stroke="#71583d" stroke-width="2">
+      <path d="M-39 31q-14-50 10-66 23-17 45 0 23 17 10 66l-13 12h-39z" fill="#be9c66"/>
+      <path d="M-25-8q7-8 14 0m22 0q7-8 14 0M-8-2l-7 18 15 4 12-5L7-2M-26 21q25 13 51 0" fill="none"/>
+      <path d="M-39-21l-13-14 20 6m58 0 19-6-12 16" fill="#c7a66c"/>
+      <circle cx="-20" cy="-8" r="2" fill="#332a21"/><circle cx="20" cy="-8" r="2" fill="#332a21"/>
+      <path d="M-29 31h58m-38 8v5m18-5v5" fill="none"/>
+    </g>
+    <g id="diplomats" stroke="#5a4938" stroke-width="1.7" stroke-linejoin="round">
+      <path d="M-69 36h138v7H-69z" fill="#6d382d"/>
+      <path d="M-61 35v-31m122 31V4" fill="none" stroke-width="4"/>
+      <path d="M-62 6h124v28H-62z" fill="#a65d43"/>
+      <path d="M-51 0q0-15 13-15T-25 0v14h-26zm40-4q0-17 14-17t14 17v18h-28zm40 4q0-15 13-15T55 0v14H29z" fill="#d5c2a0"/>
+      <path d="M-51 13l-7 22m31-22 6 22m-19-48v11m29 18-5 19m27-24-5 24m20-24 8 24m-22-42v11" fill="none"/>
+      <circle cx="-38" cy="-20" r="6" fill="#c9a87c"/><circle cx="3" cy="-27" r="7" fill="#c9a87c"/><circle cx="42" cy="-20" r="6" fill="#c9a87c"/>
+    </g>
+  </defs>
+
+  <rect width="900" height="700" fill="#c8b38d"/>
+  <rect width="900" height="700" fill="url(#archive-grain)"/>
+  <path d="M0 0h900v700H0z" fill="#efe2c5" opacity=".15"/>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M14 14l44-4 48 5 48-3 5 33-4 30 4 39-7 39-39-3-53 5-48-5-7-31 4-36-5-34z" fill="#ece0c6" stroke="#967e59"/>
+    <text x="34" y="33" font-family="Georgia,serif" font-size="9" fill="#65523a">ATHENS · ACROPOLIS</text>
+    <use href="#temple" x="91" y="84" transform="scale(.78) translate(26 24)"/>
+    <path d="M25 121q48-19 93-4t76 0v18H25z" fill="#91a09a" opacity=".7"/>
+    <path d="M22 140h166m-160 5h151" stroke="#8c7754" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M230 13l54-4 46 5 49-4 7 33-5 31 5 35-7 37-43-3-49 5-51-5-8-31 4-35-5-34z" fill="#e5d4b2" stroke="#907751"/>
+    <text x="246" y="31" font-family="Georgia,serif" font-size="9" fill="#665038">EGYPT · THE NILE</text>
+    <use href="#pyramid" x="287" y="98" transform="scale(.62) translate(177 59)"/>
+    <use href="#pyramid" x="344" y="102" transform="scale(.49) translate(358 106)"/>
+    <path d="M243 130q41-23 83-9t62-3v13H243z" fill="#b18e5d"/>
+    <text x="244" y="51" font-family="Georgia,serif" font-size="8" fill="#665038">CAIRO · GIZA · ALEXANDRIA</text>
+    <text x="246" y="63" font-family="Georgia,serif" font-size="8" fill="#665038">ROSETTA · ISLAM · PAPYRUS</text>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M481 15l42-4 47 5 42-4 5 33-4 34 4 37-7 39-41-4-45 5-45-4-6-32 4-35-5-34z" fill="#e8dcc2" stroke="#98805b"/>
+    <text x="498" y="33" font-family="Georgia,serif" font-size="9" fill="#5d4932">AGE OF SAIL · 1500</text>
+    <path d="M498 119q35-12 72-3t43-4v17h-115z" fill="#66828a"/>
+    <use href="#ship" x="552" y="91" transform="scale(.54) translate(471 73)"/>
+    <path d="M500 48h114m-108 5h99m-101 5h105" stroke="#917a59" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M691 13l49-4 48 5 42-4 5 31-4 39 5 38-7 37-48-3-44 5-49-5-8-29 6-40-5-31z" fill="#e7d8b7" stroke="#907852"/>
+    <text x="708" y="32" font-family="Georgia,serif" font-size="9" fill="#644d35">A TIMELINE OF CIVILIZATIONS</text>
+    <path d="M712 53h140m-133 7h123m-128 7h136m-129 7h117m-115 7h133" stroke="#806a4c" stroke-width="1.1"/>
+    <circle cx="720" cy="106" r="5" fill="#9e5947"/><circle cx="765" cy="106" r="5" fill="#8b754d"/>
+    <circle cx="811" cy="106" r="5" fill="#66828a"/><path d="M720 106h91" stroke="#826b4c" stroke-width="1.5"/>
+    <text x="705" y="130" font-family="serif" font-size="8" font-style="italic" fill="#634e37">stories, people, change</text>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M15 184l44-4 43 5 49-4 5 37-4 36 4 38-7 33-42-3-44 5-49-4-8-31 5-37-5-33z" fill="#e9ddc3" stroke="#967f5a"/>
+    <text x="31" y="202" font-family="Georgia,serif" font-size="9" fill="#634d34">COLONIAL VILLAGE</text>
+    <path d="M27 273h151v15H27z" fill="#99815c"/>
+    <path d="M34 255l26-24 27 24v18H34zm42 0 26-24 28 24v18H76zm45 0 24-24 26 24v18h-50z" fill="#ad7450" stroke="#70583b" stroke-width="2"/>
+    <path d="M45 259h9v14h-9m33-14h9v14h-9m40-14h9v14h-9m32-14h9v14h-9" stroke="#ead8b6" stroke-width="2"/>
+    <path d="M26 291q47-12 83 0t73 0" fill="none" stroke="#76816a" stroke-width="4"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M686 192l47-4 44 5 45-4 5 33-4 37 4 34-7 39-44-4-47 5-45-5-8-29 5-39-5-32z" fill="#e8dcc1" stroke="#927c58"/>
+    <text x="704" y="212" font-family="Georgia,serif" font-size="9" fill="#624d36">ROMAN MOSAIC · c. 200</text>
+    <use href="#mosaic" x="761" y="268"/>
+    <path d="M702 310h112m-107 5h99" stroke="#907a58" stroke-width="1"/>
+    <path d="M701 224l10 13m0-13-10 13m105-13 10 13m0-13-10 13" stroke="#af925e" stroke-width="1.5"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M209 177l45-4 45 5 44-4 5 32-5 35 4 40-7 32-41-4-48 5-43-5-7-30 5-37-5-33z" fill="#eadfc7" stroke="#9a825d"/>
+    <text x="228" y="196" font-family="Georgia,serif" font-size="9" fill="#604a33">CHRONICLES · AGES PAST</text>
+    <path d="M227 207h135m-129 6h126m-131 6h137m-132 6h121m-119 6h132m-130 6h106m-103 6h128m-125 6h117m-114 6h125" stroke="#7f694c" stroke-width="1.1"/>
+    <text x="228" y="271" font-family="serif" font-size="8" font-style="italic" fill="#685239">Empires rise, peoples travel, ideas move.</text>
+    <text x="228" y="284" font-family="serif" font-size="8" fill="#685239">History remembers many voices.</text>
+  </g>
+
+  <g opacity=".92">
+    <use href="#column" x="110" y="396" transform="scale(.7) translate(47 170)"/>
+    <use href="#column" x="158" y="398" transform="scale(.56) translate(124 312)"/>
+    <path d="M44 449q36-24 77-2t79 0" fill="none" stroke="#77816a" stroke-width="4"/>
+    <path d="M68 446l-4-42 23-22 22 22-4 42zm39 0 2-53 31-27 29 27 2 53" fill="#ad8351" stroke="#70573b" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M348 327l51-4 55 5 48-4 6 37-5 34 4 38-8 37-46-3-53 5-51-5-8-31 5-39-5-33z" fill="#e6d8b9" stroke="#947c57"/>
+    <text x="367" y="349" font-family="Georgia,serif" font-size="9" fill="#614c34">DIPLOMACY · COUNCIL</text>
+    <use href="#diplomats" x="424" y="389" transform="scale(.78) translate(120 109)"/>
+    <path d="M366 423h135m-129 6h124" stroke="#88714f" stroke-width="1"/>
+  </g>
+
+  <g opacity=".9">
+    <use href="#soldier" x="243" y="442" transform="scale(.85) translate(43 78)"/>
+    <use href="#soldier" x="295" y="438" transform="scale(.7) translate(126 188)"/>
+    <use href="#soldier" x="565" y="429" transform="scale(.86) translate(76 69)"/>
+    <use href="#soldier" x="622" y="435" transform="scale(.68) translate(292 205)"/>
+    <path d="M201 495q45-17 91 0t87 0m-113 12q54-12 108 0m144-9q40-15 80 0" fill="none" stroke="#7b715d" stroke-width="2"/>
+    <path d="M208 481v-52l23 10v42m367-8v-52l25 9v48" fill="none" stroke="#765d3c" stroke-width="2"/>
+    <path d="M231 439l-18-12 19-8 17 8zm369-11-18-12 20-9 18 8z" fill="#a25142" stroke="#654932"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M18 518l42-4 46 5 46-4 4 33-5 39 4 37-8 33-42-4-44 5-43-5-8-29 5-39-5-33z" fill="#eadfc6" stroke="#9a825d"/>
+    <text x="34" y="540" font-family="Georgia,serif" font-size="9" fill="#604b35">ROUTES &amp; VOYAGES</text>
+    <path d="M36 602q52-42 107-2t-7-39" fill="none" stroke="#68818a" stroke-width="2" stroke-dasharray="4 4"/>
+    <use href="#ship" x="97" y="587" transform="scale(.46) translate(114 689)"/>
+    <circle cx="43" cy="570" r="5" fill="#a85b45"/><circle cx="145" cy="575" r="5" fill="#8c774d"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M711 422l44-4 48 5 45-4 5 34-5 39 5 43-7 35-43-3-48 5-41-5-8-31 5-37-5-35z" fill="#e7d9bb" stroke="#917954"/>
+    <text x="727" y="445" font-family="Georgia,serif" font-size="9" fill="#604a33">ACROPOLIS AT SUNSET</text>
+    <rect x="729" y="452" width="102" height="76" fill="#88919a" opacity=".7"/>
+    <path d="M729 497q26-31 52-20t50-10v61H729z" fill="#c4784e"/>
+    <circle cx="810" cy="468" r="11" fill="#e3b76a"/>
+    <use href="#temple" x="779" y="501" transform="scale(.4) translate(1169 752)"/>
+    <path d="M731 531h99" stroke="#f1e2c4" stroke-width="2"/>
+  </g>
+
+  <g fill="#624d36" font-family="Georgia,serif" font-style="italic" opacity=".78">
+    <text x="190" y="162" font-size="10" transform="rotate(-4 190 162)">archives · memory · time</text>
+    <text x="553" y="176" font-size="10" transform="rotate(3 553 176)">across the sea</text>
+    <text x="331" y="317" font-size="10" transform="rotate(-3 331 317)">voices from the past</text>
+    <text x="490" y="592" font-size="10" transform="rotate(3 490 592)">a living timeline</text>
+    <text x="363" y="667" font-size="9" transform="rotate(-2 363 667)">CIVILIZATIONS · MIGRATIONS · IDEAS</text>
+  </g>
+</svg>

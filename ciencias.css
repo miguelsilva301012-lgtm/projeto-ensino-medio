@@ -1,0 +1,143 @@
+body.science-page {
+  color: #f6f2e7;
+  background-color: #17191b;
+  background-image:
+    linear-gradient(rgba(14, 16, 18, 0.48), rgba(14, 16, 18, 0.48)),
+    url("assets/fundo-ciencias.svg");
+  background-repeat: repeat;
+  background-size: auto, 640px 480px;
+  background-attachment: fixed;
+}
+
+.science-page .topbar {
+  background: rgba(15, 17, 19, 0.94);
+  border-bottom: 1px solid rgba(245, 241, 227, 0.22);
+}
+
+.science-page .brand,
+.science-page .nav-links a {
+  color: #f6f2e7;
+}
+
+.science-page .nav-links a:hover,
+.science-page .nav-links a:focus-visible {
+  color: #baf56c;
+}
+
+.science-page .section-heading,
+.science-page .subject-intro,
+.science-page .lesson-card,
+.science-page .challenge-panel {
+  color: #f6f2e7;
+  background: rgba(18, 20, 22, 0.92);
+  border: 1px solid rgba(246, 242, 231, 0.28);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+
+.science-page .section-heading h2,
+.science-page .subject-intro h3,
+.science-page .lesson-card h3,
+.science-page .challenge-panel h3,
+.science-page .activity-summary-label {
+  color: #fffdf5;
+}
+
+.science-page .eyebrow {
+  color: #baf56c;
+}
+
+.science-page .subject-intro p,
+.science-page .lesson-card p,
+.science-page .activity-instructions,
+.science-page .activity-status {
+  color: #e3e0d7;
+}
+
+.science-page .lesson-link {
+  color: #9ddcff;
+}
+
+.science-page .lesson-link:hover,
+.science-page .lesson-link:focus-visible {
+  color: #f7bd68;
+}
+
+.science-page .activity-summary {
+  color: #fffdf5;
+}
+
+.science-page .activity-summary:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.science-page .summary-action {
+  color: #17191b;
+  background: #baf56c;
+}
+
+.science-page .answer-btn {
+  color: #fffdf5;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(246, 242, 231, 0.32);
+}
+
+.science-page .answer-btn:not(:disabled):hover,
+.science-page .answer-btn:focus-visible {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: #baf56c;
+}
+
+.science-page .answer-btn.correct {
+  color: #eaffda;
+  background: rgba(53, 118, 49, 0.72);
+}
+
+.science-page .answer-btn.wrong {
+  color: #ffe3dc;
+  background: rgba(143, 53, 43, 0.72);
+}
+
+.science-page .primary-btn,
+.science-page .back-link {
+  color: #baf56c;
+}
+
+.science-page .primary-btn {
+  background: #253820;
+  border-color: #baf56c;
+}
+
+.science-page .back-link:hover,
+.science-page .back-link:focus-visible {
+  color: #f7bd68;
+}
+
+:root[data-theme="dark"] body.science-page {
+  background-color: #17191b;
+  background-image:
+    linear-gradient(rgba(14, 16, 18, 0.48), rgba(14, 16, 18, 0.48)),
+    url("assets/fundo-ciencias.svg");
+}
+
+:root[data-theme="dark"] body.science-page .answer-btn {
+  color: #fffdf5;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(246, 242, 231, 0.32);
+}
+
+:root[data-theme="dark"] body.science-page .answer-btn.correct {
+  color: #eaffda;
+  background: rgba(53, 118, 49, 0.72);
+}
+
+:root[data-theme="dark"] body.science-page .answer-btn.wrong {
+  color: #ffe3dc;
+  background: rgba(143, 53, 43, 0.72);
+}
+
+@media (max-width: 700px) {
+  body.science-page {
+    background-attachment: scroll;
+    background-size: auto, 480px 360px;
+  }
+}

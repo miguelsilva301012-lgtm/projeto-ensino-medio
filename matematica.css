@@ -1,0 +1,193 @@
+body.math-page {
+  min-height: 100vh;
+  color: #f2f0e9;
+  background-color: #141618;
+  background-image:
+    linear-gradient(rgba(14, 16, 18, 0.12), rgba(14, 16, 18, 0.12)),
+    url("assets/fundo-matematica.svg");
+  background-repeat: repeat;
+  background-size: auto, 900px 690px;
+  background-attachment: fixed;
+}
+
+.math-page .topbar {
+  background: rgba(17, 19, 21, 0.96);
+  border-bottom: 1px solid rgba(242, 240, 233, 0.2);
+}
+
+.math-page .brand,
+.math-page .nav-links a {
+  color: #f2f0e9;
+}
+
+.math-page .brand-mark {
+  color: #17191b;
+  background: linear-gradient(135deg, #f5f2e8, #cfcfc9);
+}
+
+.math-page .nav-links a:hover,
+.math-page .nav-links a:focus-visible {
+  color: #fff;
+}
+
+.math-page .section-heading,
+.math-page .subject-intro,
+.math-page .lesson-card,
+.math-page .challenge-panel {
+  color: #f4f2ec;
+  background-color: rgba(19, 21, 23, 0.94);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+  background-size: 24px 24px;
+  border: 1px solid rgba(245, 244, 236, 0.38);
+  border-radius: 3px;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.42);
+}
+
+.math-page .section-heading {
+  border-top: 3px solid rgba(255, 255, 255, 0.72);
+}
+
+.math-page .section-heading h2,
+.math-page .subject-intro h3,
+.math-page .lesson-card h3,
+.math-page .challenge-panel h3,
+.math-page .activity-summary-label {
+  color: #fff;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.14);
+}
+
+.math-page .eyebrow {
+  color: #f0eee7;
+}
+
+.math-page .subject-intro p,
+.math-page .lesson-card p,
+.math-page .activity-instructions,
+.math-page .activity-status {
+  color: #e3e2dc;
+}
+
+.math-page .lesson-link {
+  color: #181a1c;
+  background: #eeeDE6;
+  border: 1px solid #fff;
+}
+
+.math-page .lesson-link:hover,
+.math-page .lesson-link:focus-visible {
+  color: #080909;
+  background: #fff;
+}
+
+.math-page .back-link {
+  color: #f1efe8;
+}
+
+.math-page .back-link:hover,
+.math-page .back-link:focus-visible {
+  color: #fff;
+}
+
+.math-page .activity-summary {
+  color: #fff;
+}
+
+.math-page .activity-summary:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.math-page .summary-action {
+  color: #141618;
+  background: #f1efe8;
+}
+
+.math-page .answer-btn {
+  color: #f6f5ef;
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(245, 244, 236, 0.42);
+}
+
+.math-page .answer-btn:not(:disabled):hover,
+.math-page .answer-btn:focus-visible {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #fff;
+}
+
+.math-page .answer-btn.correct {
+  color: #fff;
+  background: rgba(220, 220, 214, 0.22);
+  border-color: #fff;
+}
+
+.math-page .answer-btn.wrong {
+  color: #fff;
+  background: rgba(110, 110, 110, 0.33);
+  border-color: #c5c5c0;
+}
+
+.math-page .primary-btn {
+  color: #17191b;
+  background: #f1efe8;
+  border-color: #fff;
+}
+
+.math-page .primary-btn:hover {
+  background: #fff;
+}
+
+:root[data-theme="dark"] body.math-page {
+  color: #f2f0e9;
+  background-color: #141618;
+  background-image:
+    linear-gradient(rgba(14, 16, 18, 0.12), rgba(14, 16, 18, 0.12)),
+    url("assets/fundo-matematica.svg");
+}
+
+:root[data-theme="dark"] body.math-page .topbar {
+  background: rgba(17, 19, 21, 0.96);
+}
+
+:root[data-theme="dark"] body.math-page .nav-links,
+:root[data-theme="dark"] body.math-page .section-heading,
+:root[data-theme="dark"] body.math-page .subject-intro,
+:root[data-theme="dark"] body.math-page .lesson-card,
+:root[data-theme="dark"] body.math-page .challenge-panel,
+:root[data-theme="dark"] body.math-page .answer-btn {
+  color: #f4f2ec;
+  background-color: rgba(19, 21, 23, 0.94);
+  border-color: rgba(245, 244, 236, 0.38);
+}
+
+:root[data-theme="dark"] body.math-page .section-heading h2,
+:root[data-theme="dark"] body.math-page .subject-intro h3,
+:root[data-theme="dark"] body.math-page .lesson-card h3,
+:root[data-theme="dark"] body.math-page .challenge-panel h3,
+:root[data-theme="dark"] body.math-page .activity-summary-label,
+:root[data-theme="dark"] body.math-page .subject-intro p,
+:root[data-theme="dark"] body.math-page .lesson-card p,
+:root[data-theme="dark"] body.math-page .activity-instructions,
+:root[data-theme="dark"] body.math-page .activity-status {
+  color: #f4f2ec;
+}
+
+:root[data-theme="dark"] body.math-page .answer-btn.correct,
+:root[data-theme="dark"] body.math-page .answer-btn.wrong {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="dark"] body.math-page .lesson-link,
+:root[data-theme="dark"] body.math-page .primary-btn {
+  color: #181a1c;
+  background: #eeeDE6;
+}
+
+@media (max-width: 700px) {
+  body.math-page {
+    background-attachment: scroll;
+    background-size: auto, 650px 500px;
+  }
+}

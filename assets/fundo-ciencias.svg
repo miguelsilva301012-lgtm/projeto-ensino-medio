@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+  <defs>
+    <pattern id="chalk-grain" width="37" height="31" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="8" r="0.8" fill="#fff" opacity=".14"/>
+      <circle cx="23" cy="25" r="0.65" fill="#fff" opacity=".11"/>
+      <path d="M12 3l4-.7M29 12l3 .6M3 27l3-.5" stroke="#fff" stroke-width=".7" opacity=".1"/>
+    </pattern>
+    <g id="atom" fill="none" stroke="#e9d37c" stroke-width="2.4" stroke-linecap="round">
+      <ellipse rx="37" ry="13" transform="rotate(28)"/>
+      <ellipse rx="37" ry="13" transform="rotate(-34)"/>
+      <ellipse rx="37" ry="13" transform="rotate(90)"/>
+      <circle r="5" fill="#ff9b57" stroke="#ffd16c"/>
+      <circle cx="34" cy="-13" r="4" fill="#8edcf2" stroke="#8edcf2"/>
+      <circle cx="-12" cy="-35" r="4" fill="#bbef69" stroke="#bbef69"/>
+      <circle cx="-30" cy="20" r="3.5" fill="#f77cbb" stroke="#f77cbb"/>
+    </g>
+    <g id="flask" stroke="#f4f1e8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-8-28h16M-5-28v14L-21 17q-3 7 5 8h32q8-1 5-8L5-14v-14" fill="none"/>
+      <path d="M-15 9q14 5 30 0l7 12q1 3-4 3h-36q-5 0-4-4z" fill="currentColor" opacity=".72" stroke="none"/>
+      <path d="M-15 9q14 5 30 0" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M-11 16h4m18-5 3 1" stroke="#fff" stroke-width="1"/>
+    </g>
+    <g id="test-tube" stroke="#f4f1e8" stroke-width="2" stroke-linecap="round">
+      <path d="M-6-21h12M-4-21v34a6 6 0 0012 0v-34" fill="none"/>
+      <path d="M-3 3h6v10a3 3 0 01-6 0z" fill="#a5ee62" opacity=".82" stroke="none"/>
+    </g>
+    <g id="molecule" fill="none" stroke="#b7eaf4" stroke-width="2" stroke-linecap="round">
+      <path d="M0-16l15-8 14 9v17l-14 8L0 2z"/>
+      <path d="M4-13l10-6m12 10v13M3 2l11 6"/>
+      <circle cy="-16" r="3.5" fill="#ffb45b"/><circle cx="15" cy="-24" r="3.5" fill="#bbef69"/>
+      <circle cx="29" cy="-15" r="3.5" fill="#f77cbb"/><circle cx="29" cy="2" r="3.5" fill="#ffb45b"/>
+      <circle cx="15" cy="10" r="3.5" fill="#bbef69"/><circle cy="2" r="3.5" fill="#f77cbb"/>
+    </g>
+    <g id="microscope" fill="none" stroke="#f4f1e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-13-27l12-7 8 14-12 7zM0-17l11 19M7-2l-8 10M11 2q-2 16-18 16h-7M-19 25h42M4 10q9 4 11 12"/>
+      <path d="M-6-31l6-4m9 19 4-2m-24 31h8" stroke="#ffad58"/>
+      <circle cx="12" cy="2" r="3" fill="#a9ec62" stroke="#a9ec62"/>
+    </g>
+    <g id="planet" stroke="#e8edf0" stroke-width="2" fill="none">
+      <circle r="20" fill="#267bab" stroke="#75c8ed"/>
+      <path d="M-15-7q9 5 26-2M-14 7q10-6 28 3M-4-19q-5 18 2 38" stroke="#9be1f5" opacity=".8"/>
+      <ellipse rx="31" ry="8" transform="rotate(-20)" stroke="#ffad58"/>
+      <path d="M-18-8q12 3 24-2" stroke="#f3cc69" opacity=".75"/>
+    </g>
+  </defs>
+  <rect width="640" height="480" fill="#1b1d1f"/>
+  <rect width="640" height="480" fill="url(#chalk-grain)"/>
+  <g opacity=".94" stroke="#f2efe4" fill="none" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 90q14-9 28 0t28 0M103 70l15-10 17 10-2 18-17 7-13-11z"/>
+    <path d="M113 72l14-1m-19 15 10-7m18-7 1 12" stroke="#e4cc78"/>
+    <path d="M388 76h20m-12-7v14m-22 19 24-8 24 7m-5-13 10 6-10 7"/>
+    <path d="M530 114q11-5 19 0t18 0M552 128l12 4m-7-9 6-6"/>
+    <path d="M218 203q18-14 36 0t35 0m-57 14 8 4m18-5 9 5m15-6 9 4"/>
+    <path d="M426 235l23-13 22 12-1 26-23 12-22-13z"/>
+    <path d="M431 239l17-10m19 9v17m-37 2 17 10" stroke="#baf56c"/>
+    <path d="M53 358q19-10 37 0t37 0M77 374l4-13 6 13 5-13"/>
+    <path d="M350 362h46m-23-9v18m-39 12 18-7m8 8 17-7"/>
+    <path d="M505 389q17-11 34 0t33 0m-60 15h25m-10-6v13"/>
+    <path d="M267 39l10 3m-7-9 10 2m-3-10 8 3"/>
+    <path d="M180 430q13-7 25 0t24 0m-10 14 8-16 7 16"/>
+  </g>
+  <g opacity=".96">
+    <use href="#atom" x="81" y="157"/>
+    <use href="#atom" x="535" y="300"/>
+    <use href="#flask" x="242" y="116"/>
+    <use href="#flask" x="462" y="129" style="color:#a9ec62" transform="rotate(8 462 129)"/>
+    <use href="#test-tube" x="301" y="111" transform="rotate(-9 301 111)"/>
+    <use href="#test-tube" x="326" y="115" transform="rotate(8 326 115)"/>
+    <use href="#microscope" x="167" y="280"/>
+    <use href="#molecule" x="380" y="174"/>
+    <use href="#molecule" x="253" y="397" transform="rotate(-12 253 397)"/>
+    <use href="#planet" x="566" y="65"/>
+    <use href="#planet" x="117" y="433" transform="scale(.8) translate(30 108)"/>
+    <use href="#flask" x="35" y="270" style="color:#ff665f" transform="rotate(-7 35 270) scale(.83)"/>
+    <use href="#test-tube" x="618" y="203" transform="rotate(10 618 203)"/>
+  </g>
+  <g fill="#eee9dc" font-family="cursive" font-size="15" font-style="italic" opacity=".7">
+    <text x="22" y="43" transform="rotate(-7 22 43)">H₂O + energia → vapor</text>
+    <text x="415" y="46" transform="rotate(4 415 46)">F = m · a</text>
+    <text x="26" y="228" transform="rotate(-5 26 228)">C   H   O</text>
+    <text x="294" y="270" transform="rotate(5 294 270)">observação + hipótese</text>
+    <text x="459" y="335" transform="rotate(-6 459 335)">NaCl • CO₂ • O₂</text>
+    <text x="177" y="331" transform="rotate(7 177 331)">curiosidade = descoberta</text>
+    <text x="377" y="440" transform="rotate(-4 377 440)">3, 2, 1... experimente!</text>
+    <text x="20" y="467" transform="rotate(-4 20 467)">HC   C   H</text>
+  </g>
+</svg>

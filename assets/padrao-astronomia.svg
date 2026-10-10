@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="night" cx=".52" cy=".48" r=".77">
+      <stop stop-color="#18233c"/>
+      <stop offset=".58" stop-color="#0c1326"/>
+      <stop offset="1" stop-color="#050914"/>
+    </radialGradient>
+    <radialGradient id="galaxy">
+      <stop stop-color="#d1d7e8" stop-opacity=".64"/>
+      <stop offset=".28" stop-color="#887da9" stop-opacity=".38"/>
+      <stop offset=".72" stop-color="#a56874" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#12152c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="stars" width="173" height="137" patternUnits="userSpaceOnUse">
+      <circle cx="14" cy="18" r=".8" fill="#fff0cf" opacity=".83"/>
+      <circle cx="52" cy="40" r=".6" fill="#dbe9ff" opacity=".8"/>
+      <circle cx="96" cy="15" r="1" fill="#f5dcb3" opacity=".72"/>
+      <circle cx="149" cy="33" r=".7" fill="#d5dff4" opacity=".75"/>
+      <circle cx="31" cy="104" r=".55" fill="#fff8e9" opacity=".84"/>
+      <circle cx="78" cy="78" r=".7" fill="#e3cfbc" opacity=".72"/>
+      <circle cx="128" cy="113" r=".9" fill="#d7d9f1" opacity=".77"/>
+      <circle cx="164" cy="83" r=".55" fill="#fff5dc" opacity=".75"/>
+      <circle cx="104" cy="129" r=".5" fill="#fff" opacity=".7"/>
+      <path d="M50 40l20 12 8 26 18-63m33 98 14-30 21-20" fill="none" stroke="#b1bfdf" stroke-width=".55" opacity=".15"/>
+      <circle cx="78" cy="78" r="1.8" fill="#fff7dd" opacity=".48"/>
+    </pattern>
+    <filter id="soft-cloud" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="23"/>
+    </filter>
+    <g id="dust">
+      <path d="M-156 9q65-55 146-20 75 33 160-2l23 54q-99 40-184 1-79-35-130 25z" fill="#19191f" opacity=".74"/>
+      <path d="M-139 30q72-50 135-16m49 21q56 29 123-3" fill="none" stroke="#b19068" stroke-width="8" opacity=".16"/>
+      <path d="M-127 54q59-32 111-12m63 24q57 21 116-1" fill="none" stroke="#dfc39a" stroke-width="3" opacity=".14"/>
+    </g>
+  </defs>
+  <rect width="800" height="600" fill="url(#night)"/>
+  <path d="M-110 481Q96 354 244 316T523 164Q660 96 903 15" fill="none" stroke="#a59aba" stroke-width="212" opacity=".27" filter="url(#soft-cloud)"/>
+  <path d="M-100 481Q96 354 244 316T523 164Q660 96 903 15" fill="none" stroke="url(#galaxy)" stroke-width="143" opacity=".92"/>
+  <path d="M-71 459Q106 361 258 309T535 153Q694 68 867 32" fill="none" stroke="#d9d2df" stroke-width="35" opacity=".12" filter="url(#soft-cloud)"/>
+  <path d="M-156 9q65-55 146-20 75 33 160-2l23 54q-99 40-184 1-79-35-130 25z" fill="#17171e" opacity=".51" transform="translate(164 417) rotate(-27)"/>
+  <use href="#dust" transform="translate(399 287) rotate(-27) scale(1.33 1.04)"/>
+  <use href="#dust" transform="translate(636 158) rotate(-27) scale(.83 .8)"/>
+  <use href="#dust" transform="translate(148 410) rotate(-27) scale(.75 .66)"/>
+  <g fill="#df8cad" opacity=".5">
+    <circle cx="489" cy="244" r="3"/><circle cx="507" cy="232" r="1.7"/>
+    <circle cx="537" cy="196" r="2.2"/><circle cx="452" cy="271" r="1.8"/>
+    <circle cx="353" cy="319" r="1.6"/><circle cx="659" cy="125" r="2"/>
+  </g>
+  <g fill="#91b8ef" opacity=".53">
+    <circle cx="554" cy="205" r="2.2"/><circle cx="477" cy="259" r="1.5"/>
+    <circle cx="286" cy="349" r="2"/><circle cx="705" cy="79" r="1.7"/>
+  </g>
+  <rect width="800" height="600" fill="url(#stars)"/>
+</svg>

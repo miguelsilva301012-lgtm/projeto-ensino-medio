@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Organize seus estudos, encontre temas e acompanhe seu progresso." />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'"
+    />
+    <title>Meus estudos | Estuda em Casa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">EM</span>
+          <span>Estuda em Casa</span>
+        </div>
+        <nav class="nav-links" aria-label="Menu principal">
+          <a href="index.html">Início</a>
+          <a href="matematica.html">Matemática</a>
+          <a href="portugues.html">Português</a>
+          <a href="redacao-enem.html">Redação ENEM</a>
+          <a href="ciencias.html">Ciências</a>
+          <a href="historia.html">História</a>
+          <a href="historia-do-brasil.html">História do Brasil</a>
+          <a href="geografia.html">Geografia</a>
+          <a href="filosofia.html">Filosofia</a>
+          <a href="sociologia.html">Sociologia</a>
+          <a href="astronomia.html">Astronomia</a>
+          <a href="programacao-python.html">Programação Python</a>
+          <a href="politica.html">Política</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section study-hub">
+      <header class="section-heading">
+        <p class="eyebrow">Seu espaço de estudo</p>
+        <h1>Meus estudos</h1>
+        <p class="section-intro">Encontre um tema, retome de onde parou e organize seu próximo passo.</p>
+      </header>
+
+      <section class="study-dashboard" aria-labelledby="progress-heading">
+        <div class="study-section-heading">
+          <div>
+            <p class="eyebrow">Seu caminho</p>
+            <h2 id="progress-heading">Progresso e metas</h2>
+          </div>
+          <button class="ghost-btn theme-toggle" type="button" aria-pressed="false">Ativar modo escuro</button>
+        </div>
+        <div class="study-stats" aria-live="polite">
+          <article class="study-stat"><span class="study-stat-value" data-stat="minutes">0 min</span><span>tempo estudado neste navegador</span></article>
+          <article class="study-stat"><span class="study-stat-value" data-stat="completed">0</span><span>temas concluídos</span></article>
+          <article class="study-stat"><span class="study-stat-value" data-stat="streak">0 dias</span><span>sequência de estudo</span></article>
+          <article class="study-stat"><span class="study-stat-value" data-stat="mistakes">0</span><span>questões para revisar</span></article>
+        </div>
+        <label class="study-label" for="daily-goal">Meta diária de estudo (minutos)</label>
+        <div class="goal-controls">
+          <input id="daily-goal" type="number" min="5" max="300" step="5" value="25" />
+          <span class="goal-progress-label" aria-live="polite"></span>
+        </div>
+        <div class="study-progress-track" role="progressbar" aria-label="Progresso da meta diária">
+          <span class="study-progress-fill"></span>
+        </div>
+        <p class="study-feedback" role="status" aria-live="polite"></p>
+        <div class="achievement-row"></div>
+      </section>
+
+      <section class="study-section-card" aria-labelledby="catalog-heading">
+        <p class="eyebrow">Microaprendizado</p>
+        <h2 id="catalog-heading">Busque por matéria, tema ou nível</h2>
+        <div class="catalog-filters">
+          <label>Buscar tema ou conteúdo
+            <input class="catalog-search" type="search" placeholder="Ex.: porcentagem, interpretação, Lua..." />
+          </label>
+          <label>Matéria
+            <select class="catalog-subject"><option value="">Todas</option></select>
+          </label>
+          <label>Salvos
+            <select class="catalog-favorites">
+              <option value="">Todos os temas</option>
+              <option value="saved">Só favoritos</option>
+            </select>
+          </label>
+          <label>Nível
+            <select class="catalog-level">
+              <option value="">Todos</option>
+              <option value="1">Básico</option>
+              <option value="2">Intermediário</option>
+              <option value="3">Avançado</option>
+            </select>
+          </label>
+          <label>Formato
+            <select class="catalog-format">
+              <option value="">Todos</option>
+              <option value="texto">Texto curto</option>
+              <option value="video">Aula em vídeo</option>
+              <option value="audio">Áudio</option>
+              <option value="pdf">PDF para salvar</option>
+              <option value="infografico">Infográfico</option>
+              <option value="flashcard">Flashcards</option>
+            </select>
+          </label>
+        </div>
+        <p class="catalog-result-count" aria-live="polite"></p>
+        <div class="catalog-results" aria-live="polite"></div>
+      </section>
+
+      <section class="study-section-card" aria-labelledby="subject-progress-heading">
+        <p class="eyebrow">Uma matéria por vez</p>
+        <h2 id="subject-progress-heading">Progresso por matéria</h2>
+        <div class="subject-progress-list"></div>
+      </section>
+
+      <section class="study-section-card" aria-labelledby="study-tools-heading">
+        <p class="eyebrow">Para estudar no seu ritmo</p>
+        <h2 id="study-tools-heading">Ferramentas de estudo</h2>
+        <div class="study-tools-grid">
+          <article class="study-tool-card">
+            <h3>Revisão espaçada</h3>
+            <p>Revise cartões de pergunta e resposta e marque o que lembrou para espaçar a próxima revisão.</p>
+            <button class="primary-btn start-flashcards" type="button">Estudar flashcards</button>
+            <div class="flashcard-review" hidden></div>
+          </article>
+          <article class="study-tool-card">
+            <h3>Simulado misto</h3>
+            <p>Treine com dez questões de diferentes matérias e confira explicações no final.</p>
+            <button class="primary-btn start-mock-exam" type="button">Começar simulado</button>
+            <div class="mock-exam" hidden></div>
+          </article>
+          <article class="study-tool-card">
+            <h3>Timer Pomodoro</h3>
+            <p>Organize uma sessão de foco de 25 minutos e uma pausa curta.</p>
+            <div class="pomodoro-display" aria-live="polite">25:00</div>
+            <div class="tool-actions">
+              <button class="primary-btn pomodoro-start" type="button">Começar</button>
+              <button class="ghost-btn pomodoro-reset" type="button">Reiniciar</button>
+            </div>
+          </article>
+          <article class="study-tool-card">
+            <h3>Anotações</h3>
+            <label class="study-label" for="study-notes">Suas notas deste navegador</label>
+            <textarea id="study-notes" rows="5" placeholder="Registre uma dúvida, exemplo ou ideia importante..."></textarea>
+            <p class="tool-helper">As notas ficam neste navegador, sem conta e sem sincronização.</p>
+          </article>
+          <article class="study-tool-card">
+            <h3>Planner da semana</h3>
+            <label class="study-label" for="planner-date">Dia para estudar</label>
+            <input id="planner-date" type="date" />
+            <label class="study-label" for="planner-subject">Matéria</label>
+            <select id="planner-subject"></select>
+            <button class="primary-btn add-planner-item" type="button">Adicionar à agenda</button>
+            <ul class="planner-list" aria-live="polite"></ul>
+          </article>
+          <article class="study-tool-card">
+            <h3>Erros para revisar</h3>
+            <p>Questões que você errou em uma matéria aparecem aqui para facilitar a retomada.</p>
+            <button class="ghost-btn show-mistakes" type="button">Ver histórico de erros</button>
+            <div class="mistake-review" hidden></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>Projeto de apoio ao estudo do ensino médio.</p>
+        <p>Um pouco por dia já ajuda bastante.</p>
+      </div>
+    </footer>
+
+    <script src="atividade.js" defer></script>
+    <script src="estudos.js" defer></script>
+    <script src="support-chat.js" defer></script>
+  </body>
+</html>
