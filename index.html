@@ -13,8 +13,9 @@
       content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="inicio.css" />
   </head>
-  <body>
+  <body class="home-page">
     <header class="topbar">
       <div class="container nav">
         <div class="brand">
@@ -23,6 +24,7 @@
         </div>
         <nav class="nav-links" aria-label="Menu principal">
           <a href="#materias">Matérias</a>
+          <a href="meus-estudos.html">Meus estudos</a>
           <a href="#como-usar">Como usar</a>
         </nav>
       </div>
@@ -77,6 +79,13 @@
             <h3>Redação ENEM</h3>
             <p>Aprenda a planejar, argumentar e revisar sua redação passo a passo.</p>
             <span class="card-link">Acessar matéria <span aria-hidden="true">→</span></span>
+          </a>
+
+          <a class="subject-card study-hub-card" href="meus-estudos.html">
+            <span class="subject-tag">Progresso e planejamento</span>
+            <h3>Meus estudos</h3>
+            <p>Encontre temas, organize a semana e revise o que já aprendeu.</p>
+            <span class="card-link">Acessar meu espaço <span aria-hidden="true">→</span></span>
           </a>
 
           <a class="subject-card science" href="ciencias.html">
@@ -184,6 +193,8 @@
         <p>Um pouco por dia já ajuda bastante.</p>
       </div>
     </footer>
+    <script src="atividade.js" defer></script>
+    <script src="estudos.js" defer></script>
     <script src="support-chat.js" defer></script>
   </body>
 </html>

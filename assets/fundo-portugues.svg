@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="620" viewBox="0 0 760 620">
+  <defs>
+    <pattern id="paper-fiber" width="39" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="9" r="1" fill="#765a38" opacity=".13"/>
+      <circle cx="27" cy="25" r=".8" fill="#fff7df" opacity=".8"/>
+      <path d="M13 4l8-.8M2 28l5-.7M31 12l4 .8" stroke="#9c7d53" stroke-width=".8" opacity=".15"/>
+    </pattern>
+    <filter id="paper-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#493727" flood-opacity=".28"/>
+    </filter>
+    <clipPath id="word-person">
+      <path d="M369 205c-22 0-35 17-35 39 0 17 7 27 14 34l-2 18c-19 8-36 17-47 32l-18 76 35 10 13-39-5 106h105l-5-106 14 39 34-10-19-76c-10-15-28-24-47-32l-2-18c8-7 15-17 15-34 0-22-14-39-35-39z"/>
+    </clipPath>
+    <g id="rose" stroke="#785044" stroke-width="1.6" stroke-linecap="round">
+      <path d="M0 1q-8 16-4 32m3-17q-12-9-17-3 4 10 15 8m4 3q10-13 17-8-4 10-15 12" fill="none"/>
+      <path d="M-1 2q-13-4-10-15 6-10 15-4 11-9 17 1 5 10-7 18-9 7-15 0z" fill="#b77c78"/>
+      <path d="M-6-2q6-12 12-2 3 6-4 10-9-1-8-8z" fill="#d59b8f"/>
+    </g>
+    <g id="gear" fill="none" stroke="#96754d" stroke-width="3">
+      <circle r="19"/><circle r="7"/>
+      <path d="M0-28v8m0 40v8m28-28h-8m-40 0h-8m20-20 6 6m28 28 6 6m0-40-6 6m-28 28-6 6"/>
+    </g>
+    <g id="bird" stroke="#716049" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 7q12-15 29-5 12 8 3 20-9 12-23 4-9-5-9-19z" fill="#718078"/>
+      <path d="M7 8q13-7 22 5-10 0-15 11M27 5l10-5-5 10M-1 11l-8-4 4 9m10 11-2 8m11-7 2 8" fill="none"/>
+      <circle cx="22" cy="5" r="1.5" fill="#40372d" stroke="none"/>
+    </g>
+    <g id="music-note" fill="#72563a">
+      <path d="M0 0v23q-12-5-12 3t12 1V10l17-4v13q-12-5-12 3t12 1V0z"/>
+    </g>
+    <g id="flower-spray" fill="none" stroke="#6b7659" stroke-width="2">
+      <path d="M0 52q-3-28 12-49m-8 32q-13-10-18-7m20-10q10-13 17-11m-7 29q11-11 18-9"/>
+      <path d="M10 3q-7-12 3-16 8 6 0 15m8-4q8-10 14-2-4 8-14 5M-14 34q-8-9-14-3 4 9 15 7m25 2q10-9 16-2-4 9-15 7" fill="#9ca07c"/>
+      <circle cx="13" cy="-11" r="4" fill="#c78b86" stroke="#9d7166"/>
+      <circle cx="29" cy="0" r="3.5" fill="#d4b67c" stroke="#9d845b"/>
+    </g>
+    <g id="book-stack" stroke="#654b35" stroke-width="2" stroke-linejoin="round">
+      <path d="M0 33l120-7 13 29L11 64z" fill="#986f4d"/>
+      <path d="M11 38l108-6 6 18-106 7z" fill="#e7d5b1"/>
+      <path d="M17 12l112-11 7 30-115 8z" fill="#738075"/>
+      <path d="M24 16l99-9 4 20-100 9z" fill="#eaddc0"/>
+      <path d="M9-13l120 7-1 25-122-7z" fill="#a96356"/>
+      <path d="M18-8l101 6-1 11-101-6z" fill="#f0e1c1"/>
+      <path d="M31-12v25m-8 8v20m-5 11v-11m20-40q5 5 0 10" fill="none" stroke="#b9955e"/>
+    </g>
+    <g id="inkwell" stroke="#594334" stroke-width="2" stroke-linejoin="round">
+      <path d="M-18-8h36l-4 10 12 24q-2 9-10 10h-32q-9-1-10-10L-14 2z" fill="#81604b"/>
+      <path d="M-14 14q14 5 28 0l8 12q0 5-7 5h-30q-7-1-6-6z" fill="#4a382c"/>
+      <path d="M-21-12h42v8h-42z" fill="#b29165"/>
+      <path d="M-8-21h16v9H-8z" fill="#8a684c"/>
+    </g>
+    <g id="typewriter" stroke="#544435" stroke-width="2.4" stroke-linejoin="round">
+      <path d="M-74-24l12-13h105l17 13 10 72H-81z" fill="#718078"/>
+      <path d="M-48-45h91v30h-91z" fill="#e9ddc1"/>
+      <path d="M-39-38h72m-68 7h65m-61 7h52" stroke="#9a8566" stroke-width="1.4"/>
+      <path d="M-63 5h107l-8 35h-92z" fill="#b69a70"/>
+      <path d="M-53 12h13m8 0h13m8 0h13m8 0h13m8 0h13M-55 23h13m8 0h13m8 0h13m8 0h13m8 0h13M-45 33h13m8 0h13m8 0h13m8 0h13" stroke="#544435" stroke-width="3"/>
+      <path d="M-68-21h130" stroke="#c3a676"/>
+    </g>
+  </defs>
+  <rect width="760" height="620" fill="#cbb58a"/>
+  <rect width="760" height="620" fill="url(#paper-fiber)"/>
+  <path d="M0 0h760v620H0z" fill="#efe2c3" opacity=".13"/>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M14 17l49-4 37 3 36-3 31 5 56-2 6 31-4 28 3 27-6 46 4 27-35 2-29-3-43 4-36-5-36 3-30-3-5-25 4-29-5-34 5-30z" fill="#efe4cb" stroke="#a48b63"/>
+    <path d="M24 42h180m-179 11h177m-175 11h176m-180 11h177m-177 11h181" stroke="#9da5a0" stroke-width="1" opacity=".75"/>
+    <use href="#music-note" x="57" y="31" transform="scale(.58) translate(40 23)"/>
+    <use href="#music-note" x="146" y="41" transform="scale(.55) translate(119 34)"/>
+    <use href="#music-note" x="102" y="69" transform="scale(.48) translate(106 73)"/>
+    <path d="M30 95q25-17 62-4t64-2 45 8v42H31z" fill="#a9b091" opacity=".8"/>
+    <path d="M35 116l20-23 21 23v25H35z" fill="#a35f4b"/>
+    <path d="M32 116h49M52 92v-8h9v8m-12 38h10v12H49z" fill="#e5d2a9" stroke="#805b40" stroke-width="2"/>
+    <path d="M120 121q15-20 28-2l12 17h-41z" fill="#98704c" stroke="#664b35" stroke-width="2"/>
+    <path d="M123 121l-4-14 9 7m14 4 4-12 4 14" fill="#98704c" stroke="#664b35" stroke-width="2"/>
+    <circle cx="132" cy="119" r="2" fill="#40352b"/>
+    <path d="M91 116q7-16 16-2l-3 13 8 14H87l7-12z" fill="#738078"/>
+    <circle cx="99" cy="108" r="5" fill="#be9270"/>
+    <path d="M177 121q7-9 14 1l-7 8zM186 126l8 2-5 5m-6-4v10" fill="#c48679"/>
+    <text x="33" y="34" font-family="serif" font-size="9" fill="#746047">CANÇÕES DO CAMPO · CADERNO DE 1898</text>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M251 17l47-2 34 4 35-3 8 27-3 31 4 35-6 29-38-2-40 4-39-5-5-34 4-31-4-27z" fill="#e9d9b7" stroke="#9c8058"/>
+    <use href="#inkwell" x="286" y="67"/>
+    <path d="M271 105h30v13h-30z" fill="#e8d6ad" stroke="#866749"/>
+    <text x="274" y="115" font-family="Georgia,serif" font-size="9" font-weight="bold" fill="#4b382b">Ink</text>
+    <use href="#inkwell" x="341" y="68" transform="scale(.9) translate(37 8)"/>
+    <path d="M344 43q25-38 45-38-8 28-36 48m18-25-18 25m4-25 12 14" fill="#49372d" stroke="#322820" stroke-width="2"/>
+    <path d="M345 43q14-17 27-20" fill="none" stroke="#d7bd8b" stroke-width="1.5"/>
+    <path d="M263 128q35-6 69 0m-64 7h95" stroke="#a18a65" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M519 15l41 3 41-3 43 4 52-3 4 30-5 28 5 24-4 29-40-2-37 4-42-5-35 4-23-4-3-30 4-26-5-26z" fill="#f0e5ce" stroke="#a48b63"/>
+    <text x="535" y="39" font-family="Georgia,serif" font-size="12" fill="#6c5238">RECORTES &amp; PESQUISAS</text>
+    <path d="M534 47h148m-145 6h132m-136 6h141m-138 6h125m-126 6h137m-135 6h113m-115 6h136m-131 6h107" stroke="#8e795b" stroke-width="1.4" opacity=".75"/>
+    <text x="535" y="104" font-family="serif" font-size="9" font-style="italic" fill="#70563d">Mitologia: Atena e a arte das palavras...</text>
+    <text x="535" y="119" font-family="serif" font-size="9" font-style="italic" fill="#70563d">Astronomia: mapas antigos do céu noturno...</text>
+    <path d="M667 29l11 2-1 13-12-1zm5 3v8" fill="#a67b58"/>
+  </g>
+
+  <g opacity=".95">
+    <use href="#flower-spray" x="44" y="234"/>
+    <use href="#rose" x="62" y="287" transform="scale(.8) translate(15 65)"/>
+    <use href="#bird" x="89" y="209"/>
+    <use href="#bird" x="145" y="225" transform="scale(.78) translate(41 64)"/>
+    <path d="M73 223q40-15 80 9m-44-2q-5-20 7-34m16 38q12-14 23-17" fill="none" stroke="#70634d" stroke-width="2"/>
+    <path d="M109 201q-12-15-19-5 5 14 18 11m34 27q13-14 20-8-5 13-18 13" fill="#9b9d7c" stroke="#70634d" stroke-width="1.5"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M202 167l42-3 41 4 44-4 38 5 4 29-4 32 5 37-6 36-34-2-47 5-40-4-42 3-8-28 6-37-5-31z" fill="#eddfc2" stroke="#a28a64"/>
+    <text x="219" y="190" font-family="Georgia,serif" font-size="10" fill="#654d35">NOTAS DE LEITURA</text>
+    <path d="M216 199h135m-133 6h120m-124 6h132m-130 6h118m-117 6h129m-127 6h101m-100 6h132m-129 6h113m-112 6h118m-116 6h125" stroke="#907958" stroke-width="1.1" opacity=".76"/>
+    <text x="218" y="252" font-family="serif" font-size="9" font-style="italic" fill="#755b3e">“As palavras também guardam memórias.”</text>
+    <text x="218" y="269" font-family="serif" font-size="9" fill="#755b3e">Ler é viajar por ideias, tempos e lugares.</text>
+  </g>
+
+  <g clip-path="url(#word-person)" fill="#5f4b38" opacity=".95">
+    <rect x="260" y="194" width="240" height="300" fill="#6b5945"/>
+    <text x="275" y="227" font-family="cursive" font-size="10">palavra, leitura, lembrança e poesia</text>
+    <text x="275" y="243" font-family="cursive" font-size="10">cada frase abre caminhos no pensamento</text>
+    <text x="275" y="259" font-family="cursive" font-size="10">uma voz antiga atravessa o tempo</text>
+    <text x="275" y="275" font-family="cursive" font-size="10">a imaginação desenha outros mundos</text>
+    <text x="275" y="291" font-family="cursive" font-size="10">ler observar perguntar escrever sonhar</text>
+    <text x="275" y="307" font-family="cursive" font-size="10">mitos estrelas viagens e histórias</text>
+    <text x="275" y="323" font-family="cursive" font-size="10">o sentido nasce no encontro das palavras</text>
+    <text x="275" y="339" font-family="cursive" font-size="10">poesia memória linguagem e criação</text>
+    <text x="275" y="355" font-family="cursive" font-size="10">uma frase pode iluminar uma ideia</text>
+    <text x="275" y="371" font-family="cursive" font-size="10">escutar a voz do texto com cuidado</text>
+    <text x="275" y="387" font-family="cursive" font-size="10">perguntas abrem janelas na página</text>
+    <text x="275" y="403" font-family="cursive" font-size="10">palavra, leitura, lembrança e poesia</text>
+    <text x="275" y="419" font-family="cursive" font-size="10">cada frase abre caminhos no pensamento</text>
+    <text x="275" y="435" font-family="cursive" font-size="10">a imaginação desenha outros mundos</text>
+    <text x="275" y="451" font-family="cursive" font-size="10">ler observar perguntar escrever sonhar</text>
+  </g>
+  <path d="M369 205c-22 0-35 17-35 39 0 17 7 27 14 34l-2 18c-19 8-36 17-47 32l-18 76 35 10 13-39-5 106h105l-5-106 14 39 34-10-19-76c-10-15-28-24-47-32l-2-18c8-7 15-17 15-34 0-22-14-39-35-39z" fill="none" stroke="#41352a" stroke-width="3"/>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M493 215l40-4 45 5 48-4 50 5 3 32-5 29 4 31-5 32-47-3-41 5-47-4-41 2-7-31 6-34-5-29z" fill="#e9dec5" stroke="#a08a64"/>
+    <use href="#typewriter" x="581" y="271" transform="scale(.82) translate(128 61)"/>
+    <path d="M511 307q43-5 84 0m-79 7h72" stroke="#9e8864" stroke-width="1.2"/>
+    <text x="516" y="303" font-family="serif" font-size="9" fill="#72583d">UMA HISTÓRIA COMEÇA</text>
+    <use href="#flower-spray" x="516" y="220" transform="scale(.68) translate(242 102)"/>
+    <use href="#rose" x="660" y="224" transform="scale(.7) translate(283 96)"/>
+    <use href="#rose" x="654" y="323" transform="scale(.58) translate(472 236)"/>
+  </g>
+
+  <g opacity=".94">
+    <use href="#flower-spray" x="54" y="411" transform="rotate(-15 54 411)"/>
+    <path d="M64 484q9-51-12-76m9 39q-22-13-27-5m34-9q16-19 27-13" fill="none" stroke="#765d40" stroke-width="2"/>
+    <path d="M37 445q-11-17-20-7 4 17 19 14m51-16q15-17 23-7-5 15-20 17" fill="#a6a07b" stroke="#766144" stroke-width="1.5"/>
+    <path d="M29 493l20-13 22 5-13 19-23-1z" fill="#c7b17d" stroke="#806646" stroke-width="2"/>
+    <path d="M47 488l-5 11m13-12-5 14m12-15-5 15" stroke="#927b52" stroke-width="1.5"/>
+  </g>
+
+  <g transform="translate(628 416)" opacity=".9">
+    <use href="#gear" x="-23" y="-8"/>
+    <use href="#gear" x="22" y="27" transform="scale(.62) translate(14 16)"/>
+    <path d="M-9 5l39 38q7 8 0 15-7 6-13-1L-21 20q-8-9-2-16 6-7 14 1z" fill="#b28d58" stroke="#74583c" stroke-width="3"/>
+    <circle cx="-4" cy="14" r="5" fill="#d3be91" stroke="#74583c" stroke-width="2"/>
+    <path d="M29 57l13-12m-15 9 4 13m-12-18-8 11" stroke="#74583c" stroke-width="3"/>
+  </g>
+
+  <g filter="url(#paper-shadow)">
+    <path d="M95 526l37-4 44 4 2 27-6 29-72 2-8-27z" fill="#e7d8b8" stroke="#977b53"/>
+    <text x="108" y="543" font-family="serif" font-size="9" fill="#70553c">LEITURA &amp; MEMÓRIA</text>
+    <path d="M106 550h56m-53 5h50m-52 5h49m-43 5h44" stroke="#9c835f" stroke-width="1"/>
+    <text x="108" y="575" font-family="serif" font-size="8" font-style="italic" fill="#755b3e">céu · mito · palavra</text>
+  </g>
+
+  <use href="#book-stack" x="294" y="530" transform="rotate(-3 360 545)"/>
+  <g transform="translate(543 515)" filter="url(#paper-shadow)">
+    <path d="M-43-37l42-4 3 67q-24-14-46 2z" fill="#8c6e4d" stroke="#604832" stroke-width="2"/>
+    <path d="M-36-30l29-3m-28 9 28-3m-27 9 27-3m-28 9 28-3" stroke="#d6c29c" stroke-width="1.6"/>
+    <circle cx="0" cy="-9" r="39" fill="#ddc99f" stroke="#8f7049" stroke-width="4"/>
+    <circle cx="0" cy="-9" r="32" fill="none" stroke="#af8c58" stroke-width="1.5" stroke-dasharray="2 3"/>
+    <path d="M-19-5h38m-19-20v43m-13-34q-8 11 0 15 6 3 13-4 7 7 13 4 8-4 0-15m-26 26q13-10 26 0" fill="none" stroke="#72563a" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="-24" y="45" font-family="serif" font-size="8" fill="#71573a">JUSTIÇA · EQUILÍBRIO</text>
+  </g>
+
+  <g fill="#72563a" font-family="Georgia,serif" font-style="italic" opacity=".72">
+    <text x="416" y="390" font-size="10" transform="rotate(4 416 390)">“Linguagem é encontro.”</text>
+    <text x="408" y="407" font-size="9" transform="rotate(4 408 407)">ler · reler · interpretar · criar</text>
+    <text x="19" y="598" font-size="10" transform="rotate(-4 19 598)">ANOTAÇÕES DE UM LEITOR</text>
+    <text x="632" y="592" font-size="9" transform="rotate(4 632 592)">PÁGINAS VIVIDAS</text>
+  </g>
+</svg>

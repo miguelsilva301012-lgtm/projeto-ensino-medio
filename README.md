@@ -66,3 +66,27 @@ A página `redacao-enem.html` apresenta uma orientação passo a passo, as cinco
 uma checklist de revisão e um espaço de rascunho que não é enviado nem corrigido pelo site. Os
 links de aula abrem buscas no YouTube; confira a cartilha oficial do participante para os critérios
 do ano da prova.
+
+## Meus estudos
+
+A página `meus-estudos.html` reúne uma busca por matéria, tema, nível, formato e favoritos, além
+de progresso, meta diária, planner, anotações, revisão de erros, flashcards com revisão espaçada,
+simulado e timer Pomodoro. O tema escuro é opcional. O catálogo mostra até 24 materiais por vez;
+use **Mostrar mais** para carregar outros resultados.
+
+O progresso, as notas, os favoritos e os planos ficam apenas no armazenamento local do navegador
+em uso. Não há conta, sincronização ou envio dessas informações para um servidor. Os vídeos são
+buscas no YouTube, o áudio usa a leitura de voz disponível no navegador e a opção de PDF usa a
+impressão do próprio navegador.
+
+## Aparência de Ciências
+
+A página `ciencias.html` usa um papel de parede vetorial repetido com desenhos de giz, vidrarias,
+microscópios, átomos, planetas e fórmulas. Os painéis escuros translúcidos preservam a leitura do
+conteúdo e o padrão se adapta a telas menores.
+
+## Aparência das páginas
+
+A página `portugues.html` tem uma identidade de scrapbook em papel envelhecido, com livros,
+caligrafia, ilustrações botânicas e recortes. A página inicial usa uma paleta clara, colorida e
+quente; essas personalizações ficam limitadas às páginas correspondentes.
