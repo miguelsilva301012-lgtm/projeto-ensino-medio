@@ -24,6 +24,12 @@ Política aborda cidadania, democracia e instituições brasileiras sem promover
 candidaturas. História do Brasil dá espaço à diversidade de povos e experiências que formaram o
 país, incluindo povos indígenas, africanos e afro-brasileiros.
 
+## Ajuda e atendimento
+
+O botão **Ajuda e atendimento**, disponível nas páginas do site, abre uma conversa com a equipe pelo
+WhatsApp. O texto inicial informa a página em que a pessoa está; o WhatsApp só envia a mensagem
+depois que ela confirmar o envio. As mensagens são tratadas pelo WhatsApp, não pelo site.
+
 ## Como abrir no celular com HTTPS
 
 1. Na primeira configuração, gere o certificado local:
@@ -49,3 +55,6 @@ O certificado de CA local é usado apenas para o servidor deste projeto e fica n
 O site não tem cadastro, não pede senhas e não envia respostas para um servidor. A política de segurança de conteúdo (CSP) limita scripts, estilos e conexões aos arquivos locais. A versão HTTPS usa criptografia na rede Wi-Fi; instalar o certificado local no Android é o que permite ao navegador confiar nessa conexão e remover o aviso.
 
 Cada matéria também oferece uma busca por aula relacionada no YouTube antes da atividade. A busca abre em uma nova aba para você escolher o vídeo; o site não carrega o player nem se conecta ao YouTube automaticamente.
+
+O atendimento pelo WhatsApp é opcional: só abre quando a pessoa seleciona o botão, e a mensagem
+preparada não é enviada até que ela confirme no WhatsApp.
