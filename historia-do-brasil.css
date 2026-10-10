@@ -1,0 +1,255 @@
+body.brazil-history-page {
+  min-height: 100vh;
+  color: #42392b;
+  background-color: #8c9872;
+  background-image:
+    linear-gradient(rgba(26, 40, 26, 0.12), rgba(26, 40, 26, 0.12)),
+    url("assets/padrao-historia-brasil.svg");
+  background-repeat: repeat;
+  background-size: auto, 900px 700px;
+  background-attachment: fixed;
+}
+
+.brazil-history-page .topbar {
+  background: rgba(242, 232, 204, 0.96);
+  border-bottom: 1px solid rgba(75, 63, 37, 0.28);
+  box-shadow: 0 5px 17px rgba(43, 44, 29, 0.18);
+}
+
+.brazil-history-page .brand,
+.brazil-history-page .nav-links a {
+  color: #493b2d;
+}
+
+.brazil-history-page .brand-mark {
+  background: linear-gradient(135deg, #207c55, #f0ca56);
+}
+
+.brazil-history-page .nav-links a:hover,
+.brazil-history-page .nav-links a:focus-visible {
+  color: #a74836;
+}
+
+.brazil-history-page .section-heading,
+.brazil-history-page .culture-note,
+.brazil-history-page .subject-intro,
+.brazil-history-page .lesson-card,
+.brazil-history-page .challenge-panel {
+  position: relative;
+  isolation: isolate;
+  color: #47392b;
+  background: rgba(247, 239, 216, 0.96);
+  border: 1px solid rgba(101, 79, 47, 0.36);
+  border-radius: 5px 12px 4px 10px;
+  box-shadow: 0 12px 28px rgba(37, 42, 29, 0.22);
+}
+
+.brazil-history-page .subject-intro::before,
+.brazil-history-page .lesson-card::before,
+.brazil-history-page .challenge-panel::before {
+  position: absolute;
+  z-index: -1;
+  inset: -5px 6px 5px -5px;
+  content: "";
+  background: rgba(226, 211, 173, 0.97);
+  clip-path: polygon(1% 5%, 12% 3%, 22% 5%, 33% 2%, 46% 4%, 59% 2%, 73% 5%, 86% 2%, 99% 5%, 97% 18%, 100% 32%, 97% 48%, 99% 62%, 96% 78%, 99% 96%, 85% 98%, 71% 96%, 57% 99%, 43% 96%, 29% 99%, 15% 96%, 3% 99%, 4% 81%, 2% 65%, 5% 49%, 2% 33%, 5% 17%);
+  filter: drop-shadow(0 3px 2px rgba(48, 37, 28, 0.2));
+}
+
+.brazil-history-page .section-heading {
+  min-height: clamp(250px, 37vw, 355px);
+  padding: 2rem clamp(1.25rem, 4vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #558269;
+  background-image:
+    linear-gradient(180deg, rgba(22, 37, 30, 0.03) 8%, rgba(20, 35, 28, 0.08) 39%, rgba(28, 36, 27, 0.72) 100%),
+    url("assets/capa-historia-brasil.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(255, 242, 208, 0.68);
+  border-top: 4px solid #f2ce58;
+}
+
+.brazil-history-page .section-heading::before {
+  display: none;
+}
+
+.brazil-history-page .section-heading .eyebrow {
+  color: #fff3d4;
+  text-shadow: 0 2px 5px rgba(18, 26, 18, 0.75);
+}
+
+.brazil-history-page .section-heading h2 {
+  color: #161a13;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  font-weight: 900;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  -webkit-text-stroke: 1.5px #fff4d9;
+  text-shadow: 2px 3px 0 rgba(255, 255, 255, 0.75), 3px 5px 0 rgba(20, 31, 18, 0.55);
+}
+
+.brazil-history-page .culture-note {
+  width: min(900px, 100%);
+  margin: 0 auto 1.2rem;
+  padding: 1rem 1.2rem;
+  border-left: 5px solid #21835b;
+  line-height: 1.7;
+}
+
+.brazil-history-page .subject-intro h3,
+.brazil-history-page .lesson-card h3,
+.brazil-history-page .challenge-panel h3,
+.brazil-history-page .activity-summary-label {
+  color: #493a2b;
+}
+
+.brazil-history-page .eyebrow {
+  color: #26724d;
+}
+
+.brazil-history-page .subject-intro p,
+.brazil-history-page .lesson-card p,
+.brazil-history-page .activity-instructions,
+.brazil-history-page .activity-status {
+  color: #574936;
+}
+
+.brazil-history-page .lesson-link {
+  color: #fff8e9;
+  background: linear-gradient(135deg, #28794f, #4d9360);
+  border: 1px solid rgba(39, 84, 49, 0.28);
+}
+
+.brazil-history-page .lesson-link:hover,
+.brazil-history-page .lesson-link:focus-visible {
+  color: #fffdf7;
+  background: #1d603f;
+}
+
+.brazil-history-page .back-link {
+  color: #276343;
+}
+
+.brazil-history-page .back-link:hover,
+.brazil-history-page .back-link:focus-visible {
+  color: #9e4939;
+}
+
+.brazil-history-page .activity-summary {
+  color: #493a2b;
+}
+
+.brazil-history-page .activity-summary:hover {
+  background: rgba(57, 116, 70, 0.08);
+}
+
+.brazil-history-page .summary-action {
+  color: #fff8e9;
+  background: #28794f;
+}
+
+.brazil-history-page .answer-btn {
+  color: #493a2b;
+  background: rgba(255, 252, 240, 0.91);
+  border-color: rgba(105, 79, 51, 0.4);
+}
+
+.brazil-history-page .answer-btn:not(:disabled):hover,
+.brazil-history-page .answer-btn:focus-visible {
+  background: #e9ddbf;
+  border-color: #528353;
+}
+
+.brazil-history-page .answer-btn.correct {
+  color: #294333;
+  background: #dce8d4;
+}
+
+.brazil-history-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+.brazil-history-page .primary-btn {
+  color: #fff9eb;
+  background: #28794f;
+  border-color: #28794f;
+}
+
+.brazil-history-page .primary-btn:hover {
+  background: #1e603f;
+}
+
+:root[data-theme="dark"] body.brazil-history-page {
+  color: #42392b;
+  background-color: #8c9872;
+  background-image:
+    linear-gradient(rgba(26, 40, 26, 0.12), rgba(26, 40, 26, 0.12)),
+    url("assets/padrao-historia-brasil.svg");
+}
+
+:root[data-theme="dark"] body.brazil-history-page .topbar {
+  background: rgba(242, 232, 204, 0.96);
+}
+
+:root[data-theme="dark"] body.brazil-history-page .nav-links,
+:root[data-theme="dark"] body.brazil-history-page .culture-note,
+:root[data-theme="dark"] body.brazil-history-page .subject-intro,
+:root[data-theme="dark"] body.brazil-history-page .lesson-card,
+:root[data-theme="dark"] body.brazil-history-page .challenge-panel,
+:root[data-theme="dark"] body.brazil-history-page .answer-btn {
+  color: #47392b;
+  background-color: rgba(247, 239, 216, 0.96);
+  border-color: rgba(101, 79, 47, 0.36);
+}
+
+:root[data-theme="dark"] body.brazil-history-page .section-heading {
+  background-image:
+    linear-gradient(180deg, rgba(22, 37, 30, 0.03) 8%, rgba(20, 35, 28, 0.08) 39%, rgba(28, 36, 27, 0.72) 100%),
+    url("assets/capa-historia-brasil.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+:root[data-theme="dark"] body.brazil-history-page .section-heading h2 {
+  color: #161a13;
+}
+
+:root[data-theme="dark"] body.brazil-history-page .subject-intro h3,
+:root[data-theme="dark"] body.brazil-history-page .lesson-card h3,
+:root[data-theme="dark"] body.brazil-history-page .challenge-panel h3,
+:root[data-theme="dark"] body.brazil-history-page .activity-summary-label,
+:root[data-theme="dark"] body.brazil-history-page .subject-intro p,
+:root[data-theme="dark"] body.brazil-history-page .lesson-card p,
+:root[data-theme="dark"] body.brazil-history-page .activity-instructions,
+:root[data-theme="dark"] body.brazil-history-page .activity-status {
+  color: #493a2b;
+}
+
+:root[data-theme="dark"] body.brazil-history-page .answer-btn.correct {
+  color: #294333;
+  background: #dce8d4;
+}
+
+:root[data-theme="dark"] body.brazil-history-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+:root[data-theme="dark"] body.brazil-history-page .lesson-link {
+  color: #fff8e9;
+  background: linear-gradient(135deg, #28794f, #4d9360);
+}
+
+@media (max-width: 700px) {
+  body.brazil-history-page {
+    background-attachment: scroll;
+    background-size: auto, 620px 480px;
+  }
+}

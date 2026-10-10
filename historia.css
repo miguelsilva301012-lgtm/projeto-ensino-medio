@@ -1,0 +1,248 @@
+body.history-page {
+  min-height: 100vh;
+  color: #46382a;
+  background-color: #b9a37e;
+  background-image:
+    linear-gradient(rgba(235, 222, 194, 0.12), rgba(235, 222, 194, 0.12)),
+    url("assets/padrao-historia.svg");
+  background-repeat: repeat;
+  background-size: auto, 900px 700px;
+  background-attachment: fixed;
+}
+
+.history-page .topbar {
+  background: rgba(240, 229, 205, 0.96);
+  border-bottom: 1px solid rgba(88, 66, 43, 0.3);
+  box-shadow: 0 5px 16px rgba(53, 41, 31, 0.18);
+}
+
+.history-page .brand,
+.history-page .nav-links a {
+  color: #49392c;
+}
+
+.history-page .brand-mark {
+  background: linear-gradient(135deg, #8d704c, #c29a5f);
+}
+
+.history-page .nav-links a:hover,
+.history-page .nav-links a:focus-visible {
+  color: #8c4e46;
+}
+
+.history-page .section-heading,
+.history-page .subject-intro,
+.history-page .lesson-card,
+.history-page .challenge-panel {
+  position: relative;
+  isolation: isolate;
+  color: #44372b;
+  background: rgba(243, 233, 211, 0.96);
+  border: 1px solid rgba(91, 70, 48, 0.4);
+  border-radius: 4px 9px 5px 8px;
+  box-shadow: 0 12px 28px rgba(48, 37, 28, 0.24);
+}
+
+.history-page .section-heading::before,
+.history-page .subject-intro::before,
+.history-page .lesson-card::before,
+.history-page .challenge-panel::before {
+  position: absolute;
+  z-index: -1;
+  inset: -5px 6px 5px -5px;
+  content: "";
+  background: rgba(215, 198, 163, 0.97);
+  clip-path: polygon(1% 5%, 12% 3%, 22% 5%, 33% 2%, 46% 4%, 59% 2%, 73% 5%, 86% 2%, 99% 5%, 97% 18%, 100% 32%, 97% 48%, 99% 62%, 96% 78%, 99% 96%, 85% 98%, 71% 96%, 57% 99%, 43% 96%, 29% 99%, 15% 96%, 3% 99%, 4% 81%, 2% 65%, 5% 49%, 2% 33%, 5% 17%);
+  filter: drop-shadow(0 3px 2px rgba(48, 37, 28, 0.22));
+}
+
+.history-page .section-heading {
+  min-height: clamp(240px, 34vw, 330px);
+  padding: 2rem clamp(1.25rem, 4vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #87775f;
+  background-image:
+    linear-gradient(180deg, rgba(42, 34, 25, 0.05) 8%, rgba(43, 34, 24, 0.1) 39%, rgba(43, 34, 24, 0.68) 100%),
+    url("assets/capa-historia.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(249, 241, 222, 0.58);
+  border-top: 3px solid #e7d6b4;
+}
+
+.history-page .section-heading::before {
+  display: none;
+}
+
+.history-page .section-heading .eyebrow {
+  color: #fff4dd;
+  text-shadow: 0 2px 5px rgba(20, 16, 12, 0.7);
+}
+
+.history-page .section-heading h2 {
+  color: #171512;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(2.7rem, 7vw, 5rem);
+  font-weight: 900;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  -webkit-text-stroke: 1.5px #f8f3e7;
+  text-shadow: 2px 3px 0 rgba(255, 255, 255, 0.78), 3px 5px 0 rgba(33, 26, 19, 0.56);
+}
+
+.history-page .subject-intro h3,
+.history-page .lesson-card h3,
+.history-page .challenge-panel h3,
+.history-page .activity-summary-label {
+  color: #46372a;
+}
+
+.history-page .eyebrow {
+  color: #8c5848;
+}
+
+.history-page .subject-intro p,
+.history-page .lesson-card p,
+.history-page .activity-instructions,
+.history-page .activity-status {
+  color: #574736;
+}
+
+.history-page .lesson-link {
+  color: #fff8ec;
+  background: linear-gradient(135deg, #806247, #a27d51);
+  border: 1px solid rgba(76, 55, 36, 0.28);
+}
+
+.history-page .lesson-link:hover,
+.history-page .lesson-link:focus-visible {
+  color: #fffdf7;
+  background: #674a35;
+}
+
+.history-page .back-link {
+  color: #655846;
+}
+
+.history-page .back-link:hover,
+.history-page .back-link:focus-visible {
+  color: #914d42;
+}
+
+.history-page .activity-summary {
+  color: #49392c;
+}
+
+.history-page .activity-summary:hover {
+  background: rgba(125, 92, 57, 0.08);
+}
+
+.history-page .summary-action {
+  color: #fff9ed;
+  background: #786047;
+}
+
+.history-page .answer-btn {
+  color: #49392c;
+  background: rgba(255, 251, 239, 0.9);
+  border-color: rgba(105, 79, 51, 0.42);
+}
+
+.history-page .answer-btn:not(:disabled):hover,
+.history-page .answer-btn:focus-visible {
+  background: #e9dcc0;
+  border-color: #947248;
+}
+
+.history-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+.history-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+.history-page .primary-btn {
+  color: #fff9ed;
+  background: #786047;
+  border-color: #786047;
+}
+
+.history-page .primary-btn:hover {
+  background: #624a37;
+}
+
+:root[data-theme="dark"] body.history-page {
+  color: #46382a;
+  background-color: #b9a37e;
+  background-image:
+    linear-gradient(rgba(235, 222, 194, 0.12), rgba(235, 222, 194, 0.12)),
+    url("assets/padrao-historia.svg");
+}
+
+:root[data-theme="dark"] body.history-page .topbar {
+  background: rgba(240, 229, 205, 0.96);
+}
+
+:root[data-theme="dark"] body.history-page .nav-links,
+:root[data-theme="dark"] body.history-page .section-heading,
+:root[data-theme="dark"] body.history-page .subject-intro,
+:root[data-theme="dark"] body.history-page .lesson-card,
+:root[data-theme="dark"] body.history-page .challenge-panel,
+:root[data-theme="dark"] body.history-page .answer-btn {
+  color: #44372b;
+  background-color: rgba(243, 233, 211, 0.96);
+  border-color: rgba(91, 70, 48, 0.4);
+}
+
+:root[data-theme="dark"] body.history-page .section-heading {
+  background-image:
+    linear-gradient(180deg, rgba(42, 34, 25, 0.05) 8%, rgba(43, 34, 24, 0.1) 39%, rgba(43, 34, 24, 0.68) 100%),
+    url("assets/capa-historia.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+:root[data-theme="dark"] body.history-page .section-heading h2,
+:root[data-theme="dark"] body.history-page .subject-intro h3,
+:root[data-theme="dark"] body.history-page .lesson-card h3,
+:root[data-theme="dark"] body.history-page .challenge-panel h3,
+:root[data-theme="dark"] body.history-page .activity-summary-label,
+:root[data-theme="dark"] body.history-page .subject-intro p,
+:root[data-theme="dark"] body.history-page .lesson-card p,
+:root[data-theme="dark"] body.history-page .activity-instructions,
+:root[data-theme="dark"] body.history-page .activity-status {
+  color: #49392c;
+}
+
+:root[data-theme="dark"] body.history-page .section-heading h2 {
+  color: #171512;
+}
+
+:root[data-theme="dark"] body.history-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+:root[data-theme="dark"] body.history-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+:root[data-theme="dark"] body.history-page .lesson-link {
+  color: #fff8ec;
+  background: linear-gradient(135deg, #806247, #a27d51);
+}
+
+@media (max-width: 700px) {
+  body.history-page {
+    background-attachment: scroll;
+    background-size: auto, 620px 480px;
+  }
+}

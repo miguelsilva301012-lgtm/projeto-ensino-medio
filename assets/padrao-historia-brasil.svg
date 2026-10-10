@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <pattern id="paper-grain" width="35" height="31" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="8" r=".8" fill="#51452e" opacity=".13"/>
+      <circle cx="26" cy="23" r=".7" fill="#fff8df" opacity=".7"/>
+      <path d="M12 4l6-.7M3 26l5-.6M28 11l4 .6" stroke="#88724b" stroke-width=".7" opacity=".14"/>
+    </pattern>
+    <g id="leaf" fill="#315f40" stroke="#244a35" stroke-width="1.5">
+      <path d="M0 0q-32-39-49-10 13 26 49 10zm0 0q27-43 48-18-7 29-48 18zm0 0q-10-43 14-48 20 16-14 48zm0 0q-45-12-42 14 19 17 42-14z"/>
+      <path d="M0 0l-42-10m42 10 39-20M0 0 12-41M0 0l-36 12" fill="none"/>
+    </g>
+    <g id="parrot" stroke="#563c2c" stroke-width="2" stroke-linejoin="round">
+      <path d="M-18 24q-16-20-4-47 15-24 36-3 11 16 0 34l-4 22z" fill="#c84939"/>
+      <path d="M-8-13q9-12 22-3 5 6 1 14-11 4-19-2z" fill="#e3c74d"/>
+      <path d="M-23 15l-23 27 34-14m11-4 8 14m-19-1-6 12m16-12 5 11" fill="#297f54"/>
+      <path d="M6-21q17-6 20 7L11-8z" fill="#d0aa3b"/>
+      <circle cx="3" cy="-13" r="2.5" fill="#26231c" stroke="none"/>
+    </g>
+    <g id="toucan" stroke="#47372b" stroke-width="2" stroke-linejoin="round">
+      <path d="M-9 23q-15-19-2-39 15-15 30 2 8 18-4 31l-3 19h-20z" fill="#1e2925"/>
+      <path d="M10-15q28-24 49-7-10 19-44 19z" fill="#e5a843"/>
+      <path d="M16-11q16-10 29-7l-12 9-20 3z" fill="#d6573f"/>
+      <circle cx="7" cy="-14" r="2.5" fill="#f4e9d1" stroke="none"/>
+      <path d="M-7 26l-5 16m18-16 4 16" fill="none"/>
+    </g>
+    <g id="hummingbird" stroke="#385545" stroke-width="1.7" stroke-linejoin="round">
+      <path d="M-2 0q12-14 27-3l17 1-13 8-16 1-9 9-3-10z" fill="#378266"/>
+      <path d="M1-2q-22-28-30-10 10 20 30 13m3-5q-4-24 9-27 12 13 0 27" fill="#84aaa0"/>
+      <path d="M39-2l28-8m-49 19-4 12m14-12 5 11" fill="none"/>
+      <circle cx="18" cy="-3" r="1.8" fill="#221f18" stroke="none"/>
+    </g>
+    <g id="house" stroke="#644b34" stroke-width="2" stroke-linejoin="round">
+      <path d="M-43-1L0-34 43-1v48h-86z" fill="#ddbd82"/>
+      <path d="M-51 1L0-40 51 1" fill="none" stroke-width="5"/>
+      <path d="M-30 10h13v17h-13zm46 0h13v17H16z" fill="#89a7a0"/>
+      <path d="M-7 17h14v30H-7z" fill="#9d6048"/>
+      <path d="M-48 47h96v7h-96z" fill="#76583b"/>
+    </g>
+    <g id="telephone" stroke="#522d29" stroke-width="3" stroke-linejoin="round">
+      <path d="M-28-52q0-13 13-13h30q13 0 13 13v104h-56z" fill="#c44837"/>
+      <path d="M-37-58h74v10h-74z" fill="#6d4734"/>
+      <path d="M-21-42h42v35h-42z" fill="#e5d8b4"/>
+      <path d="M-16-34h32m-31 7h29m-29 7h30" stroke="#806a4c" stroke-width="1.5"/>
+      <circle cy="12" r="11" fill="#eadcb9"/>
+      <circle cy="12" r="4" fill="#765943"/>
+      <path d="M-14 32h28" stroke="#f0dfb6" stroke-width="2"/>
+    </g>
+    <g id="coconut-palm" fill="none" stroke="#594633" stroke-width="3" stroke-linecap="round">
+      <path d="M0 73q-3-46 12-92"/>
+      <path d="M10-15q-28-34-53-22 19 3 37 27m16-8q21-39 49-25-20 6-41 31m-9-4q1-43 26-51-7 21-18 51m-14 0q-41-15-52 11 23-8 49-4m15-3q38-13 48 14-23-11-49-9" fill="#39754b" stroke="#28583e"/>
+      <path d="M-1 71l-15 3m17-1 15 3" stroke="#9b8054"/>
+    </g>
+    <g id="waves" fill="none" stroke="#252725" stroke-width="6">
+      <path d="M0 0q28-26 56 0t56 0 56 0"/>
+      <path d="M0 20q28-26 56 0t56 0 56 0"/>
+      <path d="M0 40q28-26 56 0t56 0 56 0"/>
+    </g>
+    <g id="steps" stroke="#553d2b" stroke-width="1.4">
+      <path d="M-54 44h108V27H35V10H17V-7h-18v-17h-18v-16h-35z" fill="#bd8c62"/>
+      <path d="M-52 25h87v-14H17V-6h-18v-17h-18v-15h-31z" fill="#3c8b62"/>
+      <path d="M-52 8h69V-6h-18v-17h-18v-15h-33z" fill="#e1bf4f"/>
+      <path d="M-50-9h49v-14h-18v-15h-31z" fill="#c84e3f"/>
+      <path d="M-49-25h31v-13h-31z" fill="#5290a1"/>
+      <circle cx="-38" cy="-30" r="3" fill="#f3dfad"/><circle cx="-5" cy="17" r="3" fill="#e7d5aa"/>
+      <circle cx="27" cy="32" r="3" fill="#f1d379"/>
+    </g>
+    <g id="crate" stroke="#63482d" stroke-width="2" stroke-linejoin="round">
+      <path d="M-36-25h72v50h-72z" fill="#a05c3d"/>
+      <path d="M-30-17h60M-30-5h60M-30 7h60M-30 19h60" stroke="#d4a066" stroke-width="3"/>
+      <path d="M-36-25l16 16v17l-16 17m72-50L20-9V8l16 17" fill="none" stroke="#70482f"/>
+      <text x="-21" y="2" font-family="Georgia,serif" font-size="9" fill="#f4e6c8" stroke="none">FEIRA</text>
+    </g>
+    <g id="player" stroke="#604c34" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cy="-31" r="11" fill="#986c4b"/>
+      <path d="M-13-18h26l10 35-12 5-11-21-11 21-13-5z" fill="#e4c449"/>
+      <path d="M-10-12h20M-3-10v26m-4-5h14" fill="none" stroke="#f7e8b8"/>
+      <path d="M-12-14l-24-22-8-15m56 37 25-24 9-14M-10 21l-17 31m36-31 18 31" fill="none" stroke-width="6"/>
+      <circle cx="-47" cy="-53" r="5" fill="#f3e2b7"/>
+    </g>
+    <g id="arm-statue" stroke="#75644a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 85V-7m0-1-72-54q-10-8-17 1-5 8 6 16L-8 27m8-35 72-54q10-8 17 1 5 8-6 16L8 27"/>
+      <path d="M-83-64l-15-20m15 20 11-24m-6 27-23 2m165-5 15-20m-15 20-11-24m6 27 23 2" fill="none" stroke-width="3"/>
+    </g>
+    <g id="beach-sign" stroke="#55442e" stroke-width="2">
+      <path d="M0 0v60m-15 0h30" fill="none" stroke-width="4"/>
+      <path d="M-59-29h116v25H-59zM-49 5h96v24h-96z" fill="#2e7951"/>
+      <path d="M-45-23h90M-34 11h68" stroke="#f1d45d" stroke-width="2"/>
+      <text x="-43" y="-12" font-family="Georgia,serif" font-size="10" fill="#fff5cf" stroke="none">COPACABANA</text>
+      <text x="-23" y="22" font-family="Georgia,serif" font-size="10" fill="#fff5cf" stroke="none">IPANEMA</text>
+    </g>
+  </defs>
+  <rect width="900" height="700" fill="#c7b58c"/>
+  <rect width="900" height="700" fill="url(#paper-grain)"/>
+  <path d="M0 0h900v700H0z" fill="#dce0bc" opacity=".11"/>
+  <g opacity=".86">
+    <path d="M17 21l94-9 70 15 7 112-47 11-103-8z" fill="#e7d7b5" stroke="#876f49" stroke-width="2"/>
+    <path d="M35 42q54-23 112 3m-99 6q48-19 103 4m-94 6q39-17 91 3m-87 9q46-17 96 5" fill="none" stroke="#937b53" stroke-width="1.4"/>
+    <path d="M52 116q36-45 79-57m-71 49 68-38" stroke="#9a6a48" stroke-width="2"/>
+    <text x="34" y="31" font-family="Georgia,serif" font-size="10" fill="#6c563b">BRA · CARTA DO BRASIL</text>
+  </g>
+  <g opacity=".95">
+    <use href="#waves" x="216" y="36" transform="scale(.68) translate(102 17)"/>
+    <use href="#steps" x="376" y="76" transform="scale(.8) translate(94 19)"/>
+    <path d="M166 134h280m-266 7h252" stroke="#6d563b" stroke-width="1.2"/>
+  </g>
+  <g opacity=".9">
+    <use href="#coconut-palm" x="787" y="176"/>
+    <use href="#leaf" x="728" y="113" transform="scale(.8) translate(182 28)"/>
+    <use href="#leaf" x="857" y="190" transform="scale(.62) translate(526 117)"/>
+    <use href="#parrot" x="751" y="88"/>
+    <use href="#toucan" x="842" y="101" transform="scale(.72) translate(328 39)"/>
+    <use href="#hummingbird" x="704" y="165" transform="scale(.65) translate(379 89)"/>
+  </g>
+  <g opacity=".85">
+    <use href="#house" x="82" y="297" transform="scale(.7) translate(35 127)"/>
+    <use href="#house" x="164" y="284" transform="scale(.82) translate(36 62)"/>
+    <use href="#house" x="259" y="299" transform="scale(.69) translate(117 135)"/>
+    <path d="M31 332h258v13H31z" fill="#687853"/>
+    <use href="#telephone" x="60" y="452" transform="scale(.56) translate(47 355)"/>
+  </g>
+  <g opacity=".88">
+    <use href="#crate" x="750" y="338"/>
+    <use href="#crate" x="826" y="345" transform="scale(.84) translate(157 66)"/>
+    <use href="#leaf" x="692" y="369"/>
+    <use href="#coconut-palm" x="884" y="441" transform="scale(.75) translate(295 147)"/>
+  </g>
+  <g opacity=".86">
+    <use href="#player" x="328" y="548"/>
+    <use href="#player" x="396" y="555" transform="scale(.82) translate(87 122)"/>
+    <use href="#player" x="466" y="548" transform="scale(.76) translate(147 173)"/>
+    <path d="M260 605q96-27 195 0t207 0" fill="none" stroke="#47774d" stroke-width="3"/>
+  </g>
+  <g opacity=".85">
+    <use href="#beach-sign" x="613" y="490"/>
+    <path d="M518 535l23-29 21 29zm35 0 21-29 22 29z" fill="#d5c69c" stroke="#786347" stroke-width="2"/>
+    <circle cx="570" cy="467" r="27" fill="#e8c45a" stroke="#9f8045" stroke-width="2"/>
+  </g>
+  <g fill="#66533a" font-family="Georgia,serif" opacity=".82">
+    <text x="337" y="174" font-size="14" font-style="italic">memória · território · resistência</text>
+    <text x="504" y="327" font-size="12">uma história de muitas vozes</text>
+    <text x="336" y="677" font-size="11">BRASIL · CULTURA · ENCONTROS · TRANSFORMAÇÕES</text>
+  </g>
+</svg>

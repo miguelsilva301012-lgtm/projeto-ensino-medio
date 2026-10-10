@@ -1,0 +1,448 @@
+body.politics-page {
+  --paper: rgba(247, 235, 212, 0.97);
+  --paper-edge: #ddc69e;
+  --ink: #28211c;
+  --muted-ink: #57483b;
+  --accent: #b73b35;
+  --accent-strong: #852d2b;
+  --border: rgba(95, 67, 49, 0.4);
+  color: #f2e8d6;
+  background-color: #a58d69;
+  background-image: linear-gradient(rgba(58, 37, 29, 0.13), rgba(58, 37, 29, 0.13)), url("assets/padrao-politica.svg");
+  background-repeat: repeat;
+  background-size: auto, 760px 580px;
+  background-attachment: fixed;
+}
+
+body.sociology-page {
+  --paper: rgba(240, 228, 205, 0.97);
+  --paper-edge: #d3bd96;
+  --ink: #30291f;
+  --muted-ink: #554838;
+  --accent: #826144;
+  --accent-strong: #614a37;
+  --border: rgba(101, 77, 51, 0.42);
+  color: #f0e3ce;
+  background-color: #9a8769;
+  background-image: linear-gradient(rgba(46, 37, 29, 0.1), rgba(46, 37, 29, 0.1)), url("assets/padrao-sociologia.svg");
+  background-repeat: repeat;
+  background-size: auto, 780px 600px;
+  background-attachment: fixed;
+}
+
+body.geography-page {
+  --paper: rgba(241, 231, 207, 0.97);
+  --paper-edge: #d5c195;
+  --ink: #322d24;
+  --muted-ink: #554b39;
+  --accent: #3f7768;
+  --accent-strong: #2d5b50;
+  --border: rgba(97, 80, 52, 0.42);
+  color: #f0e5cf;
+  background-color: #8e896a;
+  background-image: linear-gradient(rgba(48, 47, 35, 0.11), rgba(48, 47, 35, 0.11)), url("assets/padrao-geografia.svg");
+  background-repeat: repeat;
+  background-size: auto, 820px 620px;
+  background-attachment: fixed;
+}
+
+.politics-page .topbar,
+.sociology-page .topbar,
+.geography-page .topbar {
+  background: rgba(242, 231, 207, 0.97);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 5px 17px rgba(40, 32, 24, 0.2);
+}
+
+.politics-page .brand,
+.politics-page .nav-links a,
+.sociology-page .brand,
+.sociology-page .nav-links a,
+.geography-page .brand,
+.geography-page .nav-links a {
+  color: #493e31;
+}
+
+.politics-page .brand-mark {
+  background: linear-gradient(135deg, #b73b35, #e0b74d);
+}
+
+.sociology-page .brand-mark {
+  background: linear-gradient(135deg, #685546, #bb9463);
+}
+
+.geography-page .brand-mark {
+  background: linear-gradient(135deg, #37756b, #c2a568);
+}
+
+.politics-page .nav-links a:hover,
+.politics-page .nav-links a:focus-visible {
+  color: #a63a35;
+}
+
+.sociology-page .nav-links a:hover,
+.sociology-page .nav-links a:focus-visible {
+  color: #76583c;
+}
+
+.geography-page .nav-links a:hover,
+.geography-page .nav-links a:focus-visible {
+  color: #327363;
+}
+
+.politics-page .section-heading,
+.politics-page .culture-note,
+.politics-page .subject-intro,
+.politics-page .lesson-card,
+.politics-page .challenge-panel,
+.sociology-page .section-heading,
+.sociology-page .subject-intro,
+.sociology-page .lesson-card,
+.sociology-page .challenge-panel,
+.geography-page .section-heading,
+.geography-page .subject-intro,
+.geography-page .lesson-card,
+.geography-page .challenge-panel {
+  position: relative;
+  isolation: isolate;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 5px 10px 4px 9px;
+  box-shadow: 0 12px 28px rgba(42, 34, 27, 0.24);
+}
+
+.politics-page .culture-note,
+.sociology-page .culture-note,
+.geography-page .culture-note {
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--border);
+}
+
+.politics-page .subject-intro::before,
+.politics-page .lesson-card::before,
+.politics-page .challenge-panel::before,
+.sociology-page .subject-intro::before,
+.sociology-page .lesson-card::before,
+.sociology-page .challenge-panel::before,
+.geography-page .subject-intro::before,
+.geography-page .lesson-card::before,
+.geography-page .challenge-panel::before {
+  position: absolute;
+  z-index: -1;
+  inset: -5px 6px 5px -5px;
+  content: "";
+  background: var(--paper-edge);
+  clip-path: polygon(1% 5%, 12% 3%, 22% 5%, 33% 2%, 46% 4%, 59% 2%, 73% 5%, 86% 2%, 99% 5%, 97% 18%, 100% 32%, 97% 48%, 99% 62%, 96% 78%, 99% 96%, 85% 98%, 71% 96%, 57% 99%, 43% 96%, 29% 99%, 15% 96%, 3% 99%, 4% 81%, 2% 65%, 5% 49%, 2% 33%, 5% 17%);
+  filter: drop-shadow(0 3px 2px rgba(48, 37, 28, 0.22));
+}
+
+.politics-page .section-heading,
+.sociology-page .section-heading,
+.geography-page .section-heading {
+  min-height: clamp(250px, 36vw, 350px);
+  padding: 2rem clamp(1.25rem, 4vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #776754;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(250, 239, 219, 0.65);
+  border-top: 4px solid var(--accent);
+}
+
+.politics-page .section-heading {
+  background-image: linear-gradient(180deg, rgba(25, 20, 18, 0.02) 10%, rgba(24, 20, 18, 0.12) 49%, rgba(22, 18, 17, 0.74) 100%), url("assets/capa-politica.svg");
+}
+
+.sociology-page .section-heading {
+  background-image: linear-gradient(180deg, rgba(28, 25, 21, 0.03) 10%, rgba(28, 24, 20, 0.15) 50%, rgba(27, 22, 18, 0.72) 100%), url("assets/capa-sociologia.svg");
+}
+
+.geography-page .section-heading {
+  background-image: linear-gradient(180deg, rgba(32, 30, 24, 0.02) 10%, rgba(29, 29, 24, 0.12) 50%, rgba(26, 26, 21, 0.72) 100%), url("assets/capa-geografia.svg");
+}
+
+.politics-page .section-heading::before,
+.sociology-page .section-heading::before,
+.geography-page .section-heading::before {
+  display: none;
+}
+
+.politics-page .section-heading .eyebrow,
+.sociology-page .section-heading .eyebrow,
+.geography-page .section-heading .eyebrow {
+  color: #fff3d8;
+  text-shadow: 0 2px 5px rgba(18, 15, 12, 0.78);
+}
+
+.politics-page .section-heading h2,
+.sociology-page .section-heading h2,
+.geography-page .section-heading h2 {
+  color: #211c19;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(2.5rem, 6.6vw, 4.8rem);
+  font-weight: 900;
+  letter-spacing: -0.065em;
+  line-height: 1;
+  -webkit-text-stroke: 1.4px #f9f0dc;
+  text-shadow: 2px 3px 0 rgba(255, 255, 255, 0.76), 3px 5px 0 rgba(26, 21, 17, 0.6);
+}
+
+.politics-page .culture-note {
+  border-left: 5px solid #b73b35;
+}
+
+.politics-page .section-heading .eyebrow,
+.politics-page .eyebrow {
+  color: #973b33;
+}
+
+.sociology-page .eyebrow {
+  color: #76573b;
+}
+
+.geography-page .eyebrow {
+  color: #337263;
+}
+
+.politics-page .subject-intro h3,
+.politics-page .lesson-card h3,
+.politics-page .challenge-panel h3,
+.politics-page .activity-summary-label,
+.sociology-page .subject-intro h3,
+.sociology-page .lesson-card h3,
+.sociology-page .challenge-panel h3,
+.sociology-page .activity-summary-label,
+.geography-page .subject-intro h3,
+.geography-page .lesson-card h3,
+.geography-page .challenge-panel h3,
+.geography-page .activity-summary-label {
+  color: var(--ink);
+}
+
+.politics-page .subject-intro p,
+.politics-page .lesson-card p,
+.politics-page .activity-instructions,
+.politics-page .activity-status,
+.sociology-page .subject-intro p,
+.sociology-page .lesson-card p,
+.sociology-page .activity-instructions,
+.sociology-page .activity-status,
+.geography-page .subject-intro p,
+.geography-page .lesson-card p,
+.geography-page .activity-instructions,
+.geography-page .activity-status {
+  color: var(--muted-ink);
+}
+
+.politics-page .lesson-link,
+.politics-page .summary-action,
+.politics-page .primary-btn {
+  color: #fff8eb;
+  background: linear-gradient(135deg, #a93c35, #c65b43);
+  border-color: rgba(101, 46, 37, 0.36);
+}
+
+.sociology-page .lesson-link,
+.sociology-page .summary-action,
+.sociology-page .primary-btn {
+  color: #fff7e8;
+  background: linear-gradient(135deg, #72583f, #9a7953);
+  border-color: rgba(86, 63, 41, 0.36);
+}
+
+.geography-page .lesson-link,
+.geography-page .summary-action,
+.geography-page .primary-btn {
+  color: #fff8e9;
+  background: linear-gradient(135deg, #346d60, #528a78);
+  border-color: rgba(42, 82, 69, 0.38);
+}
+
+.politics-page .lesson-link:hover,
+.politics-page .lesson-link:focus-visible,
+.politics-page .primary-btn:hover {
+  color: #fffdf8;
+  background: #85312e;
+}
+
+.sociology-page .lesson-link:hover,
+.sociology-page .lesson-link:focus-visible,
+.sociology-page .primary-btn:hover {
+  color: #fffdf8;
+  background: #604a35;
+}
+
+.geography-page .lesson-link:hover,
+.geography-page .lesson-link:focus-visible,
+.geography-page .primary-btn:hover {
+  color: #fffdf8;
+  background: #28594f;
+}
+
+.politics-page .back-link,
+.sociology-page .back-link,
+.geography-page .back-link {
+  color: #f1e2c6;
+}
+
+.politics-page .activity-summary,
+.sociology-page .activity-summary,
+.geography-page .activity-summary {
+  color: var(--ink);
+}
+
+.politics-page .answer-btn,
+.sociology-page .answer-btn,
+.geography-page .answer-btn {
+  color: var(--ink);
+  background: rgba(255, 251, 240, 0.94);
+  border-color: var(--border);
+}
+
+.politics-page .answer-btn:not(:disabled):hover,
+.politics-page .answer-btn:focus-visible,
+.sociology-page .answer-btn:not(:disabled):hover,
+.sociology-page .answer-btn:focus-visible,
+.geography-page .answer-btn:not(:disabled):hover,
+.geography-page .answer-btn:focus-visible {
+  background: #e9ddc4;
+  border-color: var(--accent);
+}
+
+.politics-page .answer-btn.correct,
+.sociology-page .answer-btn.correct,
+.geography-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+.politics-page .answer-btn.wrong,
+.sociology-page .answer-btn.wrong,
+.geography-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+:root[data-theme="dark"] body.politics-page,
+:root[data-theme="dark"] body.sociology-page,
+:root[data-theme="dark"] body.geography-page {
+  background-attachment: fixed;
+}
+
+:root[data-theme="dark"] body.politics-page .topbar,
+:root[data-theme="dark"] body.sociology-page .topbar,
+:root[data-theme="dark"] body.geography-page .topbar {
+  background: rgba(242, 231, 207, 0.97);
+}
+
+:root[data-theme="dark"] body.politics-page .nav-links,
+:root[data-theme="dark"] body.politics-page .culture-note,
+:root[data-theme="dark"] body.politics-page .subject-intro,
+:root[data-theme="dark"] body.politics-page .lesson-card,
+:root[data-theme="dark"] body.politics-page .challenge-panel,
+:root[data-theme="dark"] body.politics-page .answer-btn,
+:root[data-theme="dark"] body.sociology-page .nav-links,
+:root[data-theme="dark"] body.sociology-page .subject-intro,
+:root[data-theme="dark"] body.sociology-page .lesson-card,
+:root[data-theme="dark"] body.sociology-page .challenge-panel,
+:root[data-theme="dark"] body.sociology-page .answer-btn,
+:root[data-theme="dark"] body.geography-page .nav-links,
+:root[data-theme="dark"] body.geography-page .subject-intro,
+:root[data-theme="dark"] body.geography-page .lesson-card,
+:root[data-theme="dark"] body.geography-page .challenge-panel,
+:root[data-theme="dark"] body.geography-page .answer-btn {
+  color: var(--ink);
+  background-color: var(--paper);
+  border-color: var(--border);
+}
+
+:root[data-theme="dark"] body.politics-page .section-heading {
+  background-image: linear-gradient(180deg, rgba(25, 20, 18, 0.02) 10%, rgba(24, 20, 18, 0.12) 49%, rgba(22, 18, 17, 0.74) 100%), url("assets/capa-politica.svg");
+}
+
+:root[data-theme="dark"] body.sociology-page .section-heading {
+  background-image: linear-gradient(180deg, rgba(28, 25, 21, 0.03) 10%, rgba(28, 24, 20, 0.15) 50%, rgba(27, 22, 18, 0.72) 100%), url("assets/capa-sociologia.svg");
+}
+
+:root[data-theme="dark"] body.geography-page .section-heading {
+  background-image: linear-gradient(180deg, rgba(32, 30, 24, 0.02) 10%, rgba(29, 29, 24, 0.12) 50%, rgba(26, 26, 21, 0.72) 100%), url("assets/capa-geografia.svg");
+}
+
+:root[data-theme="dark"] body.politics-page .section-heading h2,
+:root[data-theme="dark"] body.sociology-page .section-heading h2,
+:root[data-theme="dark"] body.geography-page .section-heading h2 {
+  color: #211c19;
+}
+
+:root[data-theme="dark"] body.politics-page .subject-intro h3,
+:root[data-theme="dark"] body.politics-page .lesson-card h3,
+:root[data-theme="dark"] body.politics-page .challenge-panel h3,
+:root[data-theme="dark"] body.politics-page .activity-summary-label,
+:root[data-theme="dark"] body.politics-page .subject-intro p,
+:root[data-theme="dark"] body.politics-page .lesson-card p,
+:root[data-theme="dark"] body.politics-page .activity-instructions,
+:root[data-theme="dark"] body.politics-page .activity-status,
+:root[data-theme="dark"] body.sociology-page .subject-intro h3,
+:root[data-theme="dark"] body.sociology-page .lesson-card h3,
+:root[data-theme="dark"] body.sociology-page .challenge-panel h3,
+:root[data-theme="dark"] body.sociology-page .activity-summary-label,
+:root[data-theme="dark"] body.sociology-page .subject-intro p,
+:root[data-theme="dark"] body.sociology-page .lesson-card p,
+:root[data-theme="dark"] body.sociology-page .activity-instructions,
+:root[data-theme="dark"] body.sociology-page .activity-status,
+:root[data-theme="dark"] body.geography-page .subject-intro h3,
+:root[data-theme="dark"] body.geography-page .lesson-card h3,
+:root[data-theme="dark"] body.geography-page .challenge-panel h3,
+:root[data-theme="dark"] body.geography-page .activity-summary-label,
+:root[data-theme="dark"] body.geography-page .subject-intro p,
+:root[data-theme="dark"] body.geography-page .lesson-card p,
+:root[data-theme="dark"] body.geography-page .activity-instructions,
+:root[data-theme="dark"] body.geography-page .activity-status {
+  color: var(--muted-ink);
+}
+
+:root[data-theme="dark"] body.politics-page .lesson-link,
+:root[data-theme="dark"] body.politics-page .primary-btn {
+  color: #fff8eb;
+  background: linear-gradient(135deg, #a93c35, #c65b43);
+}
+
+:root[data-theme="dark"] body.sociology-page .lesson-link,
+:root[data-theme="dark"] body.sociology-page .primary-btn {
+  color: #fff7e8;
+  background: linear-gradient(135deg, #72583f, #9a7953);
+}
+
+:root[data-theme="dark"] body.geography-page .lesson-link,
+:root[data-theme="dark"] body.geography-page .primary-btn {
+  color: #fff8e9;
+  background: linear-gradient(135deg, #346d60, #528a78);
+}
+
+:root[data-theme="dark"] body.politics-page .answer-btn.correct,
+:root[data-theme="dark"] body.sociology-page .answer-btn.correct,
+:root[data-theme="dark"] body.geography-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+:root[data-theme="dark"] body.politics-page .answer-btn.wrong,
+:root[data-theme="dark"] body.sociology-page .answer-btn.wrong,
+:root[data-theme="dark"] body.geography-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+@media (max-width: 700px) {
+  body.politics-page,
+  body.sociology-page,
+  body.geography-page {
+    background-attachment: scroll;
+    background-size: auto, 600px 460px;
+  }
+}

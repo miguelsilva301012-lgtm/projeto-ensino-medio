@@ -1,0 +1,246 @@
+body.astronomy-page {
+  min-height: 100vh;
+  color: #eee5d0;
+  background-color: #080d1a;
+  background-image:
+    linear-gradient(rgba(6, 10, 22, 0.17), rgba(6, 10, 22, 0.17)),
+    url("assets/padrao-astronomia.svg");
+  background-repeat: repeat;
+  background-size: auto, 800px 600px;
+  background-attachment: fixed;
+}
+
+.astronomy-page .topbar {
+  color: #473a2c;
+  background: rgba(239, 229, 205, 0.97);
+  border-bottom: 1px solid rgba(104, 84, 57, 0.35);
+  box-shadow: 0 5px 18px rgba(4, 7, 16, 0.26);
+}
+
+.astronomy-page .brand,
+.astronomy-page .nav-links a {
+  color: #493c30;
+}
+
+.astronomy-page .brand-mark {
+  background: linear-gradient(135deg, #495c83, #ad8a57);
+}
+
+.astronomy-page .nav-links a:hover,
+.astronomy-page .nav-links a:focus-visible {
+  color: #775c8c;
+}
+
+.astronomy-page .section-heading,
+.astronomy-page .subject-intro,
+.astronomy-page .lesson-card,
+.astronomy-page .challenge-panel {
+  position: relative;
+  isolation: isolate;
+  color: #473b30;
+  background: rgba(242, 233, 212, 0.97);
+  border: 1px solid rgba(177, 154, 115, 0.66);
+  border-radius: 5px 10px 4px 9px;
+  box-shadow: 0 12px 30px rgba(1, 4, 13, 0.34);
+}
+
+.astronomy-page .subject-intro::before,
+.astronomy-page .lesson-card::before,
+.astronomy-page .challenge-panel::before {
+  position: absolute;
+  z-index: -1;
+  inset: -5px 6px 5px -5px;
+  content: "";
+  background: rgba(214, 198, 164, 0.98);
+  clip-path: polygon(1% 5%, 12% 3%, 22% 5%, 33% 2%, 46% 4%, 59% 2%, 73% 5%, 86% 2%, 99% 5%, 97% 18%, 100% 32%, 97% 48%, 99% 62%, 96% 78%, 99% 96%, 85% 98%, 71% 96%, 57% 99%, 43% 96%, 29% 99%, 15% 96%, 3% 99%, 4% 81%, 2% 65%, 5% 49%, 2% 33%, 5% 17%);
+  filter: drop-shadow(0 3px 2px rgba(6, 7, 13, 0.28));
+}
+
+.astronomy-page .section-heading {
+  min-height: clamp(250px, 36vw, 350px);
+  padding: 2rem clamp(1.25rem, 4vw, 2.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #11152a;
+  background-image:
+    linear-gradient(180deg, rgba(6, 9, 20, 0.04) 12%, rgba(9, 11, 23, 0.1) 52%, rgba(8, 10, 20, 0.72) 100%),
+    url("assets/capa-astronomia.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgba(232, 218, 188, 0.58);
+  border-top: 3px solid #bea56f;
+}
+
+.astronomy-page .section-heading::before {
+  display: none;
+}
+
+.astronomy-page .section-heading .eyebrow {
+  color: #f0dfb7;
+  text-shadow: 0 2px 5px rgba(1, 2, 9, 0.8);
+}
+
+.astronomy-page .section-heading h2 {
+  color: #171520;
+  font-family: "Segoe Script", "Brush Script MT", cursive;
+  font-size: clamp(2.7rem, 7vw, 5rem);
+  font-weight: 900;
+  letter-spacing: -0.07em;
+  line-height: 1;
+  -webkit-text-stroke: 1.5px #f5ecdb;
+  text-shadow: 2px 3px 0 rgba(255, 255, 255, 0.78), 3px 5px 0 rgba(15, 13, 24, 0.65);
+}
+
+.astronomy-page .subject-intro h3,
+.astronomy-page .lesson-card h3,
+.astronomy-page .challenge-panel h3,
+.astronomy-page .activity-summary-label {
+  color: #44392f;
+}
+
+.astronomy-page .eyebrow {
+  color: #735e83;
+}
+
+.astronomy-page .subject-intro p,
+.astronomy-page .lesson-card p,
+.astronomy-page .activity-instructions,
+.astronomy-page .activity-status {
+  color: #574a3b;
+}
+
+.astronomy-page .lesson-link {
+  color: #fff8e9;
+  background: linear-gradient(135deg, #495779, #766187);
+  border: 1px solid rgba(65, 60, 91, 0.4);
+}
+
+.astronomy-page .lesson-link:hover,
+.astronomy-page .lesson-link:focus-visible {
+  color: #fffdf8;
+  background: #394561;
+}
+
+.astronomy-page .back-link {
+  color: #e1d3b6;
+}
+
+.astronomy-page .back-link:hover,
+.astronomy-page .back-link:focus-visible {
+  color: #f2d891;
+}
+
+.astronomy-page .activity-summary {
+  color: #493d30;
+}
+
+.astronomy-page .activity-summary:hover {
+  background: rgba(105, 88, 124, 0.09);
+}
+
+.astronomy-page .summary-action {
+  color: #fff8e9;
+  background: #59617e;
+}
+
+.astronomy-page .answer-btn {
+  color: #493d30;
+  background: rgba(255, 251, 239, 0.93);
+  border-color: rgba(112, 93, 66, 0.4);
+}
+
+.astronomy-page .answer-btn:not(:disabled):hover,
+.astronomy-page .answer-btn:focus-visible {
+  background: #e7ddc8;
+  border-color: #746486;
+}
+
+.astronomy-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+.astronomy-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+.astronomy-page .primary-btn {
+  color: #fff8e9;
+  background: #59617e;
+  border-color: #59617e;
+}
+
+.astronomy-page .primary-btn:hover {
+  background: #414b69;
+}
+
+:root[data-theme="dark"] body.astronomy-page {
+  color: #eee5d0;
+  background-color: #080d1a;
+  background-image:
+    linear-gradient(rgba(6, 10, 22, 0.17), rgba(6, 10, 22, 0.17)),
+    url("assets/padrao-astronomia.svg");
+}
+
+:root[data-theme="dark"] body.astronomy-page .topbar {
+  background: rgba(239, 229, 205, 0.97);
+}
+
+:root[data-theme="dark"] body.astronomy-page .nav-links,
+:root[data-theme="dark"] body.astronomy-page .subject-intro,
+:root[data-theme="dark"] body.astronomy-page .lesson-card,
+:root[data-theme="dark"] body.astronomy-page .challenge-panel,
+:root[data-theme="dark"] body.astronomy-page .answer-btn {
+  color: #473b30;
+  background-color: rgba(242, 233, 212, 0.97);
+  border-color: rgba(177, 154, 115, 0.66);
+}
+
+:root[data-theme="dark"] body.astronomy-page .section-heading {
+  background-image:
+    linear-gradient(180deg, rgba(6, 9, 20, 0.04) 12%, rgba(9, 11, 23, 0.1) 52%, rgba(8, 10, 20, 0.72) 100%),
+    url("assets/capa-astronomia.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+:root[data-theme="dark"] body.astronomy-page .section-heading h2 {
+  color: #171520;
+}
+
+:root[data-theme="dark"] body.astronomy-page .subject-intro h3,
+:root[data-theme="dark"] body.astronomy-page .lesson-card h3,
+:root[data-theme="dark"] body.astronomy-page .challenge-panel h3,
+:root[data-theme="dark"] body.astronomy-page .activity-summary-label,
+:root[data-theme="dark"] body.astronomy-page .subject-intro p,
+:root[data-theme="dark"] body.astronomy-page .lesson-card p,
+:root[data-theme="dark"] body.astronomy-page .activity-instructions,
+:root[data-theme="dark"] body.astronomy-page .activity-status {
+  color: #493d30;
+}
+
+:root[data-theme="dark"] body.astronomy-page .answer-btn.correct {
+  color: #294333;
+  background: #dce6d2;
+}
+
+:root[data-theme="dark"] body.astronomy-page .answer-btn.wrong {
+  color: #713e38;
+  background: #efd9ce;
+}
+
+:root[data-theme="dark"] body.astronomy-page .lesson-link {
+  color: #fff8e9;
+  background: linear-gradient(135deg, #495779, #766187);
+}
+
+@media (max-width: 700px) {
+  body.astronomy-page {
+    background-attachment: scroll;
+    background-size: auto, 560px 420px;
+  }
+}

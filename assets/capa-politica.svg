@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+  <defs>
+    <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#222"/>
+    </pattern>
+    <pattern id="paper-text" width="28" height="23" patternUnits="userSpaceOnUse">
+      <path d="M2 5h23M2 10h19M2 15h24M2 20h16" stroke="#86785f" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="wall" x2="0" y2="1">
+      <stop stop-color="#eddfc3"/>
+      <stop offset="1" stop-color="#bfae8e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="460" fill="url(#wall)"/>
+  <path d="M0 0h1200v460H0z" fill="#fff2d5" opacity=".12"/>
+  <g opacity=".45" fill="#c23d37">
+    <path d="m0 50 113 114-149-74 132 130-163-62 149 105-192-38 180 90-209-10 210 76-226 22 257 54z"/>
+    <path d="m1200 3-122 161 154-104-138 146 177-74-145 107 190-47-184 101 218-21-205 83 242 2-254 59z"/>
+  </g>
+  <g fill="#fff7e9" opacity=".76">
+    <path d="m41 35 131 20-101 73-68-20z"/>
+    <path d="m959 26 196-12 31 124-183 34z"/>
+    <path d="m947 35 222-13-173 39 161-6-169 40 155-12-176 46" fill="none" stroke="#665947" stroke-width="2"/>
+  </g>
+  <g transform="translate(195 251)">
+    <path d="M-120 51q-66-67-27-151 43-78 132-32 63 34 65 112-3 79-97 110z" fill="url(#dots)"/>
+    <path d="M-66-8q19-28 45-4 22-31 48 0 16 24-6 52-26 32-62 8-38-25-25-56z" fill="#f2eee4" stroke="#232323" stroke-width="3"/>
+    <path d="M-68 22q48 25 95-2-20 45-55 41-27-3-40-39z" fill="#252525"/>
+    <path d="M-40 13h49" stroke="#fff" stroke-width="3"/>
+    <path d="M-98-27q14-8 27-4m59-6q14-4 28 3" fill="none" stroke="#242424" stroke-width="5"/>
+    <circle cx="-72" cy="1" r="3" fill="#222"/><circle cx="25" cy="1" r="3" fill="#222"/>
+  </g>
+  <g transform="translate(1016 245)" stroke="#25221f" stroke-width="3" stroke-linejoin="round">
+    <path d="m-40-65 85 22-15 61-83-23z" fill="#e7d7b5"/>
+    <path d="m-35-58 71 19-12 46-70-19z" fill="url(#dots)"/>
+    <path d="m-40-60-28-34-18 7 34 55m87-33 36-19 10 12-38 45" fill="#d6c6a6"/>
+    <path d="M-41 0q-2 39 24 63l-3 44h18l16-44 25-30-20-24-26 21z" fill="#e6d5b2"/>
+    <path d="m-21 57-33 34 17 8 39-31m25-32 38 31-9 14-51-27" fill="#ddccb0"/>
+    <path d="m-68-94-16-15m-2 23-21-4" fill="none" stroke="#292421"/>
+    <path d="m-85-108 13 13" stroke="#b63b34"/>
+  </g>
+  <g transform="translate(1009 139)">
+    <path d="M-48 2h96l-15 30h-67z" fill="#30333a" stroke="#161719" stroke-width="3"/>
+    <path d="M-18 31h36l12 45h-60z" fill="#26282e" stroke="#161719" stroke-width="3"/>
+    <path d="M-35 4h70" stroke="#d5c8ae" stroke-width="2"/>
+  </g>
+  <g transform="translate(359 76)">
+    <path d="M0 0 36 89 0 73-36 89z" fill="#315e84" stroke="#f5e6c9" stroke-width="4"/>
+    <path d="M-21 50 20 21m-45 37 48-33m-37 40 37-24" stroke="#eee4d3" stroke-width="2"/>
+    <text x="0" y="113" text-anchor="middle" fill="#2e2922" font-family="Georgia,serif" font-size="12">JORNAL · VOZES</text>
+  </g>
+  <g transform="translate(836 334)">
+    <path d="m0-67 19 47 51 5-39 34 12 50L0 42l-43 27 12-50-39-34 51-5z" fill="#316d99" stroke="#f4e8d2" stroke-width="4"/>
+    <path d="M-22-17h43m-54 12H36m-57 10h54m-48 10h43m-34 10h36" stroke="#e9dcc3" stroke-width="2"/>
+    <circle r="40" fill="url(#paper-text)" opacity=".65"/>
+  </g>
+  <g transform="translate(591 240) rotate(-3)">
+    <path d="M-210-61 210-69l16 142-424 4z" fill="#f1e4c9" stroke="#79694e" stroke-width="3"/>
+    <path d="M-193-46 196-53" stroke="#b73e36" stroke-width="4"/>
+    <text x="0" y="-3" text-anchor="middle" fill="#171513" font-family="Georgia,serif" font-size="46" font-weight="bold" letter-spacing="1">TUDO É POLÍTICO</text>
+    <path d="M-171 13q39 8 77-1t86 1 85-1" fill="none" stroke="#22201d" stroke-width="5" stroke-linecap="round"/>
+    <text x="0" y="48" text-anchor="middle" fill="#625440" font-family="Georgia,serif" font-size="12">CIDADANIA · DEBATE · PARTICIPAÇÃO</text>
+  </g>
+  <g fill="#e5c657" stroke="#51432f" stroke-width="3">
+    <path d="M440 360h80v47h-80zM681 44h56v35h-56z"/>
+  </g>
+  <g fill="#b43a34" opacity=".92">
+    <path d="m110 356 22 42-36-12zm974-26 16 40-31-15zm-546-254 16 33-28-12z"/>
+  </g>
+  <g fill="#3d352c" font-family="Georgia,serif" font-size="13">
+    <text x="63" y="429">A CIDADE TAMBÉM É NOSSA</text>
+    <text x="911" y="428">OUVIR · DISCUTIR · TRANSFORMAR</text>
+  </g>
+</svg>

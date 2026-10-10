@@ -51,6 +51,12 @@ depois que ela confirmar o envio. As mensagens são tratadas pelo WhatsApp, não
 
 O certificado de CA local é usado apenas para o servidor deste projeto e fica no computador; as chaves privadas são marcadas como não exportáveis. Não instale certificados recebidos de desconhecidos. Se o endereço IP do computador mudar, execute `setup-https.ps1` novamente e reinicie `start-https.ps1` para atualizar o certificado do servidor.
 
+## Publicar no GitHub Pages
+
+O site pode ser publicado diretamente da branch `main`, usando a pasta raiz como origem. Depois
+de habilitar **Settings > Pages > Deploy from a branch**, selecione `main` e `/(root)`. A URL e o
+estado da publicação aparecem em **Settings > Pages**.
+
 ## Privacidade e segurança
 
 O site não tem cadastro, não pede senhas e não envia respostas para um servidor. A política de segurança de conteúdo (CSP) limita scripts, estilos e conexões aos arquivos locais. A versão HTTPS usa criptografia na rede Wi-Fi; instalar o certificado local no Android é o que permite ao navegador confiar nessa conexão e remover o aviso.
@@ -101,3 +107,21 @@ em giz branco com painéis escuros quadriculados para destacar aulas e exercíci
 A página `programacao-python.html` usa um fundo digital azul-marinho com código e rede de dados,
 além de uma capa com símbolo Python vetorial em destaque. Os painéis escuros preservam a leitura
 das aulas e atividades.
+
+A página `historia.html` apresenta uma linha do tempo visual em papel envelhecido, com arquitetura
+clássica, pirâmides, navegações, cenas de época e recortes. A capa horizontal adapta a colagem a
+telas largas, enquanto os painéis claros mantêm aulas e exercícios legíveis.
+
+A página `historia-do-brasil.html` combina uma capa carioca tropical e colorida com referências
+à música, ao samba, à fauna e às paisagens do Rio. O fundo ilustrado de papel envelhecido remete
+à formação histórica do país, e as áreas de aula e atividade permanecem claras para facilitar
+a leitura.
+
+A página `astronomia.html` usa um céu noturno ilustrado com a Via Láctea como fundo discreto e
+uma capa-colagem vintage com mapa estelar, fases da Lua, astronauta, telescópio, órbitas e
+galáxias. As aulas e atividades ficam em painéis claros para manter o contraste.
+
+As páginas `politica.html`, `sociologia.html` e `geografia.html` também têm identidades visuais
+próprias: colagem ativista em retícula para Política; recortes vintage sobre sociedade e cultura
+para Sociologia; e mapas antigos, rotas e rosa dos ventos para Geografia. Os painéis de conteúdo
+permanecem claros para facilitar a leitura.
