@@ -4,6 +4,7 @@ Site simples de apoio aos estudos do ensino médio. A página inicial apresenta 
 
 - Matemática
 - Português
+- Redação ENEM
 - Ciências
 - História
 - História do Brasil
@@ -58,3 +59,10 @@ Cada matéria também oferece uma busca por aula relacionada no YouTube antes da
 
 O atendimento pelo WhatsApp é opcional: só abre quando a pessoa seleciona o botão, e a mensagem
 preparada não é enviada até que ela confirme no WhatsApp.
+
+## Redação ENEM
+
+A página `redacao-enem.html` apresenta uma orientação passo a passo, as cinco competências,
+uma checklist de revisão e um espaço de rascunho que não é enviado nem corrigido pelo site. Os
+links de aula abrem buscas no YouTube; confira a cartilha oficial do participante para os critérios
+do ano da prova.

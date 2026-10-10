@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420">
+  <rect width="520" height="420" fill="#206f49"/>
+  <path d="M0 92C82 32 145 139 237 82s168-44 283 5v85c-104 43-176-30-269 19S89 155 0 211z" fill="#2f8958" opacity=".66"/>
+  <path d="M0 294c100-67 160 30 258-19s164-38 262 13v132H0z" fill="#175a3d" opacity=".72"/>
+  <g fill="#a9ce78" opacity=".72">
+    <path d="M52 180c-25-38-21-69 20-85 7 38 1 68-20 85zm13 12c34-28 67-31 91 4-34 17-65 15-91-4z"/>
+    <path d="M419 89c-12-40-1-70 43-75-1 39-14 67-43 75zm17 14c39-19 71-13 86 27-37 8-67-1-86-27z"/>
+    <path d="M151 359c-23-37-19-68 22-84 6 39-2 68-22 84zm14 13c35-26 68-28 91 8-35 15-65 11-91-8z"/>
+    <path d="M381 339c-8-42 7-70 51-70-5 39-21 65-51 70zm19 12c41-14 71-4 81 37-38 4-67-9-81-37z"/>
+  </g>
+  <g stroke="#f3efcf" stroke-width="3">
+    <g transform="translate(137 110)">
+      <ellipse cy="-18" rx="9" ry="17" fill="#f4b9a8"/>
+      <ellipse cy="18" rx="9" ry="17" fill="#f4b9a8"/>
+      <ellipse cx="-18" rx="17" ry="9" fill="#f4b9a8"/>
+      <ellipse cx="18" rx="17" ry="9" fill="#f4b9a8"/>
+      <circle r="8" fill="#f3d477"/>
+    </g>
+    <g transform="translate(329 151)">
+      <ellipse cy="-17" rx="8" ry="16" fill="#f0d891"/>
+      <ellipse cy="17" rx="8" ry="16" fill="#f0d891"/>
+      <ellipse cx="-17" rx="16" ry="8" fill="#f0d891"/>
+      <ellipse cx="17" rx="16" ry="8" fill="#f0d891"/>
+      <circle r="7" fill="#c56c4c"/>
+    </g>
+    <g transform="translate(253 322)">
+      <ellipse cy="-19" rx="9" ry="18" fill="#d7a8ca"/>
+      <ellipse cy="19" rx="9" ry="18" fill="#d7a8ca"/>
+      <ellipse cx="-19" rx="18" ry="9" fill="#d7a8ca"/>
+      <ellipse cx="19" rx="18" ry="9" fill="#d7a8ca"/>
+      <circle r="8" fill="#f3d477"/>
+    </g>
+    <g transform="translate(470 229)">
+      <ellipse cy="-14" rx="7" ry="13" fill="#f0d891"/>
+      <ellipse cy="14" rx="7" ry="13" fill="#f0d891"/>
+      <ellipse cx="-14" rx="13" ry="7" fill="#f0d891"/>
+      <ellipse cx="14" rx="13" ry="7" fill="#f0d891"/>
+      <circle r="6" fill="#c56c4c"/>
+    </g>
+    <g transform="translate(37 289)">
+      <ellipse cy="-14" rx="7" ry="13" fill="#d7a8ca"/>
+      <ellipse cy="14" rx="7" ry="13" fill="#d7a8ca"/>
+      <ellipse cx="-14" rx="13" ry="7" fill="#d7a8ca"/>
+      <ellipse cx="14" rx="13" ry="7" fill="#d7a8ca"/>
+      <circle r="6" fill="#f3d477"/>
+    </g>
+  </g>
+</svg>

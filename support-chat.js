@@ -1,6 +1,6 @@
 (() => {
   const phoneNumber = '5519990068102';
-  const currentPage = document.querySelector('.section-heading h2');
+  const currentPage = document.querySelector('.section-heading h2, .essay-heading h1');
   const pageName = document.getElementById('materias')
     ? 'página inicial'
     : currentPage
